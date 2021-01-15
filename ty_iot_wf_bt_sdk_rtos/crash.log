@@ -1,0 +1,1684 @@
+main.go:47: ************************************************************
+main.go:48: ************************** Start ***************************
+main.go:49: ************************************************************
+main.go:51: Current Version: 5.2.32
+main.go:52: Current Mode: DEVELOP
+main.go:53: command args: [embed update --platforms=bl608 --sdkversion=2.3.4-beta.4]
+update.go:50: update pf [bl608] pn 
+check_status.go:12: 检查当前环境是否初始化
+repo.go:148: git update stdoutput From https://registry.code.tuya-inc.top/embed_ci_space_group/embed_repo_space
+   26fb0d5..bad26d2  master     -> origin/master
+Updating 26fb0d5..bad26d2
+Fast-forward
+ .../88.0.10-beta.6/8196_refactor_test.yaml         | 130 ++++++++
+ .../88.0.10-beta.7/8196_refactor_test.yaml         | 130 ++++++++
+ .../88.0.10-beta.7}/ciAutoGenerate                 |   0
+ .../88.0.10-beta.8/8196_refactor_test.yaml         | 130 ++++++++
+ .../88.0.10-beta.8}/ciAutoGenerate                 |   0
+ DAILY_TEST_sdk1/1.7.3-beta.4/DAILY_TEST_sdk1.yaml  |  59 ++++
+ DAILY_TEST_sdk1/1.7.3-beta.5/DAILY_TEST_sdk1.yaml  |  59 ++++
+ .../2.1.106-beta.1/DAILY_TEST_sdk1.yaml            |  64 ++++
+ LZ201/0.0.1-beta.0/LZ201.yaml                      |  27 ++
+ LZ201/0.0.1-beta.1/LZ201.yaml                      |  27 ++
+ LZ201/0.0.1-beta.2/LZ201.yaml                      |  27 ++
+ LZ201/0.0.1-beta.3/LZ201.yaml                      |  27 ++
+ LZ201/0.0.1-beta.4/LZ201.yaml                      |  33 ++
+ LZ201/0.0.1-beta.5/LZ201.yaml                      |  33 ++
+ LZ201/0.0.1-beta.6/LZ201.yaml                      |  33 ++
+ LZ201/0.0.1-beta.7/LZ201.yaml                      |  33 ++
+ LZ201/0.0.1-beta.8/LZ201.yaml                      |  33 ++
+ LZ201/0.0.1-beta.9/LZ201.yaml                      |  33 ++
+ .../LZ201.yaml                                     |  20 ++
+ .../UIS8910DM_OpenCPU                              |   3 +
+ .../LZ201.yaml                                     |  20 ++
+ .../UIS8910DM_OpenCPU                              |   3 +
+ .../LZ201.yaml                                     |  20 ++
+ .../UIS8910DM_OpenCPU                              |   3 +
+ .../LZ201.yaml                                     |  20 ++
+ .../UIS8910DM_OpenCPU                              |   3 +
+ .../LZ201.yaml                                     |  20 ++
+ .../UIS8910DM_OpenCPU                              |   3 +
+ .../LZ201.yaml                                     |  20 ++
+ .../UIS8910DM_OpenCPU                              |   3 +
+ .../LZ201_BaseFw/0.0.1-beta.0/LZ201_BaseFw.yaml    |  37 +++
+ .../LZ201_BaseFw/0.0.1-beta.1/LZ201_BaseFw.yaml    |  38 +++
+ .../LZ201_BaseFw/0.0.1-beta.1}/ciAutoGenerate      |   0
+ UIS8910DM/1.0.2-beta.12/UIS8910DM.yaml             |  16 +
+ UIS8910DM/1.0.2-beta.13/UIS8910DM.yaml             |  16 +
+ UIS8910DM/1.1.0-beta.1/UIS8910DM.yaml              |  16 +
+ UIS8910DM/1.1.0-beta.2/UIS8910DM.yaml              |  16 +
+ UIS8910DM/1.1.0-beta.3/UIS8910DM.yaml              |  16 +
+ UIS8910DM/1.1.0-beta.4/UIS8910DM.yaml              |  16 +
+ UIS8910DM/1.1.0-beta.5/UIS8910DM.yaml              |  16 +
+ app_gps/0.0.1-beta.3/app_gps.yaml                  |  17 ++
+ app_main/1.0.24-beta.6/app_main.yaml               |  17 ++
+ app_script/1.0.8/app_script.yaml                   |  17 ++
+ app_script/1.0.9/app_script.yaml                   |  17 ++
+ app_sys_icc/0.0.6-beta.2/app_sys_icc.yaml          |  17 ++
+ app_sys_led/1.0.8/app_sys_led.yaml                 |  17 ++
+ app_sys_led/1.0.9-beta.1/app_sys_led.yaml          |  17 ++
+ app_sys_msg/0.0.9-beta.3/app_sys_msg.yaml          |  17 ++
+ app_sys_panel/1.0.8-beta.2/app_sys_panel.yaml      |  17 ++
+ .../0.0.1-beta.3/app_user_doorbell.yaml            |  17 ++
+ .../0.0.1-beta.4/app_user_doorbell.yaml            |  17 ++
+ app_user_event/1.0.14/app_user_event.yaml          |  17 ++
+ app_user_event/1.0.15/app_user_event.yaml          |  17 ++
+ app_user_event/1.0.16/app_user_event.yaml          |  17 ++
+ app_user_fac/0.0.4/app_user_fac.yaml               |  17 ++
+ app_user_fac/0.0.5/app_user_fac.yaml               |  17 ++
+ app_user_hd/0.0.9/app_user_hd.yaml                 |  17 ++
+ app_user_md/0.0.8/app_user_md.yaml                 |  17 ++
+ .../1.0.12-beta.1/app_user_protocol.yaml           |  17 ++
+ app_user_upgrade/0.0.5/app_user_upgrade.yaml       |  17 ++
+ app_user_upgrade/0.0.6/app_user_upgrade.yaml       |  17 ++
+ .../0.0.1/arm-none-linux-gnueabi-gcc-4.5.1.yaml    |  15 +
+ .../arm-none-linux-gnueabi-gcc-4.5.1.yaml          |  16 +
+ .../0.0.3-beta.7/avs_factory_test_inf.yaml         |  16 +
+ base_iot_config/1.0.4-beta.12/IoTOSconfig          | 250 +++++++++++++++
+ base_iot_config/1.0.4-beta.12/base_iot_config.yaml |  34 +++
+ base_iot_config/1.0.4-beta.13/base_iot_config.yaml |  34 +++
+ base_iot_config/1.0.4-beta.19/IoTOSconfig          | 256 ++++++++++++++++
+ base_iot_config/1.0.4-beta.19/base_iot_config.yaml |  34 +++
+ base_lwip/1.0.2-beta.7/base_lwip.yaml              |  16 +
+ base_os_adapter/1.0.9-beta.3/base_os_adapter.yaml  |  17 ++
+ base_os_adapter/1.0.9-beta.4/base_os_adapter.yaml  |  17 ++
+ base_os_adapter/1.0.9-beta.5/base_os_adapter.yaml  |  17 ++
+ base_os_adapter/1.0.9-beta.6/base_os_adapter.yaml  |  17 ++
+ base_rcd_file/1.0.0-beta.17/base_rcd_file.yaml     |  17 ++
+ .../1.0.0-beta.12/base_thread_pool_gw.yaml         |  17 ++
+ base_utilities/1.0.4-beta.13/base_utilities.yaml   |  44 +++
+ base_utilities/1.0.4-beta.14/base_utilities.yaml   |  44 +++
+ base_wifi_intf/1.0.4-beta.2/base_wifi_intf.yaml    |  27 ++
+ base_wifi_intf/1.0.4-beta.3/base_wifi_intf.yaml    |  27 ++
+ .../1.1.2-beta.18/bk7231t.yaml                     |  20 +-
+ .../1.1.2-beta.19/bk7231t.yaml                     |  17 +-
+ .../0.0.2-beta.5/bk7231t_sdk_1_0_6_demo.yaml       |  38 +++
+ ble_master/0.0.3-beta.10/ble_master.yaml           |  17 ++
+ board_ssc333/0.0.14/board_ssc333.yaml              |  17 ++
+ bsp_depend_3308/0.0.8-beta.1/bsp_depend_3308.yaml  |  18 ++
+ .../0.0.1-beta.0/cat1_opencpu_demo.yaml            |  37 +++
+ .../0.0.1-beta.1/cat1_opencpu_demo.yaml            |  38 +++
+ .../0.0.1-beta.2/cat1_opencpu_demo.yaml            |  38 +++
+ .../0.0.1-beta.3/cat1_opencpu_demo.yaml            |  38 +++
+ demo_tuya_ipc/1.0.5-beta.5/demo_tuya_ipc.yaml      |  19 ++
+ demo_tuya_ipc/1.0.5-beta.6/demo_tuya_ipc.yaml      |  19 ++
+ demo_tuya_ipc/1.0.5-beta.7/demo_tuya_ipc.yaml      |  19 ++
+ dsp_rk3308/0.0.1-beta.1/dsp_rk3308.yaml            |  17 ++
+ dsp_rk3308/0.0.1-beta.2/dsp_rk3308.yaml            |  17 ++
+ .../tuya_rtl8197f_gw/1.3.4-beta.2}/ciAutoGenerate  |   0
+ .../1.3.4-beta.2/tuya_rtl8197f_gw.yaml             | 209 +++++++++++++
+ .../0.0.1/gcc-linaro-arm-linux-gnueabihf-4.9.yaml  |  15 +
+ gui_dev_sys/0.0.1-beta.2/gui_dev_sys.yaml          |  17 ++
+ gui_dsp_adapter/0.0.1-beta.1/gui_dsp_adapter.yaml  |  17 ++
+ gui_dsp_adapter/0.0.1-beta.2/gui_dsp_adapter.yaml  |  17 ++
+ gui_launch/0.0.1-beta.1/gui_launch.yaml            |  17 ++
+ gui_light/0.0.1-beta.9/gui_light.yaml              |  17 ++
+ .../0.0.1-beta.1/gui_product_test.yaml             |  17 ++
+ .../0.0.1-beta.2/gui_product_test.yaml             |  17 ++
+ gui_setting/0.0.1-beta.14/gui_setting.yaml         |  17 ++
+ gw_base_api/0.1.2-beta.16/gw_base_api.yaml         |  16 +
+ gw_base_api/0.1.2-beta.17/gw_base_api.yaml         |  16 +
+ .../1.0.4-beta.4/gw_base_utilities.yaml            |  17 ++
+ .../1.0.3-beta.10/gw_fault_replace.yaml            |  17 ++
+ gw_hal/0.1.2-beta.20/gw_hal.yaml                   |  16 +
+ gw_hal/0.1.2-beta.21/gw_hal.yaml                   |  16 +
+ gw_hal/0.1.2-beta.22/gw_hal.yaml                   |  16 +
+ .../0.1.2-beta.38/gw_home_security.yaml            |  16 +
+ gw_sdk_api/1.0.11-beta.3/gw_sdk_api.yaml           |  17 ++
+ gw_sdk_core/1.0.12-beta.1/gw_sdk_core.yaml         |  17 ++
+ gw_sdk_wrapper/1.0.7-beta.8/gw_sdk_wrapper.yaml    |  17 ++
+ gw_sub_dev/0.1.5-beta.25/gw_sub_dev.yaml           |  16 +
+ gw_svc_engineer/0.1.4-beta.10/gw_svc_engineer.yaml |  16 +
+ link_core/1.0.0-beta.35/link_core.yaml             |  17 ++
+ link_core/1.0.0-beta.36/link_core.yaml             |  17 ++
+ linux-ssc333/0.0.13/linux-ssc333.yaml              |  17 ++
+ linux-t31/0.0.27/linux-t31.yaml                    |  16 +
+ linux_rockchip/0.0.4-beta.2/linux_rockchip.yaml    |  18 ++
+ .../voice_control/0.1.0-beta.65/voice_control.yaml | 223 ++++++++++++++
+ .../voice_control/0.1.0-beta.66/voice_control.yaml | 228 ++++++++++++++
+ .../voice_control/0.1.0-beta.67/voice_control.yaml | 228 ++++++++++++++
+ .../voice_control/0.1.0-beta.68/voice_control.yaml | 228 ++++++++++++++
+ .../voice_control/0.1.0-beta.69/voice_control.yaml | 233 ++++++++++++++
+ .../0.0.1-beta.11/voice_control_rk3308.yaml        | 178 +++++++++++
+ .../0.0.1-beta.12/voice_control_rk3308.yaml        | 183 +++++++++++
+ .../0.0.1-beta.13/voice_control_rk3308.yaml        | 183 +++++++++++
+ .../0.0.1-beta.14/voice_control_rk3308.yaml        | 193 ++++++++++++
+ .../0.0.1-beta.15/voice_control_rk3308.yaml        | 193 ++++++++++++
+ .../0.0.1-beta.16/voice_control_rk3308.yaml        | 193 ++++++++++++
+ mid_http/1.0.5-beta.4/mid_http.yaml                |  29 ++
+ mid_http/1.0.5-beta.5/mid_http.yaml                |  29 ++
+ mid_mqtt/1.0.5-beta.2/mid_mqtt.yaml                |  31 ++
+ mid_p2p_libs/1.0.9-beta.15/mid_p2p_libs.yaml       |  21 ++
+ mid_tls/1.0.6-beta.1/mid_tls.yaml                  |  35 +++
+ mid_upnp/0.0.1-beta.4/mid_upnp.yaml                |  17 ++
+ .../0.1.0-beta.4/8721csm_alarm_bt_gw.yaml          | 154 ++++++++++
+ .../0.1.0-beta.5/8721csm_alarm_bt_gw.yaml          | 154 ++++++++++
+ netmgr/0.0.8-beta.3/netmgr.yaml                    |  17 ++
+ netmgr/0.0.8/netmgr.yaml                           |  17 ++
+ .../0.0.1-beta.11/rtl8720_dn_low_power.yaml        |  16 +
+ .../0.0.1-beta.12/rtl8720_dn_low_power.yaml        |  16 +
+ rtl8720cf_ameba/2.0.0-beta.34/rtl8720cf_ameba.yaml |  41 +++
+ rtl8720cm_ameba/0.0.1-beta.34/rtl8720cm_ameba.yaml |  16 +
+ rtl8720cm_ameba/0.0.1-beta.35/rtl8720cm_ameba.yaml |  16 +
+ rtl8720cm_ameba/0.0.1-beta.36/rtl8720cm_ameba.yaml |  16 +
+ sdk_adapter/1.0.10/sdk_adapter.yaml                |  17 ++
+ sdk_adapter/1.0.11-beta.1/sdk_adapter.yaml         |  17 ++
+ .../0.0.2-beta.11/sdk_app_ext_common.yaml          |  16 +
+ .../0.0.2-beta.12/sdk_app_ext_common.yaml          |  16 +
+ .../0.0.7-beta.6/speaker_avs_comm.yaml             |  16 +
+ .../1.1.0-beta.10/speaker_avs_ring_debug.yaml}     |  32 +-
+ .../1.1.0-beta.11/ciAutoGenerate                   |   1 +
+ .../1.1.0-beta.11/speaker_avs_ring_debug.yaml}     | 193 ++++++------
+ .../1.1.0-beta.6/speaker_avs_ring_debug.yaml}      | 192 ++++++------
+ .../1.1.0-beta.7/speaker_avs_ring_debug.yaml}      | 192 ++++++------
+ .../1.1.0-beta.8/speaker_avs_ring_debug.yaml       | 196 ++++++++++++
+ .../1.1.0-beta.9/speaker_avs_ring_debug.yaml       | 196 ++++++++++++
+ .../1.1.3-beta.1/speakerbox_avs_saswell_debug.yaml |  17 --
+ .../1.1.3-beta.2/speakerbox_avs_saswell_debug.yaml |  18 --
+ .../1.1.3-beta.3/speakerbox_avs_saswell_debug.yaml |  19 --
+ .../1.1.3-beta.4/speakerbox_avs_saswell_debug.yaml |  20 --
+ .../1.1.3-beta.5/speakerbox_avs_saswell_debug.yaml |  21 --
+ .../1.1.3-beta.6/speakerbox_avs_saswell_debug.yaml |  22 --
+ .../0.1.0-beta.1/speakerbox_avs_saswell_oem.yaml   |  17 --
+ .../0.1.0-beta.2/speakerbox_avs_saswell_oem.yaml   |  18 --
+ .../0.1.0-beta.3/speakerbox_avs_saswell_oem.yaml   |  19 --
+ .../1.1.2-beta.1/nullcfg                           |   1 -
+ .../1.1.2-beta.1/speakerbox_avs_saswell_oem.yaml   |  21 --
+ .../1.1.2-beta.2/nullcfg                           |   1 -
+ .../1.1.2-beta.2/speakerbox_avs_saswell_oem.yaml   |  22 --
+ .../0.1.0-beta.8/speakerbox_avs_hogar.yaml         | 194 ++++++------
+ .../1.1.0-beta.6/speakerbox_avs_hogar_debug.yaml   | 209 +++++++++++++
+ .../1.1.0-beta.7/ciAutoGenerate                    |   1 +
+ .../1.1.0-beta.7/speakerbox_avs_hogar_debug.yaml   | 209 +++++++++++++
+ .../1.1.0-beta.8/ciAutoGenerate                    |   1 +
+ .../1.1.0-beta.8/speakerbox_avs_hogar_debug.yaml   | 209 +++++++++++++
+ .../1.1.0-beta.9/ciAutoGenerate                    |   1 +
+ .../1.1.0-beta.9/speakerbox_avs_hogar_debug.yaml   | 209 +++++++++++++
+ .../1.1.8-beta.6/speakerbox_avs_ss190_debug.yaml   | 226 ++++++++++++++
+ .../1.1.8-beta.7/speakerbox_avs_ss190_debug.yaml   | 231 ++++++++++++++
+ .../1.1.8-beta.8/speakerbox_avs_ss190_debug.yaml   | 231 ++++++++++++++
+ .../1.1.8-beta.9/ciAutoGenerate                    |   1 +
+ .../1.1.8-beta.9/speakerbox_avs_ss190_debug.yaml   | 231 ++++++++++++++
+ .../1.1.8-beta.6/speakerbox_avs_ss190_oem.yaml     | 226 ++++++++++++++
+ .../1.1.8-beta.7/speakerbox_avs_ss190_oem.yaml     | 231 ++++++++++++++
+ .../1.1.8-beta.8/speakerbox_avs_ss190_oem.yaml     | 231 ++++++++++++++
+ .../speaker_app_3/0.1.0-beta.53/speaker_app_3.yaml | 281 +++++++++++------
+ ssc333_rootfs/0.0.14-beta.1/ssc333_rootfs.yaml     |  68 +++++
+ ssc333_rootfs/0.0.14/ssc333_rootfs.yaml            |  68 +++++
+ svc_api_gw/0.0.1-beta.18/svc_api_gw.yaml           |  17 ++
+ svc_api_gw/0.0.1-beta.19/IoTOSconfig               |  75 +++++
+ svc_api_gw/0.0.1-beta.19/svc_api_gw.yaml           |  17 ++
+ svc_api_iot/1.0.5-beta.00/svc_api_iot.yaml         |  47 +++
+ svc_api_iot/1.0.5-beta.1/svc_api_iot.yaml          |  47 +++
+ svc_api_ipc/1.0.6-beta.44/IoTOSconfig              |  19 ++
+ svc_api_ipc/1.0.6-beta.44/svc_api_ipc.yaml         |  16 +
+ svc_api_ipc/1.0.6-beta.45/IoTOSconfig              |  19 ++
+ svc_api_ipc/1.0.6-beta.45/svc_api_ipc.yaml         |  16 +
+ svc_api_ipc/1.0.6/svc_api_ipc.yaml                 |  16 +
+ svc_api_ipc/1.0.7-beta.1/IoTOSconfig               |  19 ++
+ svc_api_ipc/1.0.7-beta.1/svc_api_ipc.yaml          |  16 +
+ svc_api_wifi/1.0.5-beta.1/svc_api_wifi.yaml        |  32 ++
+ svc_bt_api/1.0.5-beta.1/svc_bt_api.yaml            |  24 ++
+ svc_bt_api/1.0.6-beta.1/svc_bt_api.yaml            |  24 ++
+ svc_bt_dp/1.0.5-beta.1/svc_bt_dp.yaml              |  21 ++
+ svc_ctrl_center/0.0.1-beta.10/svc_ctrl_center.yaml |  17 ++
+ svc_ctrl_center/0.0.1-beta.11/svc_ctrl_center.yaml |  17 ++
+ svc_devos/1.0.6-beta.2/svc_devos.yaml              |  34 +++
+ .../0.0.8-beta.32/svc_engineering_mode.yaml        |  16 +
+ .../0.0.8-beta.33/svc_engineering_mode.yaml        |  16 +
+ .../1.0.2-beta.7/svc_fault_replace.yaml            |  17 ++
+ svc_gw_base/0.0.1-beta.6/svc_gw_base.yaml          |  17 ++
+ svc_gw_base/0.0.1-beta.7/svc_gw_base.yaml          |  17 ++
+ svc_gw_mgr/0.0.1-beta.7/svc_gw_mgr.yaml            |  17 ++
+ .../0.0.1-beta.5/svc_gw_sdk_interface.yaml         |  17 ++
+ svc_http/1.0.5-beta.3/svc_http.yaml                |  33 ++
+ svc_http/1.0.5-beta.4/svc_http.yaml                |  33 ++
+ svc_lan/1.0.5-beta.1/svc_lan.yaml                  |  24 ++
+ .../1.0.0-beta.34/svc_lan_dev_base.yaml            |  17 ++
+ .../1.0.0-beta.35/svc_lan_dev_base.yaml            |  17 ++
+ .../1.0.0-beta.36/svc_lan_dev_base.yaml            |  17 ++
+ .../1.0.0-beta.37/svc_lan_dev_base.yaml            |  17 ++
+ svc_linkage_lan/1.0.2-beta.17/svc_linkage_lan.yaml |  16 +
+ svc_linkage_lan/1.0.2-beta.18/svc_linkage_lan.yaml |  16 +
+ .../0.2.0-beta.49/svc_linkage_local.yaml           |  16 +
+ .../1.0.1-beta.10/svc_linux_crash_dump.yaml        |  16 +
+ svc_mf_test/1.0.4-beta.13/svc_mf_test.yaml         |  26 ++
+ svc_mf_test/1.0.4-beta.14/svc_mf_test.yaml         |  26 ++
+ svc_mf_test/1.0.4-beta.15/svc_mf_test.yaml         |  26 ++
+ svc_mqtt/1.0.7-beta.2/svc_mqtt.yaml                |  31 ++
+ svc_online_log/1.0.5-beta.3/svc_online_log.yaml    |  23 ++
+ .../develop-1.0.3-beta.19/svc_protocol.yaml        |  22 ++
+ .../develop-1.0.3-beta.20/svc_protocol.yaml        |  22 ++
+ svc_scene_group/0.2.1-beta.2/svc_scene_group.yaml  |  16 +
+ svc_scene_group/0.2.1-beta.3/svc_scene_group.yaml  |  16 +
+ svc_security/0.0.3-beta.40/svc_security.yaml       |  16 +
+ svc_security/0.0.3-beta.41/svc_security.yaml       |  16 +
+ svc_smart_gw/1.0.6-beta.209/svc_smart_gw.yaml      |  63 ++++
+ svc_smart_gw/1.0.6-beta.21/svc_smart_gw.yaml       |  63 ++++
+ svc_streaming/1.0.36-beta.1/IoTOSconfig            |  27 ++
+ svc_streaming/1.0.36-beta.1/svc_streaming.yaml     |  20 ++
+ svc_streaming/1.0.36/IoTOSconfig                   |  27 ++
+ svc_streaming/1.0.36/svc_streaming.yaml            |  20 ++
+ svc_subdev/0.0.1-beta.6/svc_subdev.yaml            |  17 ++
+ .../1.0.1-beta.4/svc_thread_dump_linux.yaml        |  17 ++
+ .../1.0.1-beta.5/svc_thread_dump_linux.yaml        |  17 ++
+ svc_timer_task/1.0.6-beta.4/svc_timer_task.yaml    |  21 ++
+ svc_upgrade/1.0.5-beta.1/svc_upgrade.yaml          |  27 ++
+ svc_upgrade/1.0.5-beta.2/svc_upgrade.yaml          |  28 ++
+ svc_wifi_netcfg/1.0.4-beta.20/svc_wifi_netcfg.yaml |  33 ++
+ svc_wifi_netcfg/1.0.4-beta.21/svc_wifi_netcfg.yaml |  33 ++
+ svc_wifi_netcfg/1.0.4-beta.3/svc_wifi_netcfg.yaml  |  32 ++
+ svc_wifi_netcfg/1.0.4-beta.4/svc_wifi_netcfg.yaml  |  32 ++
+ test_rtl8720dn/1.0.66-beta.4/test_rtl8720dn.yaml   |  16 +
+ test_rtl8720dn/1.0.67-beta.4/test_rtl8720dn.yaml   |  16 +
+ test_rtl8720dn/1.0.68-beta.4/test_rtl8720dn.yaml   |  16 +
+ .../1.0.5-beta.26/test_wf_bt_lwip_sdk_rtos.yaml    | 242 +++++++++++++++
+ .../0.0.1-beta.1/third_party_depend.yaml           |  15 +
+ .../0.0.13-beta.1/tuya_ipc_sc061wc02_sdk.yaml      |  44 +++
+ .../0.0.13/tuya_ipc_sc061wc02_sdk.yaml             |  44 +++
+ .../add                                            |   3 +
+ .../tuya_ipc_sc061wc02_sdk.yaml                    |  20 ++
+ .../0.0.1-beta.0/tuya_ipc_sc103ws03_sdk.yaml       |  44 +++
+ .../0.0.1/tuya_ipc_sc103ws03_sdk.yaml              |  44 +++
+ .../0.0.2-beta.1/tuya_ipc_sc103ws03_sdk.yaml       |  44 +++
+ .../0.0.2/tuya_ipc_sc103ws03_sdk.yaml              |  44 +++
+ .../0.0.3-beta.1/tuya_ipc_sc103ws03_sdk.yaml       |  44 +++
+ .../0.0.3-beta.2/tuya_ipc_sc103ws03_sdk.yaml       |  44 +++
+ .../0.0.3/tuya_ipc_sc103ws03_sdk.yaml              |  44 +++
+ .../arm-buildroot-linux-uclibcgnueabihf-313e_ad    |   3 +
+ .../tuya_ipc_sc103ws03_sdk.yaml                    |  20 ++
+ .../arm-buildroot-linux-uclibcgnueabihf-313e_ad    |   3 +
+ .../tuya_ipc_sc103ws03_sdk.yaml                    |  20 ++
+ .../1.2.5-beta.11/oem_8720cs_plug.yaml             | 116 +++++++
+ .../1.3.0-beta.12/oem_8720cs_plug.yaml             | 116 +++++++
+ .../oem_8720cs_plug/1.3.0/ciAutoGenerate           |   1 +
+ .../oem_8720cs_plug/1.3.0/oem_8720cs_plug.yaml     | 116 +++++++
+ .../oem_8720cs_plug/1.3.3-beta.1/ciAutoGenerate    |   1 +
+ .../1.3.3-beta.1/oem_8720cs_plug.yaml              | 116 +++++++
+ .../oem_8720cs_plug/1.3.3/ciAutoGenerate           |   1 +
+ .../oem_8720cs_plug/1.3.3/oem_8720cs_plug.yaml     | 116 +++++++
+ .../1.3.4-beta.1/oem_8720cs_plug.yaml              | 116 +++++++
+ .../oem_8720cs_plug/1.3.4/ciAutoGenerate           |   1 +
+ .../oem_8720cs_plug/1.3.4/oem_8720cs_plug.yaml     | 116 +++++++
+ .../1.1.0-beta.50/ty_bt_gw_rtl8720cs_sdk.yaml      | 238 +++++++++++++++
+ .../2.1.0-beta.36/ty_bt_gw_rtl8720cs_sdk.yaml      | 243 +++++++++++++++
+ .../test_rtl8720dn_bt_gw                           |   3 +
+ .../ty_bt_gw_rtl8720cs_sdk.yaml                    |  20 ++
+ .../test_rtl8720dn                                 |   3 +
+ .../ty_bt_gw_rtl8720cs_sdk.yaml                    |  20 ++
+ ty_gw_au_wr_sdk/1.0.0-beta.46/ty_gw_au_wr_sdk.yaml | 264 ++++++++++++++++
+ ty_gw_au_wr_sdk/1.0.0-beta.47/ty_gw_au_wr_sdk.yaml | 264 ++++++++++++++++
+ ty_gw_au_wr_sdk/1.0.0-beta.48/ty_gw_au_wr_sdk.yaml | 264 ++++++++++++++++
+ ty_gw_au_wr_sdk/1.0.0-beta.49/ty_gw_au_wr_sdk.yaml | 264 ++++++++++++++++
+ .../linux_rockchip_3308                            |   3 +
+ .../ty_gw_au_wr_sdk.yaml                           |  20 ++
+ .../linux-ubuntu-6.2.0_64Bit_qr_sdk                |   3 +
+ .../ty_gw_au_wr_sdk.yaml                           |  20 ++
+ .../linux_rockchip_3308                            |   3 +
+ .../ty_gw_au_wr_sdk.yaml                           |  20 ++
+ .../0.0.1-beta.35/ty_gw_ipc_wf_wr_sdk.yaml         | 123 ++++++++
+ .../0.0.1-beta.36/ty_gw_ipc_wf_wr_sdk.yaml         | 123 ++++++++
+ .../0.0.1-beta.37/ty_gw_ipc_wf_wr_sdk.yaml         | 123 ++++++++
+ .../1.1.3-beta.4/ty_gw_zigbee_ext_sdk.yaml         | 100 ++++++
+ .../1.1.3-beta.5/ty_gw_zigbee_ext_sdk.yaml         | 100 ++++++
+ .../1.1.3-beta.6/ty_gw_zigbee_ext_sdk.yaml         | 100 ++++++
+ .../linux_rtl8197_mips                             |   3 +
+ .../ty_gw_zigbee_ext_sdk.yaml                      |  20 ++
+ .../1.0.6-beta.3/cat1_uart_common.yaml             |  49 +++
+ .../cat1_uart_common/1.0.6-beta.3/ciAutoGenerate   |   1 +
+ .../0.0.1-beta.71/ty_iot_gateway_base.yaml         | 233 ++++++++++++++
+ .../0.0.1-beta.72/ty_iot_gateway_base.yaml         | 233 ++++++++++++++
+ .../0.0.1-beta.73/ty_iot_gateway_base.yaml         | 233 ++++++++++++++
+ .../1.0.1-beta.12/ty_iot_gateway_base.yaml         |  78 +++++
+ .../1.0.1-beta.13/ty_iot_gateway_base.yaml         |  78 +++++
+ .../1.0.1-beta.14/ty_iot_gateway_base.yaml         |  78 +++++
+ .../1.0.1-beta.15/ty_iot_gateway_base.yaml         |  78 +++++
+ .../1.0.1-beta.2/ty_iot_gw_debug_linux.yaml        |  38 +++
+ .../1.0.1-beta.3/ty_iot_gw_debug_linux.yaml        |  38 +++
+ .../1.0.1-beta.41/ty_iot_gw_wr_sdk.yaml            |  62 ++++
+ .../1.0.1-beta.42/ty_iot_gw_wr_sdk.yaml            |  62 ++++
+ .../1.0.1-beta.43/ty_iot_gw_wr_sdk.yaml            |  62 ++++
+ .../1.0.1-beta.44/ty_iot_gw_wr_sdk.yaml            |  62 ++++
+ .../1.0.1-beta.45/ty_iot_gw_wr_sdk.yaml            |  62 ++++
+ ty_iot_gw_wr_sdk/2.2.7/ty_iot_gw_wr_sdk.yaml       |  79 +++++
+ .../2.2.8-beta.1/ty_iot_gw_wr_sdk.yaml             |  58 ++++
+ .../2.2.8-beta.2/ty_iot_gw_wr_sdk.yaml             |  58 ++++
+ .../2.2.8-beta.3/ty_iot_gw_wr_sdk.yaml             |  58 ++++
+ .../2.2.8-beta.4/ty_iot_gw_wr_sdk.yaml             |  58 ++++
+ .../2.2.8-beta.5/ty_iot_gw_wr_sdk.yaml             |  58 ++++
+ .../2.2.8-beta.6/ty_iot_gw_wr_sdk.yaml             |  58 ++++
+ .../linux_rtl8196e_release                         |   3 +
+ .../ty_iot_gw_wr_sdk.yaml                          |  20 ++
+ .../linux_rtl8196e_release                         |   3 +
+ .../ty_iot_gw_wr_sdk.yaml                          |  20 ++
+ .../arm-linux-gnueabihf-gcc-4.8.2_release          |   3 +
+ .../ty_iot_gw_wr_sdk.yaml                          |  20 ++
+ .../arm-none-linux-gnueabi-gcc-4.8.3_release       |   3 +
+ .../ty_iot_gw_wr_sdk.yaml                          |  20 ++
+ .../gcc-linaro-arm-linux-gnueabihf-4.9_release     |   3 +
+ .../ty_iot_gw_wr_sdk.yaml                          |  20 ++
+ .../linux_rtl8196e_release                         |   3 +
+ .../ty_iot_gw_wr_sdk.yaml                          |  20 ++
+ .../mips-openwrt-linux-gnu-gcc-5.4.0_release       |   3 +
+ .../ty_iot_gw_wr_sdk.yaml                          |  20 ++
+ .../linux_rtl8196e_lidl                            |   3 +
+ .../ty_iot_gw_wr_sdk.yaml                          |  20 ++
+ .../0.0.1-beta.94/ty_iot_gw_wr_wf_sdk.yaml         | 100 ++++++
+ .../0.0.1-beta.95/ty_iot_gw_wr_wf_sdk.yaml         | 100 ++++++
+ .../0.0.1-beta.96/ty_iot_gw_wr_wf_sdk.yaml         | 104 +++++++
+ .../0.0.1-beta.97/ty_iot_gw_wr_wf_sdk.yaml         | 104 +++++++
+ .../linux-ubuntu-6.2.0_64Bit_1                     |   3 +
+ .../ty_iot_gw_wr_wf_sdk.yaml                       |  20 ++
+ .../linux_rtl8197_mips_1                           |   3 +
+ .../ty_iot_gw_wr_wf_sdk.yaml                       |  20 ++
+ .../linux_rtl8197_mips_1                           |   3 +
+ .../ty_iot_gw_wr_wf_sdk.yaml                       |  20 ++
+ .../8197fs                                         |   3 +
+ .../ty_iot_gw_wr_wf_sdk.yaml                       |  20 ++
+ .../0.0.1-beta.26/ty_iot_linkage_base.yaml         |  43 +++
+ .../1.0.1-beta.8/ty_iot_linkage_base.yaml          |  43 +++
+ ty_iot_lite_sdk/0.0.3-beta.34/ty_iot_lite_sdk.yaml | 106 +++++++
+ ty_iot_lite_sdk/0.0.3-beta.35/ty_iot_lite_sdk.yaml | 106 +++++++
+ ty_iot_lite_sdk/0.0.3-beta.36/ty_iot_lite_sdk.yaml | 106 +++++++
+ .../rtl8720_dn_low_power_lql                       |   3 +
+ .../ty_iot_lite_sdk.yaml                           |  20 ++
+ ty_iot_sdk/2.3.1-beta.53/ty_iot_sdk.yaml           | 302 ++++++++++++++++++
+ ty_iot_sdk/2.3.1-beta.54/ty_iot_sdk.yaml           | 302 ++++++++++++++++++
+ ty_iot_sdk/2.3.1-beta.55/ty_iot_sdk.yaml           | 302 ++++++++++++++++++
+ ty_iot_sdk/2.3.1-beta.56/ty_iot_sdk.yaml           | 302 ++++++++++++++++++
+ ty_iot_sdk/2.3.1-beta.57/ty_iot_sdk.yaml           | 302 ++++++++++++++++++
+ ty_iot_sdk/2.3.1-beta.58/ty_iot_sdk.yaml           | 302 ++++++++++++++++++
+ ty_iot_sdk/2.3.1-beta.59/ty_iot_sdk.yaml           | 306 +++++++++++++++++++
+ ty_iot_sdk/2.3.1-beta.60/ty_iot_sdk.yaml           | 302 ++++++++++++++++++
+ ty_iot_sdk/2.3.1-beta.61/ty_iot_sdk.yaml           | 306 +++++++++++++++++++
+ ty_iot_sdk/2.3.1-beta.62/ty_iot_sdk.yaml           | 306 +++++++++++++++++++
+ ty_iot_sdk/2.3.1-beta.63/ty_iot_sdk.yaml           | 306 +++++++++++++++++++
+ ty_iot_sdk/2.3.1-beta.64/ty_iot_sdk.yaml           | 306 +++++++++++++++++++
+ ty_iot_sdk/2.3.1-beta.65/ty_iot_sdk.yaml           | 306 +++++++++++++++++++
+ .../bk7231t_default                                |  76 +++++
+ .../ty_iot_sdk.yaml                                |  20 ++
+ .../linux-ubuntu-6.2.0_64Bit_afi                   |  77 +++++
+ .../ty_iot_sdk.yaml                                |  20 ++
+ .../bk7231t_default                                |  76 +++++
+ .../ty_iot_sdk.yaml                                |  20 ++
+ .../linux-ubuntu-6.2.0_64Bit_default               |  74 +++++
+ .../ty_iot_sdk.yaml                                |  20 ++
+ .../rtl8710bn_default                              |  74 +++++
+ .../ty_iot_sdk.yaml                                |  20 ++
+ .../ty_iot_sdk.yaml                                |  20 ++
+ .../xr809_default                                  |  85 ++++++
+ .../bk7231t_default                                |  76 +++++
+ .../ty_iot_sdk.yaml                                |  20 ++
+ .../ty_iot_sdk.yaml                                |  20 ++
+ .../xr809_default                                  |  85 ++++++
+ .../bk7231t_default                                |  76 +++++
+ .../ty_iot_sdk.yaml                                |  20 ++
+ .../2.3.0-beta.13/ty_iot_sdk_bugfix.yaml           | 298 ++++++++++++++++++
+ .../rtl8720cm_ameba_default                        |   3 +
+ .../ty_iot_sdk_bugfix.yaml                         |  20 ++
+ .../4.2.3-beta.4/ty_iot_sweeper_sdk.yaml           | 211 +++++++++++++
+ .../1.1.0-beta.21/oem_bk7231n_light_ty.yaml        | 106 +++++++
+ .../1.1.8-beta.2/bk7231s_common_iot_config_ty.yaml | 111 +++++++
+ .../1.1.8-beta.2/ciAutoGenerate                    |   1 +
+ .../1.1.8/bk7231s_common_iot_config_ty.yaml        | 111 +++++++
+ .../1.1.8/ciAutoGenerate                           |   1 +
+ .../1.1.2-beta.1/ciAutoGenerate                    |   1 +
+ .../1.1.2-beta.1/oem_bk7231s_switch1_zero_kjd.yaml |  93 ++++++
+ .../1.1.2/ciAutoGenerate                           |   1 +
+ .../1.1.2/oem_bk7231s_switch1_zero_kjd.yaml        |  93 ++++++
+ .../oem_bk7231s_rnd_zero_dctrl_switch.yaml         |  96 ++++++
+ .../oem_bk7231s_scene_stamp_socket_public.yaml     |  95 ++++++
+ .../oem_bk7231s_light_4_to_5_eu_rmd.yaml           | 102 +++++++
+ .../0.0.1-beta.0/oem_bk7231s_ty_ffc_db_sl10.yaml   | 101 ++++++
+ .../1.0.0-beta.1/oem_bk7231s_ty_ffc_db_sl10.yaml   | 101 ++++++
+ .../1.0.0-beta.2/ciAutoGenerate                    |   1 +
+ .../1.0.0-beta.2/oem_bk7231s_ty_ffc_db_sl10.yaml   | 101 ++++++
+ .../1.0.0/ciAutoGenerate                           |   1 +
+ .../1.0.0/oem_bk7231s_ty_ffc_db_sl10.yaml          | 101 ++++++
+ .../1.1.4-beta.1/ciAutoGenerate                    |   1 +
+ .../oem_bk7231t_fanlight_ir_yiyuan.yaml            | 107 +++++++
+ .../1.1.4/ciAutoGenerate                           |   1 +
+ .../1.1.4/oem_bk7231t_fanlight_ir_yiyuan.yaml      | 107 +++++++
+ .../1.1.0-beta.3/ciAutoGenerate                    |   1 +
+ .../oem_bk7231t_light3_string_jutai.yaml           | 104 +++++++
+ .../1.1.0/ciAutoGenerate                           |   1 +
+ .../1.1.0/oem_bk7231t_light3_string_jutai.yaml     | 104 +++++++
+ .../0.0.1-beta.1/ciAutoGenerate                    |   1 +
+ .../0.0.1-beta.1/oem_bk7231t_light_hl.yaml         | 103 +++++++
+ .../oem_bk7231t_light_hl/0.0.1/ciAutoGenerate      |   1 +
+ .../0.0.1/oem_bk7231t_light_hl.yaml                | 103 +++++++
+ .../1.1.1-beta.1/ciAutoGenerate                    |   1 +
+ .../oem_bk7231t_silicon_light_kjd.yaml             | 105 +++++++
+ .../1.1.1/ciAutoGenerate                           |   1 +
+ .../1.1.1/oem_bk7231t_silicon_light_kjd.yaml       | 105 +++++++
+ .../1.3.3-beta.1/oem_bk7231s_ceiling_light_ty.yaml | 164 ++++++++++
+ .../1.1.2-beta.1/ciAutoGenerate                    |   1 +
+ .../1.1.2-beta.1/oem_bk7231s_light_pir_ty.yaml     | 120 ++++++++
+ .../oem_bk7231s_light_pir_ty/1.1.2/ciAutoGenerate  |   1 +
+ .../1.1.2/oem_bk7231s_light_pir_ty.yaml            | 120 ++++++++
+ .../1.1.5-beta.1/oem_bk7231s_light_pir_ty.yaml     | 120 ++++++++
+ .../oem_bk7231s_light_pir_ty/1.1.5/ciAutoGenerate  |   1 +
+ .../1.1.5/oem_bk7231s_light_pir_ty.yaml            | 120 ++++++++
+ .../2.9.10-beta.1/ciAutoGenerate                   |   1 +
+ .../2.9.10-beta.1/oem_bk7231s_light_ty.yaml        | 198 ++++++++++++
+ .../2.9.8-beta.1/oem_bk7231s_light_ty.yaml         | 198 ++++++++++++
+ .../oem_bk7231s_light_ty/2.9.8/ciAutoGenerate      |   1 +
+ .../2.9.8/oem_bk7231s_light_ty.yaml                | 198 ++++++++++++
+ .../2.9.9-beta.1/ciAutoGenerate                    |   1 +
+ .../2.9.9-beta.1/oem_bk7231s_light_ty.yaml         | 198 ++++++++++++
+ .../oem_bk7231s_light_ty/2.9.9/ciAutoGenerate      |   1 +
+ .../2.9.9/oem_bk7231s_light_ty.yaml                | 198 ++++++++++++
+ .../1.1.0-beta.0/oem_bk7231s_2plug_bleffc.yaml     |  37 +++
+ .../rtl8720cf_common_user_config_ty.yaml           | 146 +++++++++
+ .../2.4.4-beta.3/ciAutoGenerate                    |   1 +
+ .../rtl8720cf_common_user_config_ty.yaml           | 146 +++++++++
+ .../oem_rtl8720cs_door_sensor_low_power_ty.yaml    |  38 +++
+ .../809_app_231/0.0.1-beta.0/809_app_231.yaml      |  82 +++++
+ .../809_app_231/0.0.1-beta.1/809_app_231.yaml      |  83 +++++
+ .../809_app_231/0.0.1-beta.2/809_app_231.yaml      |  83 +++++
+ .../809_app_231/0.0.1-beta.3/809_app_231.yaml      |  83 +++++
+ .../809_app_231/0.0.1-beta.4/809_app_231.yaml      |  83 +++++
+ .../809_app_231/0.0.1-beta.5/809_app_231.yaml      |  83 +++++
+ .../809_app_231/0.0.1-beta.6/809_app_231.yaml      |  83 +++++
+ .../809_app_231/0.0.1-beta.7/809_app_231.yaml      |  83 +++++
+ .../bk_app_2_3_1/1.2.5-beta.4/bk_app_2_3_1.yaml    |  97 ++++++
+ .../bk_app_2_3_1/1.2.5-beta.4/ciAutoGenerate       |   1 +
+ .../0.0.3-beta.1/bk_common_app_for_plug_play.yaml  |  84 +++++
+ .../0.0.3-beta.2/bk_common_app_for_plug_play.yaml  |  84 +++++
+ .../0.0.3-beta.3/bk_common_app_for_plug_play.yaml  |  84 +++++
+ .../0.0.3-beta.3/ciAutoGenerate                    |   1 +
+ .../0.0.3-beta.4/bk_common_app_for_plug_play.yaml  |  84 +++++
+ .../0.0.3-beta.4/ciAutoGenerate                    |   1 +
+ .../0.7.7-beta.5/common_user_config.yaml           | 140 +++++++++
+ .../common_user_config/0.7.7-beta.6/ciAutoGenerate |   1 +
+ .../0.7.7-beta.6/common_user_config.yaml           | 140 +++++++++
+ .../0.1.5-beta.3/ciAutoGenerate                    |   1 +
+ .../oem_rtl8720cf_elp_air_purifier_beiang.yaml     |  51 ++++
+ .../0.1.5/ciAutoGenerate                           |   1 +
+ .../oem_rtl8720cf_elp_air_purifier_beiang.yaml     |  51 ++++
+ .../0.1.7-beta.1/ciAutoGenerate                    |   1 +
+ .../oem_rtl8720cf_elp_air_purifier_beiang.yaml     |  51 ++++
+ .../0.1.7/ciAutoGenerate                           |   1 +
+ .../oem_rtl8720cf_elp_air_purifier_beiang.yaml     |  51 ++++
+ .../1.1.7-beta.2/ciAutoGenerate                    |   1 +
+ .../1.1.7-beta.2/oem_rtl8720cf_light2_fan_bk.yaml  | 138 +++++++++
+ .../1.1.7/ciAutoGenerate                           |   1 +
+ .../1.1.7/oem_rtl8720cf_light2_fan_bk.yaml         | 139 +++++++++
+ .../1.1.3-beta.1/oem_rtl8720cf_slide_strip_ty.yaml | 130 ++++++++
+ .../1.1.3-beta.2/oem_rtl8720cf_slide_strip_ty.yaml | 130 ++++++++
+ .../1.1.3/oem_rtl8720cf_slide_strip_ty.yaml        | 130 ++++++++
+ .../1.1.4-beta.1/ciAutoGenerate                    |   1 +
+ .../1.1.4-beta.1/oem_rtl8720cf_slide_strip_ty.yaml | 130 ++++++++
+ .../1.1.4/ciAutoGenerate                           |   1 +
+ .../1.1.4/oem_rtl8720cf_slide_strip_ty.yaml        | 130 ++++++++
+ .../1.1.5/ciAutoGenerate                           |   1 +
+ .../1.1.5/oem_rtl8720cf_slide_strip_ty.yaml        | 130 ++++++++
+ .../0.0.1-beta.0/oem_rtl8720cs_light_ty.yaml       |  37 +++
+ .../oem_rtl8720dn_elp_air_purifier_beiang.yaml     |  38 +++
+ .../1.0.14-beta.31/ty_iot_wf_bt_sdk_rtos.yaml      | 241 +++++++++++++++
+ .../1.0.14-beta.32/ty_iot_wf_bt_sdk_rtos.yaml      | 241 +++++++++++++++
+ .../1.0.14-beta.33/ty_iot_wf_bt_sdk_rtos.yaml      | 241 +++++++++++++++
+ .../1.0.14-beta.34/ty_iot_wf_bt_sdk_rtos.yaml      | 241 +++++++++++++++
+ .../2.3.1-beta.16/ty_iot_wf_bt_sdk_rtos.yaml       | 268 ++++++++++++++++
+ .../2.3.2-beta.14/ty_iot_wf_bt_sdk_rtos.yaml       | 338 ++++++++++++++++++++
+ .../2.3.3-beta.27/ty_iot_wf_bt_sdk_rtos.yaml       | 309 +++++++++++++++++++
+ .../2.3.3-beta.28/ty_iot_wf_bt_sdk_rtos.yaml       | 309 +++++++++++++++++++
+ .../2.3.3-beta.29/ty_iot_wf_bt_sdk_rtos.yaml       | 309 +++++++++++++++++++
+ .../2.3.3-beta.30/ty_iot_wf_bt_sdk_rtos.yaml       | 309 +++++++++++++++++++
+ .../2.3.3-beta.31/ty_iot_wf_bt_sdk_rtos.yaml       | 309 +++++++++++++++++++
+ .../2.3.5-beta.3/ty_iot_wf_bt_sdk_rtos.yaml        | 340 +++++++++++++++++++++
+ .../2.3.6-beta.2/ty_iot_wf_bt_sdk_rtos.yaml        | 286 +++++++++++++++++
+ .../2.3.6-beta.3/ty_iot_wf_bt_sdk_rtos.yaml        | 286 +++++++++++++++++
+ .../2.3.6-beta.4/ty_iot_wf_bt_sdk_rtos.yaml        | 286 +++++++++++++++++
+ .../rtl8720cf                                      |   0
+ .../ty_iot_wf_bt_sdk_rtos.yaml                     |  20 ++
+ .../cat_config                                     |   3 +
+ .../ty_iot_wf_bt_sdk_rtos.yaml                     |  20 ++
+ .../ty_iot_wf_bt_sdk_rtos.yaml                     |  20 ++
+ .../xr806_cfg                                      |   3 +
+ .../test_rtl8720dn_default                         |  81 +++++
+ .../ty_iot_wf_bt_sdk_rtos.yaml                     |  20 ++
+ .../test_rtl8720dn_default                         |  81 +++++
+ .../ty_iot_wf_bt_sdk_rtos.yaml                     |  20 ++
+ .../test_rtl8720dn_default                         |  81 +++++
+ .../ty_iot_wf_bt_sdk_rtos.yaml                     |  20 ++
+ .../ty_iot_wf_bt_sdk_rtos.yaml                     |  23 ++
+ .../闪电                                         |   3 +
+ .../ty_iot_wf_bt_sdk_rtos.yaml                     |  23 ++
+ .../闪电                                         |   3 +
+ .../ty_iot_wf_bt_sdk_rtos.yaml                     |  23 ++
+ .../闪电                                         |   3 +
+ .../1.1.1-beta.1/ciAutoGenerate                    |   1 +
+ .../esp_shanben_heater_change_kewei.yaml           |  40 +++
+ .../1.1.1/ciAutoGenerate                           |   1 +
+ .../1.1.1/esp_shanben_heater_change_kewei.yaml     |  41 +++
+ .../1.1.0-beta.3/oem_esp_hlt_3_plug_2_usb.yaml     |  39 +++
+ .../1.1.0-beta.4/ciAutoGenerate                    |   1 +
+ .../1.1.0-beta.4/oem_esp_hlt_3_plug_2_usb.yaml     |  40 +++
+ .../oem_esp_hlt_3_plug_2_usb/1.1.0/ciAutoGenerate  |   1 +
+ .../1.1.0/oem_esp_hlt_3_plug_2_usb.yaml            |  40 +++
+ .../2.2.5-beta.1/ciAutoGenerate                    |   1 +
+ .../2.2.5-beta.1/rtlbn_tls_common_9600.yaml        | 126 ++++++++
+ .../2.2.5-beta.2/ciAutoGenerate                    |   1 +
+ .../2.2.5-beta.2/rtlbn_tls_common_9600.yaml        | 126 ++++++++
+ .../2.2.6-beta.1/ciAutoGenerate                    |   1 +
+ .../2.2.6-beta.1/rtlbn_tls_common_9600.yaml        | 126 ++++++++
+ .../2.2.6-beta.2/ciAutoGenerate                    |   1 +
+ .../2.2.6-beta.2/rtlbn_tls_common_9600.yaml        | 126 ++++++++
+ .../2.2.6-beta.3/ciAutoGenerate                    |   1 +
+ .../2.2.6-beta.3/rtlbn_tls_common_9600.yaml        | 126 ++++++++
+ .../1.0.1-beta.0/oem_test_new_project_hb.yaml      | 102 +++++++
+ .../1.1.2-beta.1/ciAutoGenerate                    |   1 +
+ .../1.1.2-beta.1/oem_rtlbn_tls_oven_midea_ka.yaml  |  61 ++++
+ .../0.0.1-beta.0/rtl8720cm_test.yaml               |  37 +++
+ .../0.0.1-beta.1/rtl8720cm_test.yaml               |  38 +++
+ .../0.0.1-beta.0/oem_rtl8720cs_gate_magent_ty.yaml |  37 +++
+ .../1.0.10-beta.16/ty_iot_wf_rtos_sdk.yaml         | 213 +++++++++++++
+ .../1.0.10-beta.17/ty_iot_wf_rtos_sdk.yaml         | 213 +++++++++++++
+ .../rtl8710bn_default                              |   3 +
+ .../ty_iot_wf_rtos_sdk.yaml                        |  20 ++
+ .../rtl8710bn_default                              |   3 +
+ .../ty_iot_wf_rtos_sdk.yaml                        |  20 ++
+ ty_iot_wr_qr_sdk/2.3.0/ty_iot_wr_qr_sdk.yaml       | 310 +++++++++++++++++++
+ .../android7_A7_default                            |   3 +
+ .../ty_iot_wr_qr_sdk.yaml                          |  20 ++
+ .../1.0.3-beta.1/ty_iot_wr_wf_bt_sdk_rtos.yaml     |  67 ++++
+ .../1.0.3-beta.10/ty_iot_wr_wf_bt_sdk_rtos.yaml    |  67 ++++
+ .../1.0.3-beta.11/ty_iot_wr_wf_bt_sdk_rtos.yaml    |  67 ++++
+ .../1.0.3-beta.12/ty_iot_wr_wf_bt_sdk_rtos.yaml    |  67 ++++
+ .../1.0.3-beta.2/ty_iot_wr_wf_bt_sdk_rtos.yaml     |  67 ++++
+ .../1.0.3-beta.3/ty_iot_wr_wf_bt_sdk_rtos.yaml     |  67 ++++
+ .../1.0.3-beta.4/ty_iot_wr_wf_bt_sdk_rtos.yaml     |  67 ++++
+ .../1.0.3-beta.5/ty_iot_wr_wf_bt_sdk_rtos.yaml     |  67 ++++
+ .../1.0.3-beta.6/ty_iot_wr_wf_bt_sdk_rtos.yaml     |  67 ++++
+ .../1.0.3-beta.7/ty_iot_wr_wf_bt_sdk_rtos.yaml     |  67 ++++
+ .../1.0.3-beta.8/ty_iot_wr_wf_bt_sdk_rtos.yaml     |  67 ++++
+ .../1.0.3-beta.9/ty_iot_wr_wf_bt_sdk_rtos.yaml     |  67 ++++
+ .../1.0.4-beta.1/ty_iot_wr_wf_bt_sdk_rtos.yaml     |  94 ++++++
+ .../1.0.4-beta.2/ty_iot_wr_wf_bt_sdk_rtos.yaml     |  94 ++++++
+ .../rtl8720cm_ameba_default                        | 110 +++++++
+ .../ty_iot_wr_wf_bt_sdk_rtos.yaml                  |  20 ++
+ .../rtl8720cm_ameba_default                        | 110 +++++++
+ .../ty_iot_wr_wf_bt_sdk_rtos.yaml                  |  20 ++
+ .../rtl8720cm_ameba_default                        | 110 +++++++
+ .../ty_iot_wr_wf_bt_sdk_rtos.yaml                  |  20 ++
+ .../rtl8720cm_ameba_default                        | 110 +++++++
+ .../ty_iot_wr_wf_bt_sdk_rtos.yaml                  |  20 ++
+ .../809_app_2_3_1/0.0.1-beta.0/809_app_2_3_1.yaml  |  42 +++
+ .../1.0.2-beta.10/ty_ipc_fac_test_sdk.yaml         | 250 +++++++++++++++
+ ty_ipc_fac_test_sdk/1.0.2/ty_ipc_fac_test_sdk.yaml | 250 +++++++++++++++
+ .../5.0.5-beta.10/ty_ipc_wf_linux_sdk.yaml         | 309 +++++++++++++++++++
+ .../5.0.5-beta.11/ty_ipc_wf_linux_sdk.yaml         | 309 +++++++++++++++++++
+ .../5.0.5-beta.8/ty_ipc_wf_linux_sdk.yaml          | 314 +++++++++++++++++++
+ .../5.0.5-beta.9/ty_ipc_wf_linux_sdk.yaml          | 314 +++++++++++++++++++
+ .../5.0.8-beta.2/ty_ipc_wf_linux_sdk.yaml          | 320 +++++++++++++++++++
+ .../5.0.9-beta.1/ty_ipc_wf_linux_sdk.yaml          | 324 ++++++++++++++++++++
+ .../linux-ubuntu-6.2.0_64Bit_default               |   3 +
+ .../ty_ipc_wf_linux_sdk.yaml                       |  20 ++
+ .../arm-none-linux-gnueabi-gcc-4.5.1_default       |   3 +
+ .../ty_ipc_wf_linux_sdk.yaml                       |  20 ++
+ .../linux-ubuntu-6.2.0_64Bit_default               |   3 +
+ .../ty_ipc_wf_linux_sdk.yaml                       |  20 ++
+ .../T31                                            |   3 +
+ .../ty_ipc_wf_linux_sdk.yaml                       |  20 ++
+ ...arm-buildroot-linux-uclibcgnueabihf-313e_ssc333 |   3 +
+ .../ty_ipc_wf_linux_sdk.yaml                       |  20 ++
+ .../mips-gcc540-glibc222-64bit-r3.3.0              |   0
+ .../ty_ipc_wf_linux_sdk.yaml                       |  20 ++
+ .../0.0.1-beta.71/ty_ipc_wr_wl_linux_sdk.yaml      | 130 ++++++++
+ .../0.0.1-beta.72/ty_ipc_wr_wl_linux_sdk.yaml      | 130 ++++++++
+ .../0.0.1-beta.73/ty_ipc_wr_wl_linux_sdk.yaml      | 130 ++++++++
+ .../linux-ubuntu-6.2.0_64Bitubuntu_demo            |  89 ++++++
+ .../ty_ipc_wr_wl_linux_sdk.yaml                    |  20 ++
+ .../mips-gcc540-glibc222-64bit-r3.3.0_linux_wifi   | 158 ++++++++++
+ .../ty_ipc_wr_wl_linux_sdk.yaml                    |  20 ++
+ .../rts3903ffs                                     |  89 ++++++
+ .../ty_ipc_wr_wl_linux_sdk.yaml                    |  20 ++
+ .../linux-ubuntu-6.2.0_64Bitubuntu_demo            |  89 ++++++
+ .../ty_ipc_wr_wl_linux_sdk.yaml                    |  20 ++
+ .../linux-ubuntu-6.2.0_64Bitubuntu_demo            |  89 ++++++
+ .../ty_ipc_wr_wl_linux_sdk.yaml                    |  20 ++
+ .../1.0.0-beta.6/ty_uart_common_init.yaml          |  17 ++
+ .../1.0.0-beta.7/ty_uart_common_init.yaml          |  17 ++
+ .../1.0.0-beta.6/ty_uart_common_service.yaml       |  17 ++
+ .../1.0.0-beta.4/ty_uart_public_auto_baud.yaml     |  17 ++
+ .../1.0.0-beta.8/ty_uart_public_protocol.yaml      |  17 ++
+ .../0.1.0-beta.12/sc113wk3_ipc_ty.yaml             | 214 +++++++++++++
+ .../sc113wk3_ipc_ty/0.1.0-beta.13/ciAutoGenerate   |   1 +
+ .../0.1.0-beta.13/sc113wk3_ipc_ty.yaml             | 214 +++++++++++++
+ .../ty_sc103w13/0.1.0-beta.32/ty_sc103w13.yaml     | 235 ++++++++++++++
+ .../ty_sc103w13/0.1.0-beta.33/ty_sc103w13.yaml     | 235 ++++++++++++++
+ .../ty_sc103w13/0.1.0-beta.34/ciAutoGenerate       |   1 +
+ .../ty_sc103w13/0.1.0-beta.34/ty_sc103w13.yaml     | 235 ++++++++++++++
+ .../ty_sc103w13/0.1.0-beta.35/ciAutoGenerate       |   1 +
+ .../ty_sc103w13/0.1.0-beta.35/ty_sc103w13.yaml     | 235 ++++++++++++++
+ .../ty_sc103w13/0.1.0-beta.36/ciAutoGenerate       |   1 +
+ .../ty_sc103w13/0.1.0-beta.36/ty_sc103w13.yaml     | 235 ++++++++++++++
+ .../ty_sc103w13/0.1.0-beta.37/ciAutoGenerate       |   1 +
+ .../ty_sc103w13/0.1.0-beta.37/ty_sc103w13.yaml     | 235 ++++++++++++++
+ .../ty_sc103w13/0.1.0-beta.38/ciAutoGenerate       |   1 +
+ .../ty_sc103w13/0.1.0-beta.38/ty_sc103w13.yaml     | 235 ++++++++++++++
+ .../ty_sc103w13/0.1.0-beta.39/ty_sc103w13.yaml     | 235 ++++++++++++++
+ .../sc042wf02_ipc_ty/0.0.1-beta.10/ciAutoGenerate  |   1 +
+ .../0.0.1-beta.10/sc042wf02_ipc_ty.yaml            | 210 +++++++++++++
+ .../0.0.1-beta.6/sc042wf02_ipc_ty.yaml             | 210 +++++++++++++
+ .../0.0.1-beta.7/sc042wf02_ipc_ty.yaml             | 210 +++++++++++++
+ .../0.0.1-beta.8/sc042wf02_ipc_ty.yaml             | 210 +++++++++++++
+ .../0.0.1-beta.9/sc042wf02_ipc_ty.yaml             | 210 +++++++++++++
+ .../sc061wc02_ipc_ty/0.0.1-beta.10/ciAutoGenerate  |   1 +
+ .../0.0.1-beta.10/sc061wc02_ipc_ty.yaml            | 213 +++++++++++++
+ .../sc061wc02_ipc_ty/0.0.1-beta.11/ciAutoGenerate  |   1 +
+ .../0.0.1-beta.11/sc061wc02_ipc_ty.yaml            | 213 +++++++++++++
+ .../0.0.1-beta.12/sc061wc02_ipc_ty.yaml            | 213 +++++++++++++
+ .../0.0.1-beta.5/sc061wc02_ipc_ty.yaml             | 213 +++++++++++++
+ .../0.0.1-beta.6/sc061wc02_ipc_ty.yaml             | 213 +++++++++++++
+ .../0.0.1-beta.7/sc061wc02_ipc_ty.yaml             | 213 +++++++++++++
+ .../0.0.1-beta.8/sc061wc02_ipc_ty.yaml             | 213 +++++++++++++
+ .../0.0.1-beta.9/sc061wc02_ipc_ty.yaml             | 213 +++++++++++++
+ uboot-ssc333/0.0.10/uboot-ssc333.yaml              |  17 ++
+ uboot-ssc333/0.0.11/uboot-ssc333.yaml              |  17 ++
+ .../ubuntu_ipc/1.1.0-beta.12/ubuntu_ipc.yaml       |  49 +++
+ .../ubuntu_ipc/1.1.0-beta.13/ubuntu_ipc.yaml       |  49 +++
+ ui_res/0.0.1-beta.13/ui_res.yaml                   |  17 ++
+ xr806/0.0.1-beta.14/xr806.yaml                     |  16 +
+ xr806/0.0.1-beta.15/xr806.yaml                     |  16 +
+ .../0.0.1-beta.1/xr806_light_demo.yaml             |  38 +++
+ zigbee_gateway/0.2.1-beta.78/zigbee_gateway.yaml   |  23 ++
+ zigbee_gateway/0.2.1-beta.79/zigbee_gateway.yaml   |  23 ++
+ .../1.1.1/tuya_rtl8196e_gw_homekit.yaml            | 138 +++++++++
+ .../1.2.15-beta.0/tuya_rtl8196e_gw_lidl.yaml       | 132 ++++++++
+ .../1.2.15-beta.1/ciAutoGenerate                   |   1 +
+ .../1.2.15-beta.1/tuya_rtl8196e_gw_lidl.yaml       | 133 ++++++++
+ .../1.2.15-beta.2/ciAutoGenerate                   |   1 +
+ .../1.2.15-beta.2/tuya_rtl8196e_gw_lidl.yaml       | 133 ++++++++
+ .../tuya_rtl8196e_gw_lidl/1.2.15/ciAutoGenerate    |   1 +
+ .../1.2.15/tuya_rtl8196e_gw_lidl.yaml              | 133 ++++++++
+ .../0.1.0-beta.7/zigbee_gateway_8196e.yaml         | 138 +++++++++
+ .../0.1.0-beta.8/zigbee_gateway_8196e.yaml         | 139 +++++++++
+ .../0.1.0-beta.9/zigbee_gateway_8196e.yaml         | 144 +++++++++
+ zigbee_lqi/0.1.4-beta.9/zigbee_lqi.yaml            |  17 ++
+ 687 files changed, 48935 insertions(+), 729 deletions(-)
+ create mode 100644 8196_refactor_test_subgroup/8196_refactor_test/88.0.10-beta.6/8196_refactor_test.yaml
+ create mode 100644 8196_refactor_test_subgroup/8196_refactor_test/88.0.10-beta.7/8196_refactor_test.yaml
+ rename {speaker_avs_ring_subgroup/speakerbox_avs_saswell_debug/1.1.3-beta.7 => 8196_refactor_test_subgroup/8196_refactor_test/88.0.10-beta.7}/ciAutoGenerate (100%)
+ create mode 100644 8196_refactor_test_subgroup/8196_refactor_test/88.0.10-beta.8/8196_refactor_test.yaml
+ rename {speaker_avs_ring_subgroup/speakerbox_avs_saswell_debug/1.1.3-beta.6 => 8196_refactor_test_subgroup/8196_refactor_test/88.0.10-beta.8}/ciAutoGenerate (100%)
+ create mode 100755 DAILY_TEST_sdk1/1.7.3-beta.4/DAILY_TEST_sdk1.yaml
+ create mode 100755 DAILY_TEST_sdk1/1.7.3-beta.5/DAILY_TEST_sdk1.yaml
+ create mode 100755 DAILY_TEST_sdk1/2.1.106-beta.1/DAILY_TEST_sdk1.yaml
+ create mode 100755 LZ201/0.0.1-beta.0/LZ201.yaml
+ create mode 100755 LZ201/0.0.1-beta.1/LZ201.yaml
+ create mode 100755 LZ201/0.0.1-beta.2/LZ201.yaml
+ create mode 100755 LZ201/0.0.1-beta.3/LZ201.yaml
+ create mode 100755 LZ201/0.0.1-beta.4/LZ201.yaml
+ create mode 100755 LZ201/0.0.1-beta.5/LZ201.yaml
+ create mode 100755 LZ201/0.0.1-beta.6/LZ201.yaml
+ create mode 100755 LZ201/0.0.1-beta.7/LZ201.yaml
+ create mode 100755 LZ201/0.0.1-beta.8/LZ201.yaml
+ create mode 100755 LZ201/0.0.1-beta.9/LZ201.yaml
+ create mode 100755 LZ201/IoTOS2.3.0_LZ201_0.0.1-beta.3_UIS8910DM_OpenCPU_1.1.0-beta.3/LZ201.yaml
+ create mode 100644 LZ201/IoTOS2.3.0_LZ201_0.0.1-beta.3_UIS8910DM_OpenCPU_1.1.0-beta.3/UIS8910DM_OpenCPU
+ create mode 100755 LZ201/IoTOS2.3.0_LZ201_0.0.1-beta.5_UIS8910DM_OpenCPU_1.1.0-beta.4/LZ201.yaml
+ create mode 100644 LZ201/IoTOS2.3.0_LZ201_0.0.1-beta.5_UIS8910DM_OpenCPU_1.1.0-beta.4/UIS8910DM_OpenCPU
+ create mode 100755 LZ201/IoTOS2.3.0_LZ201_0.0.1-beta.6_UIS8910DM_OpenCPU_1.1.0-beta.4/LZ201.yaml
+ create mode 100644 LZ201/IoTOS2.3.0_LZ201_0.0.1-beta.6_UIS8910DM_OpenCPU_1.1.0-beta.4/UIS8910DM_OpenCPU
+ create mode 100755 LZ201/IoTOS2.3.0_LZ201_0.0.1-beta.7_UIS8910DM_OpenCPU_1.1.0-beta.5/LZ201.yaml
+ create mode 100644 LZ201/IoTOS2.3.0_LZ201_0.0.1-beta.7_UIS8910DM_OpenCPU_1.1.0-beta.5/UIS8910DM_OpenCPU
+ create mode 100755 LZ201/IoTOS2.3.0_LZ201_0.0.1-beta.8_UIS8910DM_OpenCPU_1.1.0-beta.5/LZ201.yaml
+ create mode 100644 LZ201/IoTOS2.3.0_LZ201_0.0.1-beta.8_UIS8910DM_OpenCPU_1.1.0-beta.5/UIS8910DM_OpenCPU
+ create mode 100755 LZ201/IoTOS2.3.0_LZ201_0.0.1-beta.9_UIS8910DM_OpenCPU_1.1.0-beta.5/LZ201.yaml
+ create mode 100644 LZ201/IoTOS2.3.0_LZ201_0.0.1-beta.9_UIS8910DM_OpenCPU_1.1.0-beta.5/UIS8910DM_OpenCPU
+ create mode 100644 LZ201_BaseFw_subgroup/LZ201_BaseFw/0.0.1-beta.0/LZ201_BaseFw.yaml
+ create mode 100644 LZ201_BaseFw_subgroup/LZ201_BaseFw/0.0.1-beta.1/LZ201_BaseFw.yaml
+ rename {speaker_avs_ring_subgroup/speakerbox_avs_saswell_debug/1.1.3-beta.11 => LZ201_BaseFw_subgroup/LZ201_BaseFw/0.0.1-beta.1}/ciAutoGenerate (100%)
+ create mode 100644 UIS8910DM/1.0.2-beta.12/UIS8910DM.yaml
+ create mode 100644 UIS8910DM/1.0.2-beta.13/UIS8910DM.yaml
+ create mode 100644 UIS8910DM/1.1.0-beta.1/UIS8910DM.yaml
+ create mode 100644 UIS8910DM/1.1.0-beta.2/UIS8910DM.yaml
+ create mode 100644 UIS8910DM/1.1.0-beta.3/UIS8910DM.yaml
+ create mode 100644 UIS8910DM/1.1.0-beta.4/UIS8910DM.yaml
+ create mode 100644 UIS8910DM/1.1.0-beta.5/UIS8910DM.yaml
+ create mode 100644 app_gps/0.0.1-beta.3/app_gps.yaml
+ create mode 100644 app_main/1.0.24-beta.6/app_main.yaml
+ create mode 100644 app_script/1.0.8/app_script.yaml
+ create mode 100644 app_script/1.0.9/app_script.yaml
+ create mode 100644 app_sys_icc/0.0.6-beta.2/app_sys_icc.yaml
+ create mode 100644 app_sys_led/1.0.8/app_sys_led.yaml
+ create mode 100644 app_sys_led/1.0.9-beta.1/app_sys_led.yaml
+ create mode 100644 app_sys_msg/0.0.9-beta.3/app_sys_msg.yaml
+ create mode 100644 app_sys_panel/1.0.8-beta.2/app_sys_panel.yaml
+ create mode 100644 app_user_doorbell/0.0.1-beta.3/app_user_doorbell.yaml
+ create mode 100644 app_user_doorbell/0.0.1-beta.4/app_user_doorbell.yaml
+ create mode 100644 app_user_event/1.0.14/app_user_event.yaml
+ create mode 100644 app_user_event/1.0.15/app_user_event.yaml
+ create mode 100644 app_user_event/1.0.16/app_user_event.yaml
+ create mode 100644 app_user_fac/0.0.4/app_user_fac.yaml
+ create mode 100644 app_user_fac/0.0.5/app_user_fac.yaml
+ create mode 100644 app_user_hd/0.0.9/app_user_hd.yaml
+ create mode 100644 app_user_md/0.0.8/app_user_md.yaml
+ create mode 100644 app_user_protocol/1.0.12-beta.1/app_user_protocol.yaml
+ create mode 100644 app_user_upgrade/0.0.5/app_user_upgrade.yaml
+ create mode 100644 app_user_upgrade/0.0.6/app_user_upgrade.yaml
+ create mode 100644 arm-none-linux-gnueabi-gcc-4.5.1/0.0.1/arm-none-linux-gnueabi-gcc-4.5.1.yaml
+ create mode 100644 arm-none-linux-gnueabi-gcc-4.5.1/0.0.2-beta.1/arm-none-linux-gnueabi-gcc-4.5.1.yaml
+ create mode 100644 avs_factory_test_inf/0.0.3-beta.7/avs_factory_test_inf.yaml
+ create mode 100755 base_iot_config/1.0.4-beta.12/IoTOSconfig
+ create mode 100755 base_iot_config/1.0.4-beta.12/base_iot_config.yaml
+ create mode 100755 base_iot_config/1.0.4-beta.13/base_iot_config.yaml
+ create mode 100755 base_iot_config/1.0.4-beta.19/IoTOSconfig
+ create mode 100755 base_iot_config/1.0.4-beta.19/base_iot_config.yaml
+ create mode 100644 base_lwip/1.0.2-beta.7/base_lwip.yaml
+ create mode 100755 base_os_adapter/1.0.9-beta.3/base_os_adapter.yaml
+ create mode 100755 base_os_adapter/1.0.9-beta.4/base_os_adapter.yaml
+ create mode 100755 base_os_adapter/1.0.9-beta.5/base_os_adapter.yaml
+ create mode 100755 base_os_adapter/1.0.9-beta.6/base_os_adapter.yaml
+ create mode 100644 base_rcd_file/1.0.0-beta.17/base_rcd_file.yaml
+ create mode 100644 base_thread_pool_gw/1.0.0-beta.12/base_thread_pool_gw.yaml
+ create mode 100755 base_utilities/1.0.4-beta.13/base_utilities.yaml
+ create mode 100755 base_utilities/1.0.4-beta.14/base_utilities.yaml
+ create mode 100755 base_wifi_intf/1.0.4-beta.2/base_wifi_intf.yaml
+ create mode 100755 base_wifi_intf/1.0.4-beta.3/base_wifi_intf.yaml
+ rename speaker_avs_ring_subgroup/speakerbox_avs_saswell_oem/0.1.0/speakerbox_avs_saswell_oem.yaml => bk7231t/1.1.2-beta.18/bk7231t.yaml (51%)
+ rename speaker_avs_ring_subgroup/speakerbox_avs_saswell_oem/1.1.2-beta.3/speakerbox_avs_saswell_oem.yaml => bk7231t/1.1.2-beta.19/bk7231t.yaml (50%)
+ create mode 100644 bk7231t_sdk_bk_updata_subgroup/bk7231t_sdk_1_0_6_demo/0.0.2-beta.5/bk7231t_sdk_1_0_6_demo.yaml
+ create mode 100644 ble_master/0.0.3-beta.10/ble_master.yaml
+ create mode 100644 board_ssc333/0.0.14/board_ssc333.yaml
+ create mode 100644 bsp_depend_3308/0.0.8-beta.1/bsp_depend_3308.yaml
+ create mode 100644 cat1_opencpu_demo_subgroup/cat1_opencpu_demo/0.0.1-beta.0/cat1_opencpu_demo.yaml
+ create mode 100644 cat1_opencpu_demo_subgroup/cat1_opencpu_demo/0.0.1-beta.1/cat1_opencpu_demo.yaml
+ create mode 100644 cat1_opencpu_demo_subgroup/cat1_opencpu_demo/0.0.1-beta.2/cat1_opencpu_demo.yaml
+ create mode 100644 cat1_opencpu_demo_subgroup/cat1_opencpu_demo/0.0.1-beta.3/cat1_opencpu_demo.yaml
+ create mode 100644 demo_tuya_ipc/1.0.5-beta.5/demo_tuya_ipc.yaml
+ create mode 100644 demo_tuya_ipc/1.0.5-beta.6/demo_tuya_ipc.yaml
+ create mode 100644 demo_tuya_ipc/1.0.5-beta.7/demo_tuya_ipc.yaml
+ create mode 100644 dsp_rk3308/0.0.1-beta.1/dsp_rk3308.yaml
+ create mode 100644 dsp_rk3308/0.0.1-beta.2/dsp_rk3308.yaml
+ rename {speaker_avs_ring_subgroup/speakerbox_avs_saswell_debug/1.1.3-beta.10 => gateway_wired_wifi_subgroup/tuya_rtl8197f_gw/1.3.4-beta.2}/ciAutoGenerate (100%)
+ create mode 100644 gateway_wired_wifi_subgroup/tuya_rtl8197f_gw/1.3.4-beta.2/tuya_rtl8197f_gw.yaml
+ create mode 100644 gcc-linaro-arm-linux-gnueabihf-4.9/0.0.1/gcc-linaro-arm-linux-gnueabihf-4.9.yaml
+ create mode 100644 gui_dev_sys/0.0.1-beta.2/gui_dev_sys.yaml
+ create mode 100644 gui_dsp_adapter/0.0.1-beta.1/gui_dsp_adapter.yaml
+ create mode 100644 gui_dsp_adapter/0.0.1-beta.2/gui_dsp_adapter.yaml
+ create mode 100644 gui_launch/0.0.1-beta.1/gui_launch.yaml
+ create mode 100644 gui_light/0.0.1-beta.9/gui_light.yaml
+ create mode 100644 gui_product_test/0.0.1-beta.1/gui_product_test.yaml
+ create mode 100644 gui_product_test/0.0.1-beta.2/gui_product_test.yaml
+ create mode 100755 gui_setting/0.0.1-beta.14/gui_setting.yaml
+ create mode 100644 gw_base_api/0.1.2-beta.16/gw_base_api.yaml
+ create mode 100644 gw_base_api/0.1.2-beta.17/gw_base_api.yaml
+ create mode 100644 gw_base_utilities/1.0.4-beta.4/gw_base_utilities.yaml
+ create mode 100644 gw_fault_replace/1.0.3-beta.10/gw_fault_replace.yaml
+ create mode 100644 gw_hal/0.1.2-beta.20/gw_hal.yaml
+ create mode 100644 gw_hal/0.1.2-beta.21/gw_hal.yaml
+ create mode 100644 gw_hal/0.1.2-beta.22/gw_hal.yaml
+ create mode 100644 gw_home_security/0.1.2-beta.38/gw_home_security.yaml
+ create mode 100644 gw_sdk_api/1.0.11-beta.3/gw_sdk_api.yaml
+ create mode 100644 gw_sdk_core/1.0.12-beta.1/gw_sdk_core.yaml
+ create mode 100644 gw_sdk_wrapper/1.0.7-beta.8/gw_sdk_wrapper.yaml
+ create mode 100644 gw_sub_dev/0.1.5-beta.25/gw_sub_dev.yaml
+ create mode 100644 gw_svc_engineer/0.1.4-beta.10/gw_svc_engineer.yaml
+ create mode 100755 link_core/1.0.0-beta.35/link_core.yaml
+ create mode 100755 link_core/1.0.0-beta.36/link_core.yaml
+ create mode 100644 linux-ssc333/0.0.13/linux-ssc333.yaml
+ create mode 100644 linux-t31/0.0.27/linux-t31.yaml
+ create mode 100644 linux_rockchip/0.0.4-beta.2/linux_rockchip.yaml
+ create mode 100755 linux_voice_control_subgroup/voice_control/0.1.0-beta.65/voice_control.yaml
+ create mode 100755 linux_voice_control_subgroup/voice_control/0.1.0-beta.66/voice_control.yaml
+ create mode 100755 linux_voice_control_subgroup/voice_control/0.1.0-beta.67/voice_control.yaml
+ create mode 100755 linux_voice_control_subgroup/voice_control/0.1.0-beta.68/voice_control.yaml
+ create mode 100755 linux_voice_control_subgroup/voice_control/0.1.0-beta.69/voice_control.yaml
+ create mode 100644 linux_voice_control_subgroup/voice_control_rk3308/0.0.1-beta.11/voice_control_rk3308.yaml
+ create mode 100644 linux_voice_control_subgroup/voice_control_rk3308/0.0.1-beta.12/voice_control_rk3308.yaml
+ create mode 100644 linux_voice_control_subgroup/voice_control_rk3308/0.0.1-beta.13/voice_control_rk3308.yaml
+ create mode 100644 linux_voice_control_subgroup/voice_control_rk3308/0.0.1-beta.14/voice_control_rk3308.yaml
+ create mode 100644 linux_voice_control_subgroup/voice_control_rk3308/0.0.1-beta.15/voice_control_rk3308.yaml
+ create mode 100644 linux_voice_control_subgroup/voice_control_rk3308/0.0.1-beta.16/voice_control_rk3308.yaml
+ create mode 100755 mid_http/1.0.5-beta.4/mid_http.yaml
+ create mode 100755 mid_http/1.0.5-beta.5/mid_http.yaml
+ create mode 100755 mid_mqtt/1.0.5-beta.2/mid_mqtt.yaml
+ create mode 100644 mid_p2p_libs/1.0.9-beta.15/mid_p2p_libs.yaml
+ create mode 100755 mid_tls/1.0.6-beta.1/mid_tls.yaml
+ create mode 100644 mid_upnp/0.0.1-beta.4/mid_upnp.yaml
+ create mode 100644 multi_gateway_rtl8721csm_subgroup/8721csm_alarm_bt_gw/0.1.0-beta.4/8721csm_alarm_bt_gw.yaml
+ create mode 100644 multi_gateway_rtl8721csm_subgroup/8721csm_alarm_bt_gw/0.1.0-beta.5/8721csm_alarm_bt_gw.yaml
+ create mode 100644 netmgr/0.0.8-beta.3/netmgr.yaml
+ create mode 100644 netmgr/0.0.8/netmgr.yaml
+ create mode 100644 rtl8720_dn_low_power/0.0.1-beta.11/rtl8720_dn_low_power.yaml
+ create mode 100644 rtl8720_dn_low_power/0.0.1-beta.12/rtl8720_dn_low_power.yaml
+ create mode 100644 rtl8720cf_ameba/2.0.0-beta.34/rtl8720cf_ameba.yaml
+ create mode 100644 rtl8720cm_ameba/0.0.1-beta.34/rtl8720cm_ameba.yaml
+ create mode 100644 rtl8720cm_ameba/0.0.1-beta.35/rtl8720cm_ameba.yaml
+ create mode 100644 rtl8720cm_ameba/0.0.1-beta.36/rtl8720cm_ameba.yaml
+ create mode 100644 sdk_adapter/1.0.10/sdk_adapter.yaml
+ create mode 100644 sdk_adapter/1.0.11-beta.1/sdk_adapter.yaml
+ create mode 100644 sdk_app_ext_common/0.0.2-beta.11/sdk_app_ext_common.yaml
+ create mode 100644 sdk_app_ext_common/0.0.2-beta.12/sdk_app_ext_common.yaml
+ create mode 100644 speaker_avs_comm/0.0.7-beta.6/speaker_avs_comm.yaml
+ rename speaker_avs_ring_subgroup/{speakerbox_avs_saswell_debug/1.1.3-beta.11/speakerbox_avs_saswell_debug.yaml => speaker_avs_ring_debug/1.1.0-beta.10/speaker_avs_ring_debug.yaml} (93%)
+ create mode 100644 speaker_avs_ring_subgroup/speaker_avs_ring_debug/1.1.0-beta.11/ciAutoGenerate
+ rename speaker_avs_ring_subgroup/{speakerbox_avs_saswell_oem/1.1.2-beta.4/speakerbox_avs_saswell_oem.yaml => speaker_avs_ring_debug/1.1.0-beta.11/speaker_avs_ring_debug.yaml} (92%)
+ rename speaker_avs_ring_subgroup/{speakerbox_avs_saswell_debug/1.1.3-beta.9/speakerbox_avs_saswell_debug.yaml => speaker_avs_ring_debug/1.1.0-beta.6/speaker_avs_ring_debug.yaml} (92%)
+ rename speaker_avs_ring_subgroup/{speakerbox_avs_saswell_debug/1.1.3-beta.8/speakerbox_avs_saswell_debug.yaml => speaker_avs_ring_debug/1.1.0-beta.7/speaker_avs_ring_debug.yaml} (92%)
+ create mode 100644 speaker_avs_ring_subgroup/speaker_avs_ring_debug/1.1.0-beta.8/speaker_avs_ring_debug.yaml
+ create mode 100644 speaker_avs_ring_subgroup/speaker_avs_ring_debug/1.1.0-beta.9/speaker_avs_ring_debug.yaml
+ delete mode 100644 speaker_avs_ring_subgroup/speakerbox_avs_saswell_debug/1.1.3-beta.1/speakerbox_avs_saswell_debug.yaml
+ delete mode 100644 speaker_avs_ring_subgroup/speakerbox_avs_saswell_debug/1.1.3-beta.2/speakerbox_avs_saswell_debug.yaml
+ delete mode 100644 speaker_avs_ring_subgroup/speakerbox_avs_saswell_debug/1.1.3-beta.3/speakerbox_avs_saswell_debug.yaml
+ delete mode 100644 speaker_avs_ring_subgroup/speakerbox_avs_saswell_debug/1.1.3-beta.4/speakerbox_avs_saswell_debug.yaml
+ delete mode 100644 speaker_avs_ring_subgroup/speakerbox_avs_saswell_debug/1.1.3-beta.5/speakerbox_avs_saswell_debug.yaml
+ delete mode 100644 speaker_avs_ring_subgroup/speakerbox_avs_saswell_debug/1.1.3-beta.6/speakerbox_avs_saswell_debug.yaml
+ delete mode 100644 speaker_avs_ring_subgroup/speakerbox_avs_saswell_oem/0.1.0-beta.1/speakerbox_avs_saswell_oem.yaml
+ delete mode 100644 speaker_avs_ring_subgroup/speakerbox_avs_saswell_oem/0.1.0-beta.2/speakerbox_avs_saswell_oem.yaml
+ delete mode 100644 speaker_avs_ring_subgroup/speakerbox_avs_saswell_oem/0.1.0-beta.3/speakerbox_avs_saswell_oem.yaml
+ delete mode 100644 speaker_avs_ring_subgroup/speakerbox_avs_saswell_oem/1.1.2-beta.1/nullcfg
+ delete mode 100644 speaker_avs_ring_subgroup/speakerbox_avs_saswell_oem/1.1.2-beta.1/speakerbox_avs_saswell_oem.yaml
+ delete mode 100644 speaker_avs_ring_subgroup/speakerbox_avs_saswell_oem/1.1.2-beta.2/nullcfg
+ delete mode 100644 speaker_avs_ring_subgroup/speakerbox_avs_saswell_oem/1.1.2-beta.2/speakerbox_avs_saswell_oem.yaml
+ rename speaker_avs_ring_subgroup/speakerbox_avs_saswell_debug/1.1.3-beta.10/speakerbox_avs_saswell_debug.yaml => speaker_avs_single_subgroup/speakerbox_avs_hogar/0.1.0-beta.8/speakerbox_avs_hogar.yaml (91%)
+ create mode 100644 speaker_avs_single_subgroup/speakerbox_avs_hogar_debug/1.1.0-beta.6/speakerbox_avs_hogar_debug.yaml
+ create mode 100644 speaker_avs_single_subgroup/speakerbox_avs_hogar_debug/1.1.0-beta.7/ciAutoGenerate
+ create mode 100644 speaker_avs_single_subgroup/speakerbox_avs_hogar_debug/1.1.0-beta.7/speakerbox_avs_hogar_debug.yaml
+ create mode 100644 speaker_avs_single_subgroup/speakerbox_avs_hogar_debug/1.1.0-beta.8/ciAutoGenerate
+ create mode 100644 speaker_avs_single_subgroup/speakerbox_avs_hogar_debug/1.1.0-beta.8/speakerbox_avs_hogar_debug.yaml
+ create mode 100644 speaker_avs_single_subgroup/speakerbox_avs_hogar_debug/1.1.0-beta.9/ciAutoGenerate
+ create mode 100644 speaker_avs_single_subgroup/speakerbox_avs_hogar_debug/1.1.0-beta.9/speakerbox_avs_hogar_debug.yaml
+ create mode 100644 speaker_avs_ss190_subgroup/speakerbox_avs_ss190_debug/1.1.8-beta.6/speakerbox_avs_ss190_debug.yaml
+ create mode 100644 speaker_avs_ss190_subgroup/speakerbox_avs_ss190_debug/1.1.8-beta.7/speakerbox_avs_ss190_debug.yaml
+ create mode 100644 speaker_avs_ss190_subgroup/speakerbox_avs_ss190_debug/1.1.8-beta.8/speakerbox_avs_ss190_debug.yaml
+ create mode 100644 speaker_avs_ss190_subgroup/speakerbox_avs_ss190_debug/1.1.8-beta.9/ciAutoGenerate
+ create mode 100644 speaker_avs_ss190_subgroup/speakerbox_avs_ss190_debug/1.1.8-beta.9/speakerbox_avs_ss190_debug.yaml
+ create mode 100644 speaker_avs_ss190_subgroup/speakerbox_avs_ss190_oem/1.1.8-beta.6/speakerbox_avs_ss190_oem.yaml
+ create mode 100644 speaker_avs_ss190_subgroup/speakerbox_avs_ss190_oem/1.1.8-beta.7/speakerbox_avs_ss190_oem.yaml
+ create mode 100644 speaker_avs_ss190_subgroup/speakerbox_avs_ss190_oem/1.1.8-beta.8/speakerbox_avs_ss190_oem.yaml
+ rename speaker_avs_ring_subgroup/speakerbox_avs_saswell_debug/1.1.3-beta.7/speakerbox_avs_saswell_debug.yaml => speaker_project_3_subgroup/speaker_app_3/0.1.0-beta.53/speaker_app_3.yaml (50%)
+ create mode 100755 ssc333_rootfs/0.0.14-beta.1/ssc333_rootfs.yaml
+ create mode 100755 ssc333_rootfs/0.0.14/ssc333_rootfs.yaml
+ create mode 100644 svc_api_gw/0.0.1-beta.18/svc_api_gw.yaml
+ create mode 100755 svc_api_gw/0.0.1-beta.19/IoTOSconfig
+ create mode 100755 svc_api_gw/0.0.1-beta.19/svc_api_gw.yaml
+ create mode 100755 svc_api_iot/1.0.5-beta.00/svc_api_iot.yaml
+ create mode 100755 svc_api_iot/1.0.5-beta.1/svc_api_iot.yaml
+ create mode 100755 svc_api_ipc/1.0.6-beta.44/IoTOSconfig
+ create mode 100644 svc_api_ipc/1.0.6-beta.44/svc_api_ipc.yaml
+ create mode 100755 svc_api_ipc/1.0.6-beta.45/IoTOSconfig
+ create mode 100644 svc_api_ipc/1.0.6-beta.45/svc_api_ipc.yaml
+ create mode 100644 svc_api_ipc/1.0.6/svc_api_ipc.yaml
+ create mode 100755 svc_api_ipc/1.0.7-beta.1/IoTOSconfig
+ create mode 100644 svc_api_ipc/1.0.7-beta.1/svc_api_ipc.yaml
+ create mode 100755 svc_api_wifi/1.0.5-beta.1/svc_api_wifi.yaml
+ create mode 100644 svc_bt_api/1.0.5-beta.1/svc_bt_api.yaml
+ create mode 100644 svc_bt_api/1.0.6-beta.1/svc_bt_api.yaml
+ create mode 100644 svc_bt_dp/1.0.5-beta.1/svc_bt_dp.yaml
+ create mode 100644 svc_ctrl_center/0.0.1-beta.10/svc_ctrl_center.yaml
+ create mode 100644 svc_ctrl_center/0.0.1-beta.11/svc_ctrl_center.yaml
+ create mode 100755 svc_devos/1.0.6-beta.2/svc_devos.yaml
+ create mode 100644 svc_engineering_mode/0.0.8-beta.32/svc_engineering_mode.yaml
+ create mode 100644 svc_engineering_mode/0.0.8-beta.33/svc_engineering_mode.yaml
+ create mode 100644 svc_fault_replace/1.0.2-beta.7/svc_fault_replace.yaml
+ create mode 100644 svc_gw_base/0.0.1-beta.6/svc_gw_base.yaml
+ create mode 100644 svc_gw_base/0.0.1-beta.7/svc_gw_base.yaml
+ create mode 100644 svc_gw_mgr/0.0.1-beta.7/svc_gw_mgr.yaml
+ create mode 100644 svc_gw_sdk_interface/0.0.1-beta.5/svc_gw_sdk_interface.yaml
+ create mode 100755 svc_http/1.0.5-beta.3/svc_http.yaml
+ create mode 100755 svc_http/1.0.5-beta.4/svc_http.yaml
+ create mode 100755 svc_lan/1.0.5-beta.1/svc_lan.yaml
+ create mode 100644 svc_lan_dev_base/1.0.0-beta.34/svc_lan_dev_base.yaml
+ create mode 100644 svc_lan_dev_base/1.0.0-beta.35/svc_lan_dev_base.yaml
+ create mode 100644 svc_lan_dev_base/1.0.0-beta.36/svc_lan_dev_base.yaml
+ create mode 100644 svc_lan_dev_base/1.0.0-beta.37/svc_lan_dev_base.yaml
+ create mode 100644 svc_linkage_lan/1.0.2-beta.17/svc_linkage_lan.yaml
+ create mode 100644 svc_linkage_lan/1.0.2-beta.18/svc_linkage_lan.yaml
+ create mode 100644 svc_linkage_local/0.2.0-beta.49/svc_linkage_local.yaml
+ create mode 100644 svc_linux_crash_dump/1.0.1-beta.10/svc_linux_crash_dump.yaml
+ create mode 100755 svc_mf_test/1.0.4-beta.13/svc_mf_test.yaml
+ create mode 100755 svc_mf_test/1.0.4-beta.14/svc_mf_test.yaml
+ create mode 100755 svc_mf_test/1.0.4-beta.15/svc_mf_test.yaml
+ create mode 100755 svc_mqtt/1.0.7-beta.2/svc_mqtt.yaml
+ create mode 100755 svc_online_log/1.0.5-beta.3/svc_online_log.yaml
+ create mode 100755 svc_protocol/develop-1.0.3-beta.19/svc_protocol.yaml
+ create mode 100755 svc_protocol/develop-1.0.3-beta.20/svc_protocol.yaml
+ create mode 100644 svc_scene_group/0.2.1-beta.2/svc_scene_group.yaml
+ create mode 100644 svc_scene_group/0.2.1-beta.3/svc_scene_group.yaml
+ create mode 100644 svc_security/0.0.3-beta.40/svc_security.yaml
+ create mode 100644 svc_security/0.0.3-beta.41/svc_security.yaml
+ create mode 100755 svc_smart_gw/1.0.6-beta.209/svc_smart_gw.yaml
+ create mode 100755 svc_smart_gw/1.0.6-beta.21/svc_smart_gw.yaml
+ create mode 100755 svc_streaming/1.0.36-beta.1/IoTOSconfig
+ create mode 100644 svc_streaming/1.0.36-beta.1/svc_streaming.yaml
+ create mode 100755 svc_streaming/1.0.36/IoTOSconfig
+ create mode 100644 svc_streaming/1.0.36/svc_streaming.yaml
+ create mode 100644 svc_subdev/0.0.1-beta.6/svc_subdev.yaml
+ create mode 100644 svc_thread_dump_linux/1.0.1-beta.4/svc_thread_dump_linux.yaml
+ create mode 100644 svc_thread_dump_linux/1.0.1-beta.5/svc_thread_dump_linux.yaml
+ create mode 100755 svc_timer_task/1.0.6-beta.4/svc_timer_task.yaml
+ create mode 100755 svc_upgrade/1.0.5-beta.1/svc_upgrade.yaml
+ create mode 100755 svc_upgrade/1.0.5-beta.2/svc_upgrade.yaml
+ create mode 100755 svc_wifi_netcfg/1.0.4-beta.20/svc_wifi_netcfg.yaml
+ create mode 100755 svc_wifi_netcfg/1.0.4-beta.21/svc_wifi_netcfg.yaml
+ create mode 100755 svc_wifi_netcfg/1.0.4-beta.3/svc_wifi_netcfg.yaml
+ create mode 100755 svc_wifi_netcfg/1.0.4-beta.4/svc_wifi_netcfg.yaml
+ create mode 100755 test_rtl8720dn/1.0.66-beta.4/test_rtl8720dn.yaml
+ create mode 100644 test_rtl8720dn/1.0.67-beta.4/test_rtl8720dn.yaml
+ create mode 100644 test_rtl8720dn/1.0.68-beta.4/test_rtl8720dn.yaml
+ create mode 100755 test_wf_bt_lwip_sdk_rtos/1.0.5-beta.26/test_wf_bt_lwip_sdk_rtos.yaml
+ create mode 100644 third_party_depend/0.0.1-beta.1/third_party_depend.yaml
+ create mode 100755 tuya_ipc_sc061wc02_sdk/0.0.13-beta.1/tuya_ipc_sc061wc02_sdk.yaml
+ create mode 100755 tuya_ipc_sc061wc02_sdk/0.0.13/tuya_ipc_sc061wc02_sdk.yaml
+ create mode 100644 tuya_ipc_sc061wc02_sdk/IoTOS2.3.0_tuya_ipc_sc061wc02_sdk_0.0.13_mips-gcc540-glibc222-64bit-r3.3.0_add_1.0.0/add
+ create mode 100755 tuya_ipc_sc061wc02_sdk/IoTOS2.3.0_tuya_ipc_sc061wc02_sdk_0.0.13_mips-gcc540-glibc222-64bit-r3.3.0_add_1.0.0/tuya_ipc_sc061wc02_sdk.yaml
+ create mode 100755 tuya_ipc_sc103ws03_sdk/0.0.1-beta.0/tuya_ipc_sc103ws03_sdk.yaml
+ create mode 100755 tuya_ipc_sc103ws03_sdk/0.0.1/tuya_ipc_sc103ws03_sdk.yaml
+ create mode 100755 tuya_ipc_sc103ws03_sdk/0.0.2-beta.1/tuya_ipc_sc103ws03_sdk.yaml
+ create mode 100755 tuya_ipc_sc103ws03_sdk/0.0.2/tuya_ipc_sc103ws03_sdk.yaml
+ create mode 100755 tuya_ipc_sc103ws03_sdk/0.0.3-beta.1/tuya_ipc_sc103ws03_sdk.yaml
+ create mode 100755 tuya_ipc_sc103ws03_sdk/0.0.3-beta.2/tuya_ipc_sc103ws03_sdk.yaml
+ create mode 100755 tuya_ipc_sc103ws03_sdk/0.0.3/tuya_ipc_sc103ws03_sdk.yaml
+ create mode 100644 tuya_ipc_sc103ws03_sdk/IoTOS2.3.0_tuya_ipc_sc103ws03_sdk_0.0.3-beta.1_arm-buildroot-linux-uclibcgnueabihf-313e_ad_1.0.0/arm-buildroot-linux-uclibcgnueabihf-313e_ad
+ create mode 100755 tuya_ipc_sc103ws03_sdk/IoTOS2.3.0_tuya_ipc_sc103ws03_sdk_0.0.3-beta.1_arm-buildroot-linux-uclibcgnueabihf-313e_ad_1.0.0/tuya_ipc_sc103ws03_sdk.yaml
+ create mode 100644 tuya_ipc_sc103ws03_sdk/IoTOS2.3.0_tuya_ipc_sc103ws03_sdk_0.0.3_arm-buildroot-linux-uclibcgnueabihf-313e_ad_1.0.0/arm-buildroot-linux-uclibcgnueabihf-313e_ad
+ create mode 100755 tuya_ipc_sc103ws03_sdk/IoTOS2.3.0_tuya_ipc_sc103ws03_sdk_0.0.3_arm-buildroot-linux-uclibcgnueabihf-313e_ad_1.0.0/tuya_ipc_sc103ws03_sdk.yaml
+ create mode 100644 ty_bt_gw_rtl8720cs_app_subgroup/oem_8720cs_plug/1.2.5-beta.11/oem_8720cs_plug.yaml
+ create mode 100644 ty_bt_gw_rtl8720cs_app_subgroup/oem_8720cs_plug/1.3.0-beta.12/oem_8720cs_plug.yaml
+ create mode 100644 ty_bt_gw_rtl8720cs_app_subgroup/oem_8720cs_plug/1.3.0/ciAutoGenerate
+ create mode 100644 ty_bt_gw_rtl8720cs_app_subgroup/oem_8720cs_plug/1.3.0/oem_8720cs_plug.yaml
+ create mode 100644 ty_bt_gw_rtl8720cs_app_subgroup/oem_8720cs_plug/1.3.3-beta.1/ciAutoGenerate
+ create mode 100644 ty_bt_gw_rtl8720cs_app_subgroup/oem_8720cs_plug/1.3.3-beta.1/oem_8720cs_plug.yaml
+ create mode 100644 ty_bt_gw_rtl8720cs_app_subgroup/oem_8720cs_plug/1.3.3/ciAutoGenerate
+ create mode 100644 ty_bt_gw_rtl8720cs_app_subgroup/oem_8720cs_plug/1.3.3/oem_8720cs_plug.yaml
+ create mode 100644 ty_bt_gw_rtl8720cs_app_subgroup/oem_8720cs_plug/1.3.4-beta.1/oem_8720cs_plug.yaml
+ create mode 100644 ty_bt_gw_rtl8720cs_app_subgroup/oem_8720cs_plug/1.3.4/ciAutoGenerate
+ create mode 100644 ty_bt_gw_rtl8720cs_app_subgroup/oem_8720cs_plug/1.3.4/oem_8720cs_plug.yaml
+ create mode 100755 ty_bt_gw_rtl8720cs_sdk/1.1.0-beta.50/ty_bt_gw_rtl8720cs_sdk.yaml
+ create mode 100755 ty_bt_gw_rtl8720cs_sdk/2.1.0-beta.36/ty_bt_gw_rtl8720cs_sdk.yaml
+ create mode 100644 ty_bt_gw_rtl8720cs_sdk/IoTOS2.3.0_ty_bt_gw_rtl8720cs_sdk_1.1.0-beta.50_test_rtl8720dn_bt_gw_1.0.67-beta.4/test_rtl8720dn_bt_gw
+ create mode 100755 ty_bt_gw_rtl8720cs_sdk/IoTOS2.3.0_ty_bt_gw_rtl8720cs_sdk_1.1.0-beta.50_test_rtl8720dn_bt_gw_1.0.67-beta.4/ty_bt_gw_rtl8720cs_sdk.yaml
+ create mode 100644 ty_bt_gw_rtl8720cs_sdk/IoTOS2.3.0_ty_bt_gw_rtl8720cs_sdk_2.1.0-beta.36_test_rtl8720dn_1.0.68-beta.4/test_rtl8720dn
+ create mode 100755 ty_bt_gw_rtl8720cs_sdk/IoTOS2.3.0_ty_bt_gw_rtl8720cs_sdk_2.1.0-beta.36_test_rtl8720dn_1.0.68-beta.4/ty_bt_gw_rtl8720cs_sdk.yaml
+ create mode 100755 ty_gw_au_wr_sdk/1.0.0-beta.46/ty_gw_au_wr_sdk.yaml
+ create mode 100755 ty_gw_au_wr_sdk/1.0.0-beta.47/ty_gw_au_wr_sdk.yaml
+ create mode 100755 ty_gw_au_wr_sdk/1.0.0-beta.48/ty_gw_au_wr_sdk.yaml
+ create mode 100755 ty_gw_au_wr_sdk/1.0.0-beta.49/ty_gw_au_wr_sdk.yaml
+ create mode 100644 ty_gw_au_wr_sdk/IoTOS2.3.0_ty_gw_au_wr_sdk_1.0.0-beta.46_linux_rockchip_3308_0.0.4-beta.2/linux_rockchip_3308
+ create mode 100755 ty_gw_au_wr_sdk/IoTOS2.3.0_ty_gw_au_wr_sdk_1.0.0-beta.46_linux_rockchip_3308_0.0.4-beta.2/ty_gw_au_wr_sdk.yaml
+ create mode 100644 ty_gw_au_wr_sdk/IoTOS2.3.0_ty_gw_au_wr_sdk_1.0.0-beta.49_linux-ubuntu-6.2.0_64Bit_qr_sdk_1.0.1/linux-ubuntu-6.2.0_64Bit_qr_sdk
+ create mode 100755 ty_gw_au_wr_sdk/IoTOS2.3.0_ty_gw_au_wr_sdk_1.0.0-beta.49_linux-ubuntu-6.2.0_64Bit_qr_sdk_1.0.1/ty_gw_au_wr_sdk.yaml
+ create mode 100644 ty_gw_au_wr_sdk/IoTOS2.3.0_ty_gw_au_wr_sdk_1.0.0-beta.49_linux_rockchip_3308_0.0.4-beta.2/linux_rockchip_3308
+ create mode 100755 ty_gw_au_wr_sdk/IoTOS2.3.0_ty_gw_au_wr_sdk_1.0.0-beta.49_linux_rockchip_3308_0.0.4-beta.2/ty_gw_au_wr_sdk.yaml
+ create mode 100755 ty_gw_ipc_wf_wr_sdk/0.0.1-beta.35/ty_gw_ipc_wf_wr_sdk.yaml
+ create mode 100755 ty_gw_ipc_wf_wr_sdk/0.0.1-beta.36/ty_gw_ipc_wf_wr_sdk.yaml
+ create mode 100755 ty_gw_ipc_wf_wr_sdk/0.0.1-beta.37/ty_gw_ipc_wf_wr_sdk.yaml
+ create mode 100755 ty_gw_zigbee_ext_sdk/1.1.3-beta.4/ty_gw_zigbee_ext_sdk.yaml
+ create mode 100755 ty_gw_zigbee_ext_sdk/1.1.3-beta.5/ty_gw_zigbee_ext_sdk.yaml
+ create mode 100755 ty_gw_zigbee_ext_sdk/1.1.3-beta.6/ty_gw_zigbee_ext_sdk.yaml
+ create mode 100644 ty_gw_zigbee_ext_sdk/IoTOS2.3.0_ty_gw_zigbee_ext_sdk_1.1.3-beta.6_linux_rtl8197_mips_1.0.3/linux_rtl8197_mips
+ create mode 100755 ty_gw_zigbee_ext_sdk/IoTOS2.3.0_ty_gw_zigbee_ext_sdk_1.1.3-beta.6_linux_rtl8197_mips_1.0.3/ty_gw_zigbee_ext_sdk.yaml
+ create mode 100644 ty_iot_cat1_app_subgroup/cat1_uart_common/1.0.6-beta.3/cat1_uart_common.yaml
+ create mode 100644 ty_iot_cat1_app_subgroup/cat1_uart_common/1.0.6-beta.3/ciAutoGenerate
+ create mode 100755 ty_iot_gateway_base/0.0.1-beta.71/ty_iot_gateway_base.yaml
+ create mode 100755 ty_iot_gateway_base/0.0.1-beta.72/ty_iot_gateway_base.yaml
+ create mode 100755 ty_iot_gateway_base/0.0.1-beta.73/ty_iot_gateway_base.yaml
+ create mode 100755 ty_iot_gateway_base/1.0.1-beta.12/ty_iot_gateway_base.yaml
+ create mode 100755 ty_iot_gateway_base/1.0.1-beta.13/ty_iot_gateway_base.yaml
+ create mode 100755 ty_iot_gateway_base/1.0.1-beta.14/ty_iot_gateway_base.yaml
+ create mode 100755 ty_iot_gateway_base/1.0.1-beta.15/ty_iot_gateway_base.yaml
+ create mode 100755 ty_iot_gw_debug_linux/1.0.1-beta.2/ty_iot_gw_debug_linux.yaml
+ create mode 100755 ty_iot_gw_debug_linux/1.0.1-beta.3/ty_iot_gw_debug_linux.yaml
+ create mode 100755 ty_iot_gw_wr_sdk/1.0.1-beta.41/ty_iot_gw_wr_sdk.yaml
+ create mode 100755 ty_iot_gw_wr_sdk/1.0.1-beta.42/ty_iot_gw_wr_sdk.yaml
+ create mode 100755 ty_iot_gw_wr_sdk/1.0.1-beta.43/ty_iot_gw_wr_sdk.yaml
+ create mode 100755 ty_iot_gw_wr_sdk/1.0.1-beta.44/ty_iot_gw_wr_sdk.yaml
+ create mode 100755 ty_iot_gw_wr_sdk/1.0.1-beta.45/ty_iot_gw_wr_sdk.yaml
+ create mode 100755 ty_iot_gw_wr_sdk/2.2.7/ty_iot_gw_wr_sdk.yaml
+ create mode 100755 ty_iot_gw_wr_sdk/2.2.8-beta.1/ty_iot_gw_wr_sdk.yaml
+ create mode 100755 ty_iot_gw_wr_sdk/2.2.8-beta.2/ty_iot_gw_wr_sdk.yaml
+ create mode 100755 ty_iot_gw_wr_sdk/2.2.8-beta.3/ty_iot_gw_wr_sdk.yaml
+ create mode 100755 ty_iot_gw_wr_sdk/2.2.8-beta.4/ty_iot_gw_wr_sdk.yaml
+ create mode 100755 ty_iot_gw_wr_sdk/2.2.8-beta.5/ty_iot_gw_wr_sdk.yaml
+ create mode 100755 ty_iot_gw_wr_sdk/2.2.8-beta.6/ty_iot_gw_wr_sdk.yaml
+ create mode 100644 ty_iot_gw_wr_sdk/IoTOS2.3.0_ty_iot_gw_wr_sdk_1.0.1-beta.43_linux_rtl8196e_release_1.0.2/linux_rtl8196e_release
+ create mode 100755 ty_iot_gw_wr_sdk/IoTOS2.3.0_ty_iot_gw_wr_sdk_1.0.1-beta.43_linux_rtl8196e_release_1.0.2/ty_iot_gw_wr_sdk.yaml
+ create mode 100644 ty_iot_gw_wr_sdk/IoTOS2.3.0_ty_iot_gw_wr_sdk_1.0.1-beta.44_linux_rtl8196e_release_1.0.2/linux_rtl8196e_release
+ create mode 100755 ty_iot_gw_wr_sdk/IoTOS2.3.0_ty_iot_gw_wr_sdk_1.0.1-beta.44_linux_rtl8196e_release_1.0.2/ty_iot_gw_wr_sdk.yaml
+ create mode 100644 ty_iot_gw_wr_sdk/IoTOS2.3.0_ty_iot_gw_wr_sdk_2.2.7_arm-linux-gnueabihf-gcc-4.8.2_release_0.0.1/arm-linux-gnueabihf-gcc-4.8.2_release
+ create mode 100755 ty_iot_gw_wr_sdk/IoTOS2.3.0_ty_iot_gw_wr_sdk_2.2.7_arm-linux-gnueabihf-gcc-4.8.2_release_0.0.1/ty_iot_gw_wr_sdk.yaml
+ create mode 100644 ty_iot_gw_wr_sdk/IoTOS2.3.0_ty_iot_gw_wr_sdk_2.2.7_arm-none-linux-gnueabi-gcc-4.8.3_release_0.0.1/arm-none-linux-gnueabi-gcc-4.8.3_release
+ create mode 100755 ty_iot_gw_wr_sdk/IoTOS2.3.0_ty_iot_gw_wr_sdk_2.2.7_arm-none-linux-gnueabi-gcc-4.8.3_release_0.0.1/ty_iot_gw_wr_sdk.yaml
+ create mode 100644 ty_iot_gw_wr_sdk/IoTOS2.3.0_ty_iot_gw_wr_sdk_2.2.7_gcc-linaro-arm-linux-gnueabihf-4.9_release_0.0.1/gcc-linaro-arm-linux-gnueabihf-4.9_release
+ create mode 100755 ty_iot_gw_wr_sdk/IoTOS2.3.0_ty_iot_gw_wr_sdk_2.2.7_gcc-linaro-arm-linux-gnueabihf-4.9_release_0.0.1/ty_iot_gw_wr_sdk.yaml
+ create mode 100644 ty_iot_gw_wr_sdk/IoTOS2.3.0_ty_iot_gw_wr_sdk_2.2.7_linux_rtl8196e_release_1.0.2/linux_rtl8196e_release
+ create mode 100755 ty_iot_gw_wr_sdk/IoTOS2.3.0_ty_iot_gw_wr_sdk_2.2.7_linux_rtl8196e_release_1.0.2/ty_iot_gw_wr_sdk.yaml
+ create mode 100644 ty_iot_gw_wr_sdk/IoTOS2.3.0_ty_iot_gw_wr_sdk_2.2.7_mips-openwrt-linux-gnu-gcc-5.4.0_release_0.0.1-beta.1/mips-openwrt-linux-gnu-gcc-5.4.0_release
+ create mode 100755 ty_iot_gw_wr_sdk/IoTOS2.3.0_ty_iot_gw_wr_sdk_2.2.7_mips-openwrt-linux-gnu-gcc-5.4.0_release_0.0.1-beta.1/ty_iot_gw_wr_sdk.yaml
+ create mode 100644 ty_iot_gw_wr_sdk/IoTOS2.3.0_ty_iot_gw_wr_sdk_2.2.8-beta.6_linux_rtl8196e_lidl_1.0.2/linux_rtl8196e_lidl
+ create mode 100755 ty_iot_gw_wr_sdk/IoTOS2.3.0_ty_iot_gw_wr_sdk_2.2.8-beta.6_linux_rtl8196e_lidl_1.0.2/ty_iot_gw_wr_sdk.yaml
+ create mode 100755 ty_iot_gw_wr_wf_sdk/0.0.1-beta.94/ty_iot_gw_wr_wf_sdk.yaml
+ create mode 100755 ty_iot_gw_wr_wf_sdk/0.0.1-beta.95/ty_iot_gw_wr_wf_sdk.yaml
+ create mode 100755 ty_iot_gw_wr_wf_sdk/0.0.1-beta.96/ty_iot_gw_wr_wf_sdk.yaml
+ create mode 100755 ty_iot_gw_wr_wf_sdk/0.0.1-beta.97/ty_iot_gw_wr_wf_sdk.yaml
+ create mode 100644 ty_iot_gw_wr_wf_sdk/IoTOS2.3.0_ty_iot_gw_wr_wf_sdk_0.0.1-beta.94_linux-ubuntu-6.2.0_64Bit_1_1.0.1/linux-ubuntu-6.2.0_64Bit_1
+ create mode 100755 ty_iot_gw_wr_wf_sdk/IoTOS2.3.0_ty_iot_gw_wr_wf_sdk_0.0.1-beta.94_linux-ubuntu-6.2.0_64Bit_1_1.0.1/ty_iot_gw_wr_wf_sdk.yaml
+ create mode 100644 ty_iot_gw_wr_wf_sdk/IoTOS2.3.0_ty_iot_gw_wr_wf_sdk_0.0.1-beta.94_linux_rtl8197_mips_1_1.0.3/linux_rtl8197_mips_1
+ create mode 100755 ty_iot_gw_wr_wf_sdk/IoTOS2.3.0_ty_iot_gw_wr_wf_sdk_0.0.1-beta.94_linux_rtl8197_mips_1_1.0.3/ty_iot_gw_wr_wf_sdk.yaml
+ create mode 100644 ty_iot_gw_wr_wf_sdk/IoTOS2.3.0_ty_iot_gw_wr_wf_sdk_0.0.1-beta.95_linux_rtl8197_mips_1_1.0.3/linux_rtl8197_mips_1
+ create mode 100755 ty_iot_gw_wr_wf_sdk/IoTOS2.3.0_ty_iot_gw_wr_wf_sdk_0.0.1-beta.95_linux_rtl8197_mips_1_1.0.3/ty_iot_gw_wr_wf_sdk.yaml
+ create mode 100644 ty_iot_gw_wr_wf_sdk/IoTOS2.3.0_ty_iot_gw_wr_wf_sdk_0.0.1-beta.97_linux_rtl8197_mips_8197fs_1.0.3/8197fs
+ create mode 100755 ty_iot_gw_wr_wf_sdk/IoTOS2.3.0_ty_iot_gw_wr_wf_sdk_0.0.1-beta.97_linux_rtl8197_mips_8197fs_1.0.3/ty_iot_gw_wr_wf_sdk.yaml
+ create mode 100755 ty_iot_linkage_base/0.0.1-beta.26/ty_iot_linkage_base.yaml
+ create mode 100755 ty_iot_linkage_base/1.0.1-beta.8/ty_iot_linkage_base.yaml
+ create mode 100755 ty_iot_lite_sdk/0.0.3-beta.34/ty_iot_lite_sdk.yaml
+ create mode 100755 ty_iot_lite_sdk/0.0.3-beta.35/ty_iot_lite_sdk.yaml
+ create mode 100755 ty_iot_lite_sdk/0.0.3-beta.36/ty_iot_lite_sdk.yaml
+ create mode 100644 ty_iot_lite_sdk/IoTOS2.3.0_ty_iot_lite_sdk_0.0.3-beta.34_rtl8720_dn_low_power_lql_0.0.1-beta.11/rtl8720_dn_low_power_lql
+ create mode 100755 ty_iot_lite_sdk/IoTOS2.3.0_ty_iot_lite_sdk_0.0.3-beta.34_rtl8720_dn_low_power_lql_0.0.1-beta.11/ty_iot_lite_sdk.yaml
+ create mode 100755 ty_iot_sdk/2.3.1-beta.53/ty_iot_sdk.yaml
+ create mode 100755 ty_iot_sdk/2.3.1-beta.54/ty_iot_sdk.yaml
+ create mode 100755 ty_iot_sdk/2.3.1-beta.55/ty_iot_sdk.yaml
+ create mode 100755 ty_iot_sdk/2.3.1-beta.56/ty_iot_sdk.yaml
+ create mode 100755 ty_iot_sdk/2.3.1-beta.57/ty_iot_sdk.yaml
+ create mode 100755 ty_iot_sdk/2.3.1-beta.58/ty_iot_sdk.yaml
+ create mode 100755 ty_iot_sdk/2.3.1-beta.59/ty_iot_sdk.yaml
+ create mode 100755 ty_iot_sdk/2.3.1-beta.60/ty_iot_sdk.yaml
+ create mode 100755 ty_iot_sdk/2.3.1-beta.61/ty_iot_sdk.yaml
+ create mode 100755 ty_iot_sdk/2.3.1-beta.62/ty_iot_sdk.yaml
+ create mode 100755 ty_iot_sdk/2.3.1-beta.63/ty_iot_sdk.yaml
+ create mode 100755 ty_iot_sdk/2.3.1-beta.64/ty_iot_sdk.yaml
+ create mode 100755 ty_iot_sdk/2.3.1-beta.65/ty_iot_sdk.yaml
+ create mode 100644 ty_iot_sdk/IoTOS2.3.0_ty_iot_sdk_2.3.1-beta.54_bk7231t_default_1.1.1-beta.2/bk7231t_default
+ create mode 100755 ty_iot_sdk/IoTOS2.3.0_ty_iot_sdk_2.3.1-beta.54_bk7231t_default_1.1.1-beta.2/ty_iot_sdk.yaml
+ create mode 100644 ty_iot_sdk/IoTOS2.3.0_ty_iot_sdk_2.3.1-beta.57_linux-ubuntu-6.2.0_64Bit_afi_1.0.1/linux-ubuntu-6.2.0_64Bit_afi
+ create mode 100755 ty_iot_sdk/IoTOS2.3.0_ty_iot_sdk_2.3.1-beta.57_linux-ubuntu-6.2.0_64Bit_afi_1.0.1/ty_iot_sdk.yaml
+ create mode 100644 ty_iot_sdk/IoTOS2.3.0_ty_iot_sdk_2.3.1-beta.58_bk7231t_default_1.1.1-beta.2/bk7231t_default
+ create mode 100755 ty_iot_sdk/IoTOS2.3.0_ty_iot_sdk_2.3.1-beta.58_bk7231t_default_1.1.1-beta.2/ty_iot_sdk.yaml
+ create mode 100644 ty_iot_sdk/IoTOS2.3.0_ty_iot_sdk_2.3.1-beta.58_linux-ubuntu-6.2.0_64Bit_default_1.0.1/linux-ubuntu-6.2.0_64Bit_default
+ create mode 100755 ty_iot_sdk/IoTOS2.3.0_ty_iot_sdk_2.3.1-beta.58_linux-ubuntu-6.2.0_64Bit_default_1.0.1/ty_iot_sdk.yaml
+ create mode 100644 ty_iot_sdk/IoTOS2.3.0_ty_iot_sdk_2.3.1-beta.58_rtl8710bn_default_2.0.0-beta.45/rtl8710bn_default
+ create mode 100755 ty_iot_sdk/IoTOS2.3.0_ty_iot_sdk_2.3.1-beta.58_rtl8710bn_default_2.0.0-beta.45/ty_iot_sdk.yaml
+ create mode 100755 ty_iot_sdk/IoTOS2.3.0_ty_iot_sdk_2.3.1-beta.58_xr809_default_2.0.0-beta.13/ty_iot_sdk.yaml
+ create mode 100644 ty_iot_sdk/IoTOS2.3.0_ty_iot_sdk_2.3.1-beta.58_xr809_default_2.0.0-beta.13/xr809_default
+ create mode 100644 ty_iot_sdk/IoTOS2.3.0_ty_iot_sdk_2.3.1-beta.61_bk7231t_default_1.1.1-beta.2/bk7231t_default
+ create mode 100755 ty_iot_sdk/IoTOS2.3.0_ty_iot_sdk_2.3.1-beta.61_bk7231t_default_1.1.1-beta.2/ty_iot_sdk.yaml
+ create mode 100755 ty_iot_sdk/IoTOS2.3.0_ty_iot_sdk_2.3.1-beta.64_xr809_default_2.0.0-beta.13/ty_iot_sdk.yaml
+ create mode 100644 ty_iot_sdk/IoTOS2.3.0_ty_iot_sdk_2.3.1-beta.64_xr809_default_2.0.0-beta.13/xr809_default
+ create mode 100644 ty_iot_sdk/IoTOS2.3.0_ty_iot_sdk_2.3.1-beta.65_bk7231t_default_1.1.2-beta.19/bk7231t_default
+ create mode 100755 ty_iot_sdk/IoTOS2.3.0_ty_iot_sdk_2.3.1-beta.65_bk7231t_default_1.1.2-beta.19/ty_iot_sdk.yaml
+ create mode 100755 ty_iot_sdk_bugfix/2.3.0-beta.13/ty_iot_sdk_bugfix.yaml
+ create mode 100644 ty_iot_sdk_bugfix/IoTOS2.3.0_ty_iot_sdk_bugfix_2.3.0-beta.12_rtl8720cm_ameba_default_0.0.1-beta.34/rtl8720cm_ameba_default
+ create mode 100755 ty_iot_sdk_bugfix/IoTOS2.3.0_ty_iot_sdk_bugfix_2.3.0-beta.12_rtl8720cm_ameba_default_0.0.1-beta.34/ty_iot_sdk_bugfix.yaml
+ create mode 100755 ty_iot_sweeper_sdk/4.2.3-beta.4/ty_iot_sweeper_sdk.yaml
+ create mode 100644 ty_iot_wf_bk7231n_lig_subgroup/oem_bk7231n_light_ty/1.1.0-beta.21/oem_bk7231n_light_ty.yaml
+ create mode 100755 ty_iot_wf_bk7231t_common_subgroup/bk7231s_common_iot_config_ty/1.1.8-beta.2/bk7231s_common_iot_config_ty.yaml
+ create mode 100644 ty_iot_wf_bk7231t_common_subgroup/bk7231s_common_iot_config_ty/1.1.8-beta.2/ciAutoGenerate
+ create mode 100755 ty_iot_wf_bk7231t_common_subgroup/bk7231s_common_iot_config_ty/1.1.8/bk7231s_common_iot_config_ty.yaml
+ create mode 100644 ty_iot_wf_bk7231t_common_subgroup/bk7231s_common_iot_config_ty/1.1.8/ciAutoGenerate
+ create mode 100644 ty_iot_wf_bk7231t_elp_ka_subgroup/oem_bk7231s_switch1_zero_kjd/1.1.2-beta.1/ciAutoGenerate
+ create mode 100755 ty_iot_wf_bk7231t_elp_ka_subgroup/oem_bk7231s_switch1_zero_kjd/1.1.2-beta.1/oem_bk7231s_switch1_zero_kjd.yaml
+ create mode 100644 ty_iot_wf_bk7231t_elp_ka_subgroup/oem_bk7231s_switch1_zero_kjd/1.1.2/ciAutoGenerate
+ create mode 100755 ty_iot_wf_bk7231t_elp_ka_subgroup/oem_bk7231s_switch1_zero_kjd/1.1.2/oem_bk7231s_switch1_zero_kjd.yaml
+ create mode 100644 ty_iot_wf_bk7231t_elp_subgroup/oem_bk7231s_rnd_zero_dctrl_switch/1.1.0-beta.10/oem_bk7231s_rnd_zero_dctrl_switch.yaml
+ create mode 100644 ty_iot_wf_bk7231t_elp_subgroup/oem_bk7231s_scene_stamp_socket_public/1.1.1-beta.1/oem_bk7231s_scene_stamp_socket_public.yaml
+ create mode 100644 ty_iot_wf_bk7231t_lig_ka_subgroup/oem_bk7231s_light_4_to_5_eu_rmd/0.0.1-beta.0/oem_bk7231s_light_4_to_5_eu_rmd.yaml
+ create mode 100644 ty_iot_wf_bk7231t_lig_ka_subgroup/oem_bk7231s_ty_ffc_db_sl10/0.0.1-beta.0/oem_bk7231s_ty_ffc_db_sl10.yaml
+ create mode 100644 ty_iot_wf_bk7231t_lig_ka_subgroup/oem_bk7231s_ty_ffc_db_sl10/1.0.0-beta.1/oem_bk7231s_ty_ffc_db_sl10.yaml
+ create mode 100644 ty_iot_wf_bk7231t_lig_ka_subgroup/oem_bk7231s_ty_ffc_db_sl10/1.0.0-beta.2/ciAutoGenerate
+ create mode 100644 ty_iot_wf_bk7231t_lig_ka_subgroup/oem_bk7231s_ty_ffc_db_sl10/1.0.0-beta.2/oem_bk7231s_ty_ffc_db_sl10.yaml
+ create mode 100644 ty_iot_wf_bk7231t_lig_ka_subgroup/oem_bk7231s_ty_ffc_db_sl10/1.0.0/ciAutoGenerate
+ create mode 100644 ty_iot_wf_bk7231t_lig_ka_subgroup/oem_bk7231s_ty_ffc_db_sl10/1.0.0/oem_bk7231s_ty_ffc_db_sl10.yaml
+ create mode 100644 ty_iot_wf_bk7231t_lig_ka_subgroup/oem_bk7231t_fanlight_ir_yiyuan/1.1.4-beta.1/ciAutoGenerate
+ create mode 100644 ty_iot_wf_bk7231t_lig_ka_subgroup/oem_bk7231t_fanlight_ir_yiyuan/1.1.4-beta.1/oem_bk7231t_fanlight_ir_yiyuan.yaml
+ create mode 100644 ty_iot_wf_bk7231t_lig_ka_subgroup/oem_bk7231t_fanlight_ir_yiyuan/1.1.4/ciAutoGenerate
+ create mode 100644 ty_iot_wf_bk7231t_lig_ka_subgroup/oem_bk7231t_fanlight_ir_yiyuan/1.1.4/oem_bk7231t_fanlight_ir_yiyuan.yaml
+ create mode 100644 ty_iot_wf_bk7231t_lig_ka_subgroup/oem_bk7231t_light3_string_jutai/1.1.0-beta.3/ciAutoGenerate
+ create mode 100644 ty_iot_wf_bk7231t_lig_ka_subgroup/oem_bk7231t_light3_string_jutai/1.1.0-beta.3/oem_bk7231t_light3_string_jutai.yaml
+ create mode 100644 ty_iot_wf_bk7231t_lig_ka_subgroup/oem_bk7231t_light3_string_jutai/1.1.0/ciAutoGenerate
+ create mode 100644 ty_iot_wf_bk7231t_lig_ka_subgroup/oem_bk7231t_light3_string_jutai/1.1.0/oem_bk7231t_light3_string_jutai.yaml
+ create mode 100644 ty_iot_wf_bk7231t_lig_ka_subgroup/oem_bk7231t_light_hl/0.0.1-beta.1/ciAutoGenerate
+ create mode 100755 ty_iot_wf_bk7231t_lig_ka_subgroup/oem_bk7231t_light_hl/0.0.1-beta.1/oem_bk7231t_light_hl.yaml
+ create mode 100644 ty_iot_wf_bk7231t_lig_ka_subgroup/oem_bk7231t_light_hl/0.0.1/ciAutoGenerate
+ create mode 100755 ty_iot_wf_bk7231t_lig_ka_subgroup/oem_bk7231t_light_hl/0.0.1/oem_bk7231t_light_hl.yaml
+ create mode 100644 ty_iot_wf_bk7231t_lig_ka_subgroup/oem_bk7231t_silicon_light_kjd/1.1.1-beta.1/ciAutoGenerate
+ create mode 100644 ty_iot_wf_bk7231t_lig_ka_subgroup/oem_bk7231t_silicon_light_kjd/1.1.1-beta.1/oem_bk7231t_silicon_light_kjd.yaml
+ create mode 100644 ty_iot_wf_bk7231t_lig_ka_subgroup/oem_bk7231t_silicon_light_kjd/1.1.1/ciAutoGenerate
+ create mode 100644 ty_iot_wf_bk7231t_lig_ka_subgroup/oem_bk7231t_silicon_light_kjd/1.1.1/oem_bk7231t_silicon_light_kjd.yaml
+ create mode 100755 ty_iot_wf_bk7231t_lig_subgroup/oem_bk7231s_ceiling_light_ty/1.3.3-beta.1/oem_bk7231s_ceiling_light_ty.yaml
+ create mode 100644 ty_iot_wf_bk7231t_lig_subgroup/oem_bk7231s_light_pir_ty/1.1.2-beta.1/ciAutoGenerate
+ create mode 100644 ty_iot_wf_bk7231t_lig_subgroup/oem_bk7231s_light_pir_ty/1.1.2-beta.1/oem_bk7231s_light_pir_ty.yaml
+ create mode 100644 ty_iot_wf_bk7231t_lig_subgroup/oem_bk7231s_light_pir_ty/1.1.2/ciAutoGenerate
+ create mode 100644 ty_iot_wf_bk7231t_lig_subgroup/oem_bk7231s_light_pir_ty/1.1.2/oem_bk7231s_light_pir_ty.yaml
+ create mode 100644 ty_iot_wf_bk7231t_lig_subgroup/oem_bk7231s_light_pir_ty/1.1.5-beta.1/oem_bk7231s_light_pir_ty.yaml
+ create mode 100644 ty_iot_wf_bk7231t_lig_subgroup/oem_bk7231s_light_pir_ty/1.1.5/ciAutoGenerate
+ create mode 100644 ty_iot_wf_bk7231t_lig_subgroup/oem_bk7231s_light_pir_ty/1.1.5/oem_bk7231s_light_pir_ty.yaml
+ create mode 100644 ty_iot_wf_bk7231t_lig_subgroup/oem_bk7231s_light_ty/2.9.10-beta.1/ciAutoGenerate
+ create mode 100755 ty_iot_wf_bk7231t_lig_subgroup/oem_bk7231s_light_ty/2.9.10-beta.1/oem_bk7231s_light_ty.yaml
+ create mode 100755 ty_iot_wf_bk7231t_lig_subgroup/oem_bk7231s_light_ty/2.9.8-beta.1/oem_bk7231s_light_ty.yaml
+ create mode 100644 ty_iot_wf_bk7231t_lig_subgroup/oem_bk7231s_light_ty/2.9.8/ciAutoGenerate
+ create mode 100755 ty_iot_wf_bk7231t_lig_subgroup/oem_bk7231s_light_ty/2.9.8/oem_bk7231s_light_ty.yaml
+ create mode 100644 ty_iot_wf_bk7231t_lig_subgroup/oem_bk7231s_light_ty/2.9.9-beta.1/ciAutoGenerate
+ create mode 100755 ty_iot_wf_bk7231t_lig_subgroup/oem_bk7231s_light_ty/2.9.9-beta.1/oem_bk7231s_light_ty.yaml
+ create mode 100644 ty_iot_wf_bk7231t_lig_subgroup/oem_bk7231s_light_ty/2.9.9/ciAutoGenerate
+ create mode 100755 ty_iot_wf_bk7231t_lig_subgroup/oem_bk7231s_light_ty/2.9.9/oem_bk7231s_light_ty.yaml
+ create mode 100644 ty_iot_wf_bk7231t_test_subgroup/oem_bk7231s_2plug_bleffc/1.1.0-beta.0/oem_bk7231s_2plug_bleffc.yaml
+ create mode 100755 ty_iot_wf_ble_rtl8720cf_2m_common_subgroup/rtl8720cf_common_user_config_ty/2.4.4-beta.2/rtl8720cf_common_user_config_ty.yaml
+ create mode 100644 ty_iot_wf_ble_rtl8720cf_2m_common_subgroup/rtl8720cf_common_user_config_ty/2.4.4-beta.3/ciAutoGenerate
+ create mode 100755 ty_iot_wf_ble_rtl8720cf_2m_common_subgroup/rtl8720cf_common_user_config_ty/2.4.4-beta.3/rtl8720cf_common_user_config_ty.yaml
+ create mode 100644 ty_iot_wf_ble_rtl8720cs_lowper_common_subgroup/oem_rtl8720cs_door_sensor_low_power_ty/1.0.0-beta.1/oem_rtl8720cs_door_sensor_low_power_ty.yaml
+ create mode 100644 ty_iot_wf_bt_bk_app_2_3_1_subgroup/809_app_231/0.0.1-beta.0/809_app_231.yaml
+ create mode 100644 ty_iot_wf_bt_bk_app_2_3_1_subgroup/809_app_231/0.0.1-beta.1/809_app_231.yaml
+ create mode 100644 ty_iot_wf_bt_bk_app_2_3_1_subgroup/809_app_231/0.0.1-beta.2/809_app_231.yaml
+ create mode 100644 ty_iot_wf_bt_bk_app_2_3_1_subgroup/809_app_231/0.0.1-beta.3/809_app_231.yaml
+ create mode 100644 ty_iot_wf_bt_bk_app_2_3_1_subgroup/809_app_231/0.0.1-beta.4/809_app_231.yaml
+ create mode 100644 ty_iot_wf_bt_bk_app_2_3_1_subgroup/809_app_231/0.0.1-beta.5/809_app_231.yaml
+ create mode 100644 ty_iot_wf_bt_bk_app_2_3_1_subgroup/809_app_231/0.0.1-beta.6/809_app_231.yaml
+ create mode 100644 ty_iot_wf_bt_bk_app_2_3_1_subgroup/809_app_231/0.0.1-beta.7/809_app_231.yaml
+ create mode 100644 ty_iot_wf_bt_bk_app_2_3_1_subgroup/bk_app_2_3_1/1.2.5-beta.4/bk_app_2_3_1.yaml
+ create mode 100644 ty_iot_wf_bt_bk_app_2_3_1_subgroup/bk_app_2_3_1/1.2.5-beta.4/ciAutoGenerate
+ create mode 100644 ty_iot_wf_bt_platform_independ_app_bk_subgroup/bk_common_app_for_plug_play/0.0.3-beta.1/bk_common_app_for_plug_play.yaml
+ create mode 100644 ty_iot_wf_bt_platform_independ_app_bk_subgroup/bk_common_app_for_plug_play/0.0.3-beta.2/bk_common_app_for_plug_play.yaml
+ create mode 100644 ty_iot_wf_bt_platform_independ_app_bk_subgroup/bk_common_app_for_plug_play/0.0.3-beta.3/bk_common_app_for_plug_play.yaml
+ create mode 100644 ty_iot_wf_bt_platform_independ_app_bk_subgroup/bk_common_app_for_plug_play/0.0.3-beta.3/ciAutoGenerate
+ create mode 100644 ty_iot_wf_bt_platform_independ_app_bk_subgroup/bk_common_app_for_plug_play/0.0.3-beta.4/bk_common_app_for_plug_play.yaml
+ create mode 100644 ty_iot_wf_bt_platform_independ_app_bk_subgroup/bk_common_app_for_plug_play/0.0.3-beta.4/ciAutoGenerate
+ create mode 100755 ty_iot_wf_bt_platform_independ_app_subgroup/common_user_config/0.7.7-beta.5/common_user_config.yaml
+ create mode 100644 ty_iot_wf_bt_platform_independ_app_subgroup/common_user_config/0.7.7-beta.6/ciAutoGenerate
+ create mode 100755 ty_iot_wf_bt_platform_independ_app_subgroup/common_user_config/0.7.7-beta.6/common_user_config.yaml
+ create mode 100644 ty_iot_wf_bt_rtl8720cf_elp_ka_subgroup/oem_rtl8720cf_elp_air_purifier_beiang/0.1.5-beta.3/ciAutoGenerate
+ create mode 100644 ty_iot_wf_bt_rtl8720cf_elp_ka_subgroup/oem_rtl8720cf_elp_air_purifier_beiang/0.1.5-beta.3/oem_rtl8720cf_elp_air_purifier_beiang.yaml
+ create mode 100644 ty_iot_wf_bt_rtl8720cf_elp_ka_subgroup/oem_rtl8720cf_elp_air_purifier_beiang/0.1.5/ciAutoGenerate
+ create mode 100644 ty_iot_wf_bt_rtl8720cf_elp_ka_subgroup/oem_rtl8720cf_elp_air_purifier_beiang/0.1.5/oem_rtl8720cf_elp_air_purifier_beiang.yaml
+ create mode 100644 ty_iot_wf_bt_rtl8720cf_elp_ka_subgroup/oem_rtl8720cf_elp_air_purifier_beiang/0.1.7-beta.1/ciAutoGenerate
+ create mode 100644 ty_iot_wf_bt_rtl8720cf_elp_ka_subgroup/oem_rtl8720cf_elp_air_purifier_beiang/0.1.7-beta.1/oem_rtl8720cf_elp_air_purifier_beiang.yaml
+ create mode 100644 ty_iot_wf_bt_rtl8720cf_elp_ka_subgroup/oem_rtl8720cf_elp_air_purifier_beiang/0.1.7/ciAutoGenerate
+ create mode 100644 ty_iot_wf_bt_rtl8720cf_elp_ka_subgroup/oem_rtl8720cf_elp_air_purifier_beiang/0.1.7/oem_rtl8720cf_elp_air_purifier_beiang.yaml
+ create mode 100644 ty_iot_wf_bt_rtl8720cf_lig_subgroup/oem_rtl8720cf_light2_fan_bk/1.1.7-beta.2/ciAutoGenerate
+ create mode 100755 ty_iot_wf_bt_rtl8720cf_lig_subgroup/oem_rtl8720cf_light2_fan_bk/1.1.7-beta.2/oem_rtl8720cf_light2_fan_bk.yaml
+ create mode 100644 ty_iot_wf_bt_rtl8720cf_lig_subgroup/oem_rtl8720cf_light2_fan_bk/1.1.7/ciAutoGenerate
+ create mode 100755 ty_iot_wf_bt_rtl8720cf_lig_subgroup/oem_rtl8720cf_light2_fan_bk/1.1.7/oem_rtl8720cf_light2_fan_bk.yaml
+ create mode 100755 ty_iot_wf_bt_rtl8720cf_lig_subgroup/oem_rtl8720cf_slide_strip_ty/1.1.3-beta.1/oem_rtl8720cf_slide_strip_ty.yaml
+ create mode 100755 ty_iot_wf_bt_rtl8720cf_lig_subgroup/oem_rtl8720cf_slide_strip_ty/1.1.3-beta.2/oem_rtl8720cf_slide_strip_ty.yaml
+ create mode 100755 ty_iot_wf_bt_rtl8720cf_lig_subgroup/oem_rtl8720cf_slide_strip_ty/1.1.3/oem_rtl8720cf_slide_strip_ty.yaml
+ create mode 100644 ty_iot_wf_bt_rtl8720cf_lig_subgroup/oem_rtl8720cf_slide_strip_ty/1.1.4-beta.1/ciAutoGenerate
+ create mode 100755 ty_iot_wf_bt_rtl8720cf_lig_subgroup/oem_rtl8720cf_slide_strip_ty/1.1.4-beta.1/oem_rtl8720cf_slide_strip_ty.yaml
+ create mode 100644 ty_iot_wf_bt_rtl8720cf_lig_subgroup/oem_rtl8720cf_slide_strip_ty/1.1.4/ciAutoGenerate
+ create mode 100755 ty_iot_wf_bt_rtl8720cf_lig_subgroup/oem_rtl8720cf_slide_strip_ty/1.1.4/oem_rtl8720cf_slide_strip_ty.yaml
+ create mode 100644 ty_iot_wf_bt_rtl8720cf_lig_subgroup/oem_rtl8720cf_slide_strip_ty/1.1.5/ciAutoGenerate
+ create mode 100755 ty_iot_wf_bt_rtl8720cf_lig_subgroup/oem_rtl8720cf_slide_strip_ty/1.1.5/oem_rtl8720cf_slide_strip_ty.yaml
+ create mode 100644 ty_iot_wf_bt_rtl8720cs_lig_subgroup/oem_rtl8720cs_light_ty/0.0.1-beta.0/oem_rtl8720cs_light_ty.yaml
+ create mode 100644 ty_iot_wf_bt_rtl8720dn_elp_ka_subgroup/oem_rtl8720dn_elp_air_purifier_beiang/0.1.0-beta.2/oem_rtl8720dn_elp_air_purifier_beiang.yaml
+ create mode 100755 ty_iot_wf_bt_sdk_rtos/1.0.14-beta.31/ty_iot_wf_bt_sdk_rtos.yaml
+ create mode 100755 ty_iot_wf_bt_sdk_rtos/1.0.14-beta.32/ty_iot_wf_bt_sdk_rtos.yaml
+ create mode 100755 ty_iot_wf_bt_sdk_rtos/1.0.14-beta.33/ty_iot_wf_bt_sdk_rtos.yaml
+ create mode 100755 ty_iot_wf_bt_sdk_rtos/1.0.14-beta.34/ty_iot_wf_bt_sdk_rtos.yaml
+ create mode 100755 ty_iot_wf_bt_sdk_rtos/2.3.1-beta.16/ty_iot_wf_bt_sdk_rtos.yaml
+ create mode 100755 ty_iot_wf_bt_sdk_rtos/2.3.2-beta.14/ty_iot_wf_bt_sdk_rtos.yaml
+ create mode 100755 ty_iot_wf_bt_sdk_rtos/2.3.3-beta.27/ty_iot_wf_bt_sdk_rtos.yaml
+ create mode 100755 ty_iot_wf_bt_sdk_rtos/2.3.3-beta.28/ty_iot_wf_bt_sdk_rtos.yaml
+ create mode 100755 ty_iot_wf_bt_sdk_rtos/2.3.3-beta.29/ty_iot_wf_bt_sdk_rtos.yaml
+ create mode 100755 ty_iot_wf_bt_sdk_rtos/2.3.3-beta.30/ty_iot_wf_bt_sdk_rtos.yaml
+ create mode 100755 ty_iot_wf_bt_sdk_rtos/2.3.3-beta.31/ty_iot_wf_bt_sdk_rtos.yaml
+ create mode 100755 ty_iot_wf_bt_sdk_rtos/2.3.5-beta.3/ty_iot_wf_bt_sdk_rtos.yaml
+ create mode 100755 ty_iot_wf_bt_sdk_rtos/2.3.6-beta.2/ty_iot_wf_bt_sdk_rtos.yaml
+ create mode 100755 ty_iot_wf_bt_sdk_rtos/2.3.6-beta.3/ty_iot_wf_bt_sdk_rtos.yaml
+ create mode 100755 ty_iot_wf_bt_sdk_rtos/2.3.6-beta.4/ty_iot_wf_bt_sdk_rtos.yaml
+ rename speaker_avs_ring_subgroup/speakerbox_avs_saswell_oem/1.1.2-beta.3/nullcfg => ty_iot_wf_bt_sdk_rtos/IoTOS2.3.0_ty_iot_wf_bt_sdk_rtos_1.0.14-beta.34_rtl8720cf_ameba_rtl8720cf_2.0.0-beta.34/rtl8720cf (100%)
+ create mode 100755 ty_iot_wf_bt_sdk_rtos/IoTOS2.3.0_ty_iot_wf_bt_sdk_rtos_1.0.14-beta.34_rtl8720cf_ameba_rtl8720cf_2.0.0-beta.34/ty_iot_wf_bt_sdk_rtos.yaml
+ create mode 100644 ty_iot_wf_bt_sdk_rtos/IoTOS2.3.0_ty_iot_wf_bt_sdk_rtos_2.3.1-beta.16_UIS8910DM_cat_config_1.0.2-beta.13/cat_config
+ create mode 100755 ty_iot_wf_bt_sdk_rtos/IoTOS2.3.0_ty_iot_wf_bt_sdk_rtos_2.3.1-beta.16_UIS8910DM_cat_config_1.0.2-beta.13/ty_iot_wf_bt_sdk_rtos.yaml
+ create mode 100755 ty_iot_wf_bt_sdk_rtos/IoTOS2.3.0_ty_iot_wf_bt_sdk_rtos_2.3.2-beta.14_xr806_cfg_0.0.1-beta.14/ty_iot_wf_bt_sdk_rtos.yaml
+ create mode 100644 ty_iot_wf_bt_sdk_rtos/IoTOS2.3.0_ty_iot_wf_bt_sdk_rtos_2.3.2-beta.14_xr806_cfg_0.0.1-beta.14/xr806_cfg
+ create mode 100644 ty_iot_wf_bt_sdk_rtos/IoTOS2.3.0_ty_iot_wf_bt_sdk_rtos_2.3.3-beta.27_test_rtl8720dn_default_1.0.66-beta.3/test_rtl8720dn_default
+ create mode 100755 ty_iot_wf_bt_sdk_rtos/IoTOS2.3.0_ty_iot_wf_bt_sdk_rtos_2.3.3-beta.27_test_rtl8720dn_default_1.0.66-beta.3/ty_iot_wf_bt_sdk_rtos.yaml
+ create mode 100644 ty_iot_wf_bt_sdk_rtos/IoTOS2.3.0_ty_iot_wf_bt_sdk_rtos_2.3.3-beta.28_test_rtl8720dn_default_1.0.66-beta.3/test_rtl8720dn_default
+ create mode 100755 ty_iot_wf_bt_sdk_rtos/IoTOS2.3.0_ty_iot_wf_bt_sdk_rtos_2.3.3-beta.28_test_rtl8720dn_default_1.0.66-beta.3/ty_iot_wf_bt_sdk_rtos.yaml
+ create mode 100644 ty_iot_wf_bt_sdk_rtos/IoTOS2.3.0_ty_iot_wf_bt_sdk_rtos_2.3.3-beta.29_test_rtl8720dn_default_1.0.66-beta.4/test_rtl8720dn_default
+ create mode 100755 ty_iot_wf_bt_sdk_rtos/IoTOS2.3.0_ty_iot_wf_bt_sdk_rtos_2.3.3-beta.29_test_rtl8720dn_default_1.0.66-beta.4/ty_iot_wf_bt_sdk_rtos.yaml
+ create mode 100755 ty_iot_wf_bt_sdk_rtos/IoTOS2.3.0_ty_iot_wf_bt_sdk_rtos_2.3.6-beta.2_bk7231t_闪电_1.1.2-beta.17/ty_iot_wf_bt_sdk_rtos.yaml
+ create mode 100644 ty_iot_wf_bt_sdk_rtos/IoTOS2.3.0_ty_iot_wf_bt_sdk_rtos_2.3.6-beta.2_bk7231t_闪电_1.1.2-beta.17/闪电
+ create mode 100755 ty_iot_wf_bt_sdk_rtos/IoTOS2.3.0_ty_iot_wf_bt_sdk_rtos_2.3.6-beta.3_bk7231t_闪电_1.1.2-beta.18/ty_iot_wf_bt_sdk_rtos.yaml
+ create mode 100644 ty_iot_wf_bt_sdk_rtos/IoTOS2.3.0_ty_iot_wf_bt_sdk_rtos_2.3.6-beta.3_bk7231t_闪电_1.1.2-beta.18/闪电
+ create mode 100755 ty_iot_wf_bt_sdk_rtos/IoTOS2.3.0_ty_iot_wf_bt_sdk_rtos_2.3.6-beta.4_bk7231t_闪电_1.1.2-beta.19/ty_iot_wf_bt_sdk_rtos.yaml
+ create mode 100644 ty_iot_wf_bt_sdk_rtos/IoTOS2.3.0_ty_iot_wf_bt_sdk_rtos_2.3.6-beta.4_bk7231t_闪电_1.1.2-beta.19/闪电
+ create mode 100644 ty_iot_wf_esp8266_com_pro_subgroup/esp_shanben_heater_change_kewei/1.1.1-beta.1/ciAutoGenerate
+ create mode 100755 ty_iot_wf_esp8266_com_pro_subgroup/esp_shanben_heater_change_kewei/1.1.1-beta.1/esp_shanben_heater_change_kewei.yaml
+ create mode 100644 ty_iot_wf_esp8266_com_pro_subgroup/esp_shanben_heater_change_kewei/1.1.1/ciAutoGenerate
+ create mode 100755 ty_iot_wf_esp8266_com_pro_subgroup/esp_shanben_heater_change_kewei/1.1.1/esp_shanben_heater_change_kewei.yaml
+ create mode 100644 ty_iot_wf_esp8266_elp_subgroup/oem_esp_hlt_3_plug_2_usb/1.1.0-beta.3/oem_esp_hlt_3_plug_2_usb.yaml
+ create mode 100644 ty_iot_wf_esp8266_elp_subgroup/oem_esp_hlt_3_plug_2_usb/1.1.0-beta.4/ciAutoGenerate
+ create mode 100644 ty_iot_wf_esp8266_elp_subgroup/oem_esp_hlt_3_plug_2_usb/1.1.0-beta.4/oem_esp_hlt_3_plug_2_usb.yaml
+ create mode 100644 ty_iot_wf_esp8266_elp_subgroup/oem_esp_hlt_3_plug_2_usb/1.1.0/ciAutoGenerate
+ create mode 100644 ty_iot_wf_esp8266_elp_subgroup/oem_esp_hlt_3_plug_2_usb/1.1.0/oem_esp_hlt_3_plug_2_usb.yaml
+ create mode 100644 ty_iot_wf_rtl8710bn_2m_common_subgroup/rtlbn_tls_common_9600/2.2.5-beta.1/ciAutoGenerate
+ create mode 100755 ty_iot_wf_rtl8710bn_2m_common_subgroup/rtlbn_tls_common_9600/2.2.5-beta.1/rtlbn_tls_common_9600.yaml
+ create mode 100644 ty_iot_wf_rtl8710bn_2m_common_subgroup/rtlbn_tls_common_9600/2.2.5-beta.2/ciAutoGenerate
+ create mode 100755 ty_iot_wf_rtl8710bn_2m_common_subgroup/rtlbn_tls_common_9600/2.2.5-beta.2/rtlbn_tls_common_9600.yaml
+ create mode 100644 ty_iot_wf_rtl8710bn_2m_common_subgroup/rtlbn_tls_common_9600/2.2.6-beta.1/ciAutoGenerate
+ create mode 100755 ty_iot_wf_rtl8710bn_2m_common_subgroup/rtlbn_tls_common_9600/2.2.6-beta.1/rtlbn_tls_common_9600.yaml
+ create mode 100644 ty_iot_wf_rtl8710bn_2m_common_subgroup/rtlbn_tls_common_9600/2.2.6-beta.2/ciAutoGenerate
+ create mode 100755 ty_iot_wf_rtl8710bn_2m_common_subgroup/rtlbn_tls_common_9600/2.2.6-beta.2/rtlbn_tls_common_9600.yaml
+ create mode 100644 ty_iot_wf_rtl8710bn_2m_common_subgroup/rtlbn_tls_common_9600/2.2.6-beta.3/ciAutoGenerate
+ create mode 100755 ty_iot_wf_rtl8710bn_2m_common_subgroup/rtlbn_tls_common_9600/2.2.6-beta.3/rtlbn_tls_common_9600.yaml
+ create mode 100644 ty_iot_wf_rtl8710bn_ka_study_subgroup/oem_test_new_project_hb/1.0.1-beta.0/oem_test_new_project_hb.yaml
+ create mode 100644 ty_iot_wf_rtl8710bn_ka_subgroup/oem_rtlbn_tls_oven_midea_ka/1.1.2-beta.1/ciAutoGenerate
+ create mode 100644 ty_iot_wf_rtl8710bn_ka_subgroup/oem_rtlbn_tls_oven_midea_ka/1.1.2-beta.1/oem_rtlbn_tls_oven_midea_ka.yaml
+ create mode 100644 ty_iot_wf_rtl8720cm_app_subgroup/rtl8720cm_test/0.0.1-beta.0/rtl8720cm_test.yaml
+ create mode 100644 ty_iot_wf_rtl8720cm_app_subgroup/rtl8720cm_test/0.0.1-beta.1/rtl8720cm_test.yaml
+ create mode 100644 ty_iot_wf_rtl8720cs_sensor_subgroup/oem_rtl8720cs_gate_magent_ty/0.0.1-beta.0/oem_rtl8720cs_gate_magent_ty.yaml
+ create mode 100755 ty_iot_wf_rtos_sdk/1.0.10-beta.16/ty_iot_wf_rtos_sdk.yaml
+ create mode 100755 ty_iot_wf_rtos_sdk/1.0.10-beta.17/ty_iot_wf_rtos_sdk.yaml
+ create mode 100644 ty_iot_wf_rtos_sdk/IoTOS2.3.0_ty_iot_wf_rtos_sdk_1.0.10-beta.16_rtl8710bn_default_1.0.18/rtl8710bn_default
+ create mode 100755 ty_iot_wf_rtos_sdk/IoTOS2.3.0_ty_iot_wf_rtos_sdk_1.0.10-beta.16_rtl8710bn_default_1.0.18/ty_iot_wf_rtos_sdk.yaml
+ create mode 100644 ty_iot_wf_rtos_sdk/IoTOS2.3.0_ty_iot_wf_rtos_sdk_1.0.10-beta.17_rtl8710bn_default_1.0.18/rtl8710bn_default
+ create mode 100755 ty_iot_wf_rtos_sdk/IoTOS2.3.0_ty_iot_wf_rtos_sdk_1.0.10-beta.17_rtl8710bn_default_1.0.18/ty_iot_wf_rtos_sdk.yaml
+ create mode 100755 ty_iot_wr_qr_sdk/2.3.0/ty_iot_wr_qr_sdk.yaml
+ create mode 100644 ty_iot_wr_qr_sdk/IoTOS2.3.0_ty_iot_wr_qr_sdk_2.3.0_android7_A7_default_1.0.1/android7_A7_default
+ create mode 100755 ty_iot_wr_qr_sdk/IoTOS2.3.0_ty_iot_wr_qr_sdk_2.3.0_android7_A7_default_1.0.1/ty_iot_wr_qr_sdk.yaml
+ create mode 100755 ty_iot_wr_wf_bt_sdk_rtos/1.0.3-beta.1/ty_iot_wr_wf_bt_sdk_rtos.yaml
+ create mode 100755 ty_iot_wr_wf_bt_sdk_rtos/1.0.3-beta.10/ty_iot_wr_wf_bt_sdk_rtos.yaml
+ create mode 100755 ty_iot_wr_wf_bt_sdk_rtos/1.0.3-beta.11/ty_iot_wr_wf_bt_sdk_rtos.yaml
+ create mode 100755 ty_iot_wr_wf_bt_sdk_rtos/1.0.3-beta.12/ty_iot_wr_wf_bt_sdk_rtos.yaml
+ create mode 100755 ty_iot_wr_wf_bt_sdk_rtos/1.0.3-beta.2/ty_iot_wr_wf_bt_sdk_rtos.yaml
+ create mode 100755 ty_iot_wr_wf_bt_sdk_rtos/1.0.3-beta.3/ty_iot_wr_wf_bt_sdk_rtos.yaml
+ create mode 100755 ty_iot_wr_wf_bt_sdk_rtos/1.0.3-beta.4/ty_iot_wr_wf_bt_sdk_rtos.yaml
+ create mode 100755 ty_iot_wr_wf_bt_sdk_rtos/1.0.3-beta.5/ty_iot_wr_wf_bt_sdk_rtos.yaml
+ create mode 100755 ty_iot_wr_wf_bt_sdk_rtos/1.0.3-beta.6/ty_iot_wr_wf_bt_sdk_rtos.yaml
+ create mode 100755 ty_iot_wr_wf_bt_sdk_rtos/1.0.3-beta.7/ty_iot_wr_wf_bt_sdk_rtos.yaml
+ create mode 100755 ty_iot_wr_wf_bt_sdk_rtos/1.0.3-beta.8/ty_iot_wr_wf_bt_sdk_rtos.yaml
+ create mode 100755 ty_iot_wr_wf_bt_sdk_rtos/1.0.3-beta.9/ty_iot_wr_wf_bt_sdk_rtos.yaml
+ create mode 100755 ty_iot_wr_wf_bt_sdk_rtos/1.0.4-beta.1/ty_iot_wr_wf_bt_sdk_rtos.yaml
+ create mode 100755 ty_iot_wr_wf_bt_sdk_rtos/1.0.4-beta.2/ty_iot_wr_wf_bt_sdk_rtos.yaml
+ create mode 100644 ty_iot_wr_wf_bt_sdk_rtos/IoTOS2.3.0_ty_iot_wr_wf_bt_sdk_rtos_1.0.3-beta.10_rtl8720cm_ameba_default_0.0.1-beta.35/rtl8720cm_ameba_default
+ create mode 100755 ty_iot_wr_wf_bt_sdk_rtos/IoTOS2.3.0_ty_iot_wr_wf_bt_sdk_rtos_1.0.3-beta.10_rtl8720cm_ameba_default_0.0.1-beta.35/ty_iot_wr_wf_bt_sdk_rtos.yaml
+ create mode 100644 ty_iot_wr_wf_bt_sdk_rtos/IoTOS2.3.0_ty_iot_wr_wf_bt_sdk_rtos_1.0.3-beta.11_rtl8720cm_ameba_default_0.0.1-beta.35/rtl8720cm_ameba_default
+ create mode 100755 ty_iot_wr_wf_bt_sdk_rtos/IoTOS2.3.0_ty_iot_wr_wf_bt_sdk_rtos_1.0.3-beta.11_rtl8720cm_ameba_default_0.0.1-beta.35/ty_iot_wr_wf_bt_sdk_rtos.yaml
+ create mode 100644 ty_iot_wr_wf_bt_sdk_rtos/IoTOS2.3.0_ty_iot_wr_wf_bt_sdk_rtos_1.0.3-beta.12_rtl8720cm_ameba_default_0.0.1-beta.36/rtl8720cm_ameba_default
+ create mode 100755 ty_iot_wr_wf_bt_sdk_rtos/IoTOS2.3.0_ty_iot_wr_wf_bt_sdk_rtos_1.0.3-beta.12_rtl8720cm_ameba_default_0.0.1-beta.36/ty_iot_wr_wf_bt_sdk_rtos.yaml
+ create mode 100644 ty_iot_wr_wf_bt_sdk_rtos/IoTOS2.3.0_ty_iot_wr_wf_bt_sdk_rtos_1.0.3-beta.9_rtl8720cm_ameba_default_0.0.1-beta.35/rtl8720cm_ameba_default
+ create mode 100755 ty_iot_wr_wf_bt_sdk_rtos/IoTOS2.3.0_ty_iot_wr_wf_bt_sdk_rtos_1.0.3-beta.9_rtl8720cm_ameba_default_0.0.1-beta.35/ty_iot_wr_wf_bt_sdk_rtos.yaml
+ create mode 100644 ty_iotos_test_app_subgroup/809_app_2_3_1/0.0.1-beta.0/809_app_2_3_1.yaml
+ create mode 100755 ty_ipc_fac_test_sdk/1.0.2-beta.10/ty_ipc_fac_test_sdk.yaml
+ create mode 100755 ty_ipc_fac_test_sdk/1.0.2/ty_ipc_fac_test_sdk.yaml
+ create mode 100755 ty_ipc_wf_linux_sdk/5.0.5-beta.10/ty_ipc_wf_linux_sdk.yaml
+ create mode 100755 ty_ipc_wf_linux_sdk/5.0.5-beta.11/ty_ipc_wf_linux_sdk.yaml
+ create mode 100755 ty_ipc_wf_linux_sdk/5.0.5-beta.8/ty_ipc_wf_linux_sdk.yaml
+ create mode 100755 ty_ipc_wf_linux_sdk/5.0.5-beta.9/ty_ipc_wf_linux_sdk.yaml
+ create mode 100755 ty_ipc_wf_linux_sdk/5.0.8-beta.2/ty_ipc_wf_linux_sdk.yaml
+ create mode 100755 ty_ipc_wf_linux_sdk/5.0.9-beta.1/ty_ipc_wf_linux_sdk.yaml
+ create mode 100644 ty_ipc_wf_linux_sdk/IoTOS2.3.0_ty_ipc_wf_linux_sdk_5.0.5-beta.10_linux-ubuntu-6.2.0_64Bit_default_1.0.1/linux-ubuntu-6.2.0_64Bit_default
+ create mode 100755 ty_ipc_wf_linux_sdk/IoTOS2.3.0_ty_ipc_wf_linux_sdk_5.0.5-beta.10_linux-ubuntu-6.2.0_64Bit_default_1.0.1/ty_ipc_wf_linux_sdk.yaml
+ create mode 100644 ty_ipc_wf_linux_sdk/IoTOS2.3.0_ty_ipc_wf_linux_sdk_5.0.5-beta.11_arm-none-linux-gnueabi-gcc-4.5.1_default_0.0.2-beta.1/arm-none-linux-gnueabi-gcc-4.5.1_default
+ create mode 100755 ty_ipc_wf_linux_sdk/IoTOS2.3.0_ty_ipc_wf_linux_sdk_5.0.5-beta.11_arm-none-linux-gnueabi-gcc-4.5.1_default_0.0.2-beta.1/ty_ipc_wf_linux_sdk.yaml
+ create mode 100644 ty_ipc_wf_linux_sdk/IoTOS2.3.0_ty_ipc_wf_linux_sdk_5.0.5-beta.9_linux-ubuntu-6.2.0_64Bit_default_1.0.1/linux-ubuntu-6.2.0_64Bit_default
+ create mode 100755 ty_ipc_wf_linux_sdk/IoTOS2.3.0_ty_ipc_wf_linux_sdk_5.0.5-beta.9_linux-ubuntu-6.2.0_64Bit_default_1.0.1/ty_ipc_wf_linux_sdk.yaml
+ create mode 100644 ty_ipc_wf_linux_sdk/IoTOS2.3.0_ty_ipc_wf_linux_sdk_5.0.8-beta.2_mips-gcc540-glibc222-64bit-r3.3.0_T31_1.0.0/T31
+ create mode 100755 ty_ipc_wf_linux_sdk/IoTOS2.3.0_ty_ipc_wf_linux_sdk_5.0.8-beta.2_mips-gcc540-glibc222-64bit-r3.3.0_T31_1.0.0/ty_ipc_wf_linux_sdk.yaml
+ create mode 100644 ty_ipc_wf_linux_sdk/IoTOS2.3.0_ty_ipc_wf_linux_sdk_5.0.9-beta.1_arm-buildroot-linux-uclibcgnueabihf-313e_ssc333_1.0.0/arm-buildroot-linux-uclibcgnueabihf-313e_ssc333
+ create mode 100755 ty_ipc_wf_linux_sdk/IoTOS2.3.0_ty_ipc_wf_linux_sdk_5.0.9-beta.1_arm-buildroot-linux-uclibcgnueabihf-313e_ssc333_1.0.0/ty_ipc_wf_linux_sdk.yaml
+ rename speaker_avs_ring_subgroup/speakerbox_avs_saswell_debug/1.1.3-beta.2/nullcfg => ty_ipc_wf_linux_sdk/IoTOS2.3.0_ty_ipc_wf_linux_sdk_5.0.9-beta.1_mips-gcc540-glibc222-64bit-r3.3.0_1.0.0/mips-gcc540-glibc222-64bit-r3.3.0 (100%)
+ create mode 100755 ty_ipc_wf_linux_sdk/IoTOS2.3.0_ty_ipc_wf_linux_sdk_5.0.9-beta.1_mips-gcc540-glibc222-64bit-r3.3.0_1.0.0/ty_ipc_wf_linux_sdk.yaml
+ create mode 100755 ty_ipc_wr_wl_linux_sdk/0.0.1-beta.71/ty_ipc_wr_wl_linux_sdk.yaml
+ create mode 100755 ty_ipc_wr_wl_linux_sdk/0.0.1-beta.72/ty_ipc_wr_wl_linux_sdk.yaml
+ create mode 100755 ty_ipc_wr_wl_linux_sdk/0.0.1-beta.73/ty_ipc_wr_wl_linux_sdk.yaml
+ create mode 100644 ty_ipc_wr_wl_linux_sdk/IoTOS2.3.0_ty_ipc_wr_wl_linux_sdk_0.0.1-beta.71_linux-ubuntu-6.2.0_64Bitubuntu_demo_1.0.1/linux-ubuntu-6.2.0_64Bitubuntu_demo
+ create mode 100755 ty_ipc_wr_wl_linux_sdk/IoTOS2.3.0_ty_ipc_wr_wl_linux_sdk_0.0.1-beta.71_linux-ubuntu-6.2.0_64Bitubuntu_demo_1.0.1/ty_ipc_wr_wl_linux_sdk.yaml
+ create mode 100644 ty_ipc_wr_wl_linux_sdk/IoTOS2.3.0_ty_ipc_wr_wl_linux_sdk_0.0.1-beta.71_mips-gcc540-glibc222-64bit-r3.3.0_linux_wifi_1.0.0/mips-gcc540-glibc222-64bit-r3.3.0_linux_wifi
+ create mode 100755 ty_ipc_wr_wl_linux_sdk/IoTOS2.3.0_ty_ipc_wr_wl_linux_sdk_0.0.1-beta.71_mips-gcc540-glibc222-64bit-r3.3.0_linux_wifi_1.0.0/ty_ipc_wr_wl_linux_sdk.yaml
+ create mode 100644 ty_ipc_wr_wl_linux_sdk/IoTOS2.3.0_ty_ipc_wr_wl_linux_sdk_0.0.1-beta.71_rts3903ffs_1.0.0/rts3903ffs
+ create mode 100755 ty_ipc_wr_wl_linux_sdk/IoTOS2.3.0_ty_ipc_wr_wl_linux_sdk_0.0.1-beta.71_rts3903ffs_1.0.0/ty_ipc_wr_wl_linux_sdk.yaml
+ create mode 100644 ty_ipc_wr_wl_linux_sdk/IoTOS2.3.0_ty_ipc_wr_wl_linux_sdk_0.0.1-beta.72_linux-ubuntu-6.2.0_64Bitubuntu_demo_1.0.1/linux-ubuntu-6.2.0_64Bitubuntu_demo
+ create mode 100755 ty_ipc_wr_wl_linux_sdk/IoTOS2.3.0_ty_ipc_wr_wl_linux_sdk_0.0.1-beta.72_linux-ubuntu-6.2.0_64Bitubuntu_demo_1.0.1/ty_ipc_wr_wl_linux_sdk.yaml
+ create mode 100644 ty_ipc_wr_wl_linux_sdk/IoTOS2.3.0_ty_ipc_wr_wl_linux_sdk_0.0.1-beta.73_linux-ubuntu-6.2.0_64Bitubuntu_demo_1.0.1/linux-ubuntu-6.2.0_64Bitubuntu_demo
+ create mode 100755 ty_ipc_wr_wl_linux_sdk/IoTOS2.3.0_ty_ipc_wr_wl_linux_sdk_0.0.1-beta.73_linux-ubuntu-6.2.0_64Bitubuntu_demo_1.0.1/ty_ipc_wr_wl_linux_sdk.yaml
+ create mode 100644 ty_uart_common_init/1.0.0-beta.6/ty_uart_common_init.yaml
+ create mode 100644 ty_uart_common_init/1.0.0-beta.7/ty_uart_common_init.yaml
+ create mode 100644 ty_uart_common_service/1.0.0-beta.6/ty_uart_common_service.yaml
+ create mode 100644 ty_uart_public_auto_baud/1.0.0-beta.4/ty_uart_public_auto_baud.yaml
+ create mode 100644 ty_uart_public_protocol/1.0.0-beta.8/ty_uart_public_protocol.yaml
+ create mode 100644 tycam_ipc_ssc333_subgroup/sc113wk3_ipc_ty/0.1.0-beta.12/sc113wk3_ipc_ty.yaml
+ create mode 100644 tycam_ipc_ssc333_subgroup/sc113wk3_ipc_ty/0.1.0-beta.13/ciAutoGenerate
+ create mode 100644 tycam_ipc_ssc333_subgroup/sc113wk3_ipc_ty/0.1.0-beta.13/sc113wk3_ipc_ty.yaml
+ create mode 100644 tycam_ipc_ssc333_subgroup/ty_sc103w13/0.1.0-beta.32/ty_sc103w13.yaml
+ create mode 100644 tycam_ipc_ssc333_subgroup/ty_sc103w13/0.1.0-beta.33/ty_sc103w13.yaml
+ create mode 100644 tycam_ipc_ssc333_subgroup/ty_sc103w13/0.1.0-beta.34/ciAutoGenerate
+ create mode 100644 tycam_ipc_ssc333_subgroup/ty_sc103w13/0.1.0-beta.34/ty_sc103w13.yaml
+ create mode 100644 tycam_ipc_ssc333_subgroup/ty_sc103w13/0.1.0-beta.35/ciAutoGenerate
+ create mode 100644 tycam_ipc_ssc333_subgroup/ty_sc103w13/0.1.0-beta.35/ty_sc103w13.yaml
+ create mode 100644 tycam_ipc_ssc333_subgroup/ty_sc103w13/0.1.0-beta.36/ciAutoGenerate
+ create mode 100644 tycam_ipc_ssc333_subgroup/ty_sc103w13/0.1.0-beta.36/ty_sc103w13.yaml
+ create mode 100644 tycam_ipc_ssc333_subgroup/ty_sc103w13/0.1.0-beta.37/ciAutoGenerate
+ create mode 100644 tycam_ipc_ssc333_subgroup/ty_sc103w13/0.1.0-beta.37/ty_sc103w13.yaml
+ create mode 100644 tycam_ipc_ssc333_subgroup/ty_sc103w13/0.1.0-beta.38/ciAutoGenerate
+ create mode 100644 tycam_ipc_ssc333_subgroup/ty_sc103w13/0.1.0-beta.38/ty_sc103w13.yaml
+ create mode 100644 tycam_ipc_ssc333_subgroup/ty_sc103w13/0.1.0-beta.39/ty_sc103w13.yaml
+ create mode 100644 tycam_linux_subgroup/sc042wf02_ipc_ty/0.0.1-beta.10/ciAutoGenerate
+ create mode 100644 tycam_linux_subgroup/sc042wf02_ipc_ty/0.0.1-beta.10/sc042wf02_ipc_ty.yaml
+ create mode 100644 tycam_linux_subgroup/sc042wf02_ipc_ty/0.0.1-beta.6/sc042wf02_ipc_ty.yaml
+ create mode 100644 tycam_linux_subgroup/sc042wf02_ipc_ty/0.0.1-beta.7/sc042wf02_ipc_ty.yaml
+ create mode 100644 tycam_linux_subgroup/sc042wf02_ipc_ty/0.0.1-beta.8/sc042wf02_ipc_ty.yaml
+ create mode 100644 tycam_linux_subgroup/sc042wf02_ipc_ty/0.0.1-beta.9/sc042wf02_ipc_ty.yaml
+ create mode 100644 tycam_linux_subgroup/sc061wc02_ipc_ty/0.0.1-beta.10/ciAutoGenerate
+ create mode 100644 tycam_linux_subgroup/sc061wc02_ipc_ty/0.0.1-beta.10/sc061wc02_ipc_ty.yaml
+ create mode 100644 tycam_linux_subgroup/sc061wc02_ipc_ty/0.0.1-beta.11/ciAutoGenerate
+ create mode 100644 tycam_linux_subgroup/sc061wc02_ipc_ty/0.0.1-beta.11/sc061wc02_ipc_ty.yaml
+ create mode 100644 tycam_linux_subgroup/sc061wc02_ipc_ty/0.0.1-beta.12/sc061wc02_ipc_ty.yaml
+ create mode 100644 tycam_linux_subgroup/sc061wc02_ipc_ty/0.0.1-beta.5/sc061wc02_ipc_ty.yaml
+ create mode 100644 tycam_linux_subgroup/sc061wc02_ipc_ty/0.0.1-beta.6/sc061wc02_ipc_ty.yaml
+ create mode 100644 tycam_linux_subgroup/sc061wc02_ipc_ty/0.0.1-beta.7/sc061wc02_ipc_ty.yaml
+ create mode 100644 tycam_linux_subgroup/sc061wc02_ipc_ty/0.0.1-beta.8/sc061wc02_ipc_ty.yaml
+ create mode 100644 tycam_linux_subgroup/sc061wc02_ipc_ty/0.0.1-beta.9/sc061wc02_ipc_ty.yaml
+ create mode 100644 uboot-ssc333/0.0.10/uboot-ssc333.yaml
+ create mode 100644 uboot-ssc333/0.0.11/uboot-ssc333.yaml
+ create mode 100644 ubuntu_demo_subgroup/ubuntu_ipc/1.1.0-beta.12/ubuntu_ipc.yaml
+ create mode 100644 ubuntu_demo_subgroup/ubuntu_ipc/1.1.0-beta.13/ubuntu_ipc.yaml
+ create mode 100755 ui_res/0.0.1-beta.13/ui_res.yaml
+ create mode 100644 xr806/0.0.1-beta.14/xr806.yaml
+ create mode 100644 xr806/0.0.1-beta.15/xr806.yaml
+ create mode 100644 xr806_updata_subgroup/xr806_light_demo/0.0.1-beta.1/xr806_light_demo.yaml
+ create mode 100644 zigbee_gateway/0.2.1-beta.78/zigbee_gateway.yaml
+ create mode 100644 zigbee_gateway/0.2.1-beta.79/zigbee_gateway.yaml
+ create mode 100644 zigbee_gateway_rtl8196e_homekit_subgroup/tuya_rtl8196e_gw_homekit/1.1.1/tuya_rtl8196e_gw_homekit.yaml
+ create mode 100644 zigbee_gateway_wired_subgroup/tuya_rtl8196e_gw_lidl/1.2.15-beta.0/tuya_rtl8196e_gw_lidl.yaml
+ create mode 100644 zigbee_gateway_wired_subgroup/tuya_rtl8196e_gw_lidl/1.2.15-beta.1/ciAutoGenerate
+ create mode 100644 zigbee_gateway_wired_subgroup/tuya_rtl8196e_gw_lidl/1.2.15-beta.1/tuya_rtl8196e_gw_lidl.yaml
+ create mode 100644 zigbee_gateway_wired_subgroup/tuya_rtl8196e_gw_lidl/1.2.15-beta.2/ciAutoGenerate
+ create mode 100644 zigbee_gateway_wired_subgroup/tuya_rtl8196e_gw_lidl/1.2.15-beta.2/tuya_rtl8196e_gw_lidl.yaml
+ create mode 100644 zigbee_gateway_wired_subgroup/tuya_rtl8196e_gw_lidl/1.2.15/ciAutoGenerate
+ create mode 100644 zigbee_gateway_wired_subgroup/tuya_rtl8196e_gw_lidl/1.2.15/tuya_rtl8196e_gw_lidl.yaml
+ create mode 100644 zigbee_gateway_wired_test_subgroup/zigbee_gateway_8196e/0.1.0-beta.7/zigbee_gateway_8196e.yaml
+ create mode 100644 zigbee_gateway_wired_test_subgroup/zigbee_gateway_8196e/0.1.0-beta.8/zigbee_gateway_8196e.yaml
+ create mode 100644 zigbee_gateway_wired_test_subgroup/zigbee_gateway_8196e/0.1.0-beta.9/zigbee_gateway_8196e.yaml
+ create mode 100644 zigbee_lqi/0.1.4-beta.9/zigbee_lqi.yaml
+
+update.go:72: 当前执行场景为 :DEVELOP
+update.go:80: 当前执行模式为 :sdk
+update.go:116: 开始初始化 SDK 开发环境
+yaml_dependence.go:24: parse cluster: &{1 sdk [https://registry.code.tuya-inc.top/embed_ci_space_group/embed_repo_space.git] {[] [{base_workq  1.0.3-beta.12 sprint/DevOS_2.3.x sdk} {base_security  1.0.2-beta.5 sprint/DevOS_2.3.x sdk} {base_wifi_intf  1.0.3-beta.22 sprint/DevOS_2.3.x sdk} {base_log_mng  1.0.3-beta.18 sprint/DevOS_2.3.x sdk} {base_msgq  1.0.3-beta.18 sprint/DevOS_2.3.x sdk} {svc_api_wifi  1.0.3-beta.13 sprint/DevOS_2.3.x sdk} {svc_wifi_netcfg  1.0.3-beta.18 sprint/DevOS_2.3.x sdk} {svc_api_iot  1.0.3-beta.55 sprint/DevOS_2.3.x sdk} {svc_online_log  1.0.4-beta.7 sprint/DevOS_2.3.x sdk} {mid_tls  1.0.4-beta.18 sprint/DevOS_2.3.x sdk} {mid_mqtt  1.0.4-beta.17 sprint/DevOS_2.3.x sdk} {mid_http  1.0.4-beta.18 sprint/DevOS_2.3.x sdk} {base_timeq  1.0.3-beta.17 sprint/DevOS_2.3.x sdk} {svc_dp  1.0.4-beta.35 sprint/DevOS_2.3.x sdk} {svc_http  1.0.3-beta.39 sprint/DevOS_2.3.x sdk} {svc_mqtt  1.0.5-beta.26 sprint/DevOS_2.3.x sdk} {svc_lan  1.0.3-beta.31 sprint/DevOS_2.3.x sdk} {svc_activate  1.0.3-beta.8 sprint/DevOS_2.3.x sdk} {svc_timer_task  1.0.4-beta.21 sprint/DevOS_2.3.x sdk} {svc_upgrade  1.0.3-beta.27 sprint/DevOS_2.3.x sdk} {svc_devos  1.0.4-beta.50 sprint/DevOS_2.3.x sdk} {svc_mf_test  1.0.4-beta.52 sprint/IoTOS_2.3.x_BL608 sdk} {svc_ap_netcfg  1.0.3-beta.17 sprint/DevOS_2.3.x sdk} {svc_smart_gw  1.0.4-beta.195 sprint/DevOS_2.3.x sdk} {svc_protocol  develop-1.0.1-beta.13 sprint/DevOS_2.3.x sdk} {base_db  1.0.3-beta.22 sprint/DevOS_2.3.x sdk} {base_iot_config  1.0.3-beta.48 sprint/DevOS_2.3.x sdk} {base_utilities  1.0.3-beta.45 sprint/DevOS_2.3.x sdk} {svc_netcfg_module  1.0.2-beta.21 sprint/DevOS_2.3.x sdk} {svc_bt_api  1.0.2-beta.29 sprint/DevOS_2.3.x sdk} {svc_bt_dp  1.0.2-beta.16 sprint/DevOS_2.3.x sdk} {svc_bt_netcfg  1.0.1-beta.9 sprint/DevOS_2.3.x sdk} {svc_wifi_ffc  1.0.1-beta.17 sprint/DevOS_2.3.x sdk} {svc_ir_control  1.0.2-beta.6 sprint/DevOS_2.3.x sdk} {base_event  1.0.2-beta.13 sprint/DevOS_2.3.x sdk} {svc_netcfg_ffs  1.0.1-beta.32 sprint/DevOS_2.3.x sdk} {base_os_adapter  1.0.7-beta.45 sprint/DevOS_2.3.x sdk} {os_driver_framework  1.0.1-beta.18 sprint/DevOS_2.3.x sdk} {svc_pegasus  1.0.0-beta.54 sprint/DevOS_2.3.x sdk} {svc_rpc  1.0.2-beta.16 sprint/DevOS_2.3.x sdk} {svc_astro_timer  1.0.2-beta.9 sprint/DevOS_2.3.x sdk} {mid_coap  1.0.1-beta.10 sprint/DevOS_2.3.x sdk} {svc_third_cloud  0.0.1-beta.18 sprint/DevOS_2.3.x sdk} {base_uf  1.0.0-beta.10 sprint/DevOS_2.3.x sdk} {svc_linkage_lan  1.0.2-beta.6 sprint/DevOS_2.3.x sdk} {svc_lan_dev_base  1.0.0-beta.24 sprint/DevOS_2.3.x sdk} {svc_user_netcfg  1.0.0-beta.3 sprint/DevOS_2.3.x sdk} {base_cli  1.0.0-beta.4 develop sdk} {base_wired_intf  develop-1.0.1-beta.1 develop sdk} {svc_api_wired  develop-1.0.1-beta.8 dev-gw sdk}] [{bl608  1.2.6-beta.2  platforms}]}}
+update.go:137: make parse form make.yaml: &{1 sdk [https://registry.code.tuya-inc.top/embed_ci_space_group/embed_repo_space.git] {[] [{base_workq  1.0.3-beta.12 sprint/DevOS_2.3.x sdk} {base_security  1.0.2-beta.5 sprint/DevOS_2.3.x sdk} {base_wifi_intf  1.0.3-beta.22 sprint/DevOS_2.3.x sdk} {base_log_mng  1.0.3-beta.18 sprint/DevOS_2.3.x sdk} {base_msgq  1.0.3-beta.18 sprint/DevOS_2.3.x sdk} {svc_api_wifi  1.0.3-beta.13 sprint/DevOS_2.3.x sdk} {svc_wifi_netcfg  1.0.3-beta.18 sprint/DevOS_2.3.x sdk} {svc_api_iot  1.0.3-beta.55 sprint/DevOS_2.3.x sdk} {svc_online_log  1.0.4-beta.7 sprint/DevOS_2.3.x sdk} {mid_tls  1.0.4-beta.18 sprint/DevOS_2.3.x sdk} {mid_mqtt  1.0.4-beta.17 sprint/DevOS_2.3.x sdk} {mid_http  1.0.4-beta.18 sprint/DevOS_2.3.x sdk} {base_timeq  1.0.3-beta.17 sprint/DevOS_2.3.x sdk} {svc_dp  1.0.4-beta.35 sprint/DevOS_2.3.x sdk} {svc_http  1.0.3-beta.39 sprint/DevOS_2.3.x sdk} {svc_mqtt  1.0.5-beta.26 sprint/DevOS_2.3.x sdk} {svc_lan  1.0.3-beta.31 sprint/DevOS_2.3.x sdk} {svc_activate  1.0.3-beta.8 sprint/DevOS_2.3.x sdk} {svc_timer_task  1.0.4-beta.21 sprint/DevOS_2.3.x sdk} {svc_upgrade  1.0.3-beta.27 sprint/DevOS_2.3.x sdk} {svc_devos  1.0.4-beta.50 sprint/DevOS_2.3.x sdk} {svc_mf_test  1.0.4-beta.52 sprint/IoTOS_2.3.x_BL608 sdk} {svc_ap_netcfg  1.0.3-beta.17 sprint/DevOS_2.3.x sdk} {svc_smart_gw  1.0.4-beta.195 sprint/DevOS_2.3.x sdk} {svc_protocol  develop-1.0.1-beta.13 sprint/DevOS_2.3.x sdk} {base_db  1.0.3-beta.22 sprint/DevOS_2.3.x sdk} {base_iot_config  1.0.3-beta.48 sprint/DevOS_2.3.x sdk} {base_utilities  1.0.3-beta.45 sprint/DevOS_2.3.x sdk} {svc_netcfg_module  1.0.2-beta.21 sprint/DevOS_2.3.x sdk} {svc_bt_api  1.0.2-beta.29 sprint/DevOS_2.3.x sdk} {svc_bt_dp  1.0.2-beta.16 sprint/DevOS_2.3.x sdk} {svc_bt_netcfg  1.0.1-beta.9 sprint/DevOS_2.3.x sdk} {svc_wifi_ffc  1.0.1-beta.17 sprint/DevOS_2.3.x sdk} {svc_ir_control  1.0.2-beta.6 sprint/DevOS_2.3.x sdk} {base_event  1.0.2-beta.13 sprint/DevOS_2.3.x sdk} {svc_netcfg_ffs  1.0.1-beta.32 sprint/DevOS_2.3.x sdk} {base_os_adapter  1.0.7-beta.45 sprint/DevOS_2.3.x sdk} {os_driver_framework  1.0.1-beta.18 sprint/DevOS_2.3.x sdk} {svc_pegasus  1.0.0-beta.54 sprint/DevOS_2.3.x sdk} {svc_rpc  1.0.2-beta.16 sprint/DevOS_2.3.x sdk} {svc_astro_timer  1.0.2-beta.9 sprint/DevOS_2.3.x sdk} {mid_coap  1.0.1-beta.10 sprint/DevOS_2.3.x sdk} {svc_third_cloud  0.0.1-beta.18 sprint/DevOS_2.3.x sdk} {base_uf  1.0.0-beta.10 sprint/DevOS_2.3.x sdk} {svc_linkage_lan  1.0.2-beta.6 sprint/DevOS_2.3.x sdk} {svc_lan_dev_base  1.0.0-beta.24 sprint/DevOS_2.3.x sdk} {svc_user_netcfg  1.0.0-beta.3 sprint/DevOS_2.3.x sdk} {base_cli  1.0.0-beta.4 develop sdk} {base_wired_intf  develop-1.0.1-beta.1 develop sdk} {svc_api_wired  develop-1.0.1-beta.8 dev-gw sdk}] [{bl608  1.2.6-beta.2  platforms}]}}
+yaml_dependence.go:89: platforms: [bl608]
+yaml_dependence.go:90: makeV1 : &{1 sdk [https://registry.code.tuya-inc.top/embed_ci_space_group/embed_repo_space.git] {[] [{base_workq  1.0.3-beta.12 sprint/DevOS_2.3.x sdk} {base_security  1.0.2-beta.5 sprint/DevOS_2.3.x sdk} {base_wifi_intf  1.0.3-beta.22 sprint/DevOS_2.3.x sdk} {base_log_mng  1.0.3-beta.18 sprint/DevOS_2.3.x sdk} {base_msgq  1.0.3-beta.18 sprint/DevOS_2.3.x sdk} {svc_api_wifi  1.0.3-beta.13 sprint/DevOS_2.3.x sdk} {svc_wifi_netcfg  1.0.3-beta.18 sprint/DevOS_2.3.x sdk} {svc_api_iot  1.0.3-beta.55 sprint/DevOS_2.3.x sdk} {svc_online_log  1.0.4-beta.7 sprint/DevOS_2.3.x sdk} {mid_tls  1.0.4-beta.18 sprint/DevOS_2.3.x sdk} {mid_mqtt  1.0.4-beta.17 sprint/DevOS_2.3.x sdk} {mid_http  1.0.4-beta.18 sprint/DevOS_2.3.x sdk} {base_timeq  1.0.3-beta.17 sprint/DevOS_2.3.x sdk} {svc_dp  1.0.4-beta.35 sprint/DevOS_2.3.x sdk} {svc_http  1.0.3-beta.39 sprint/DevOS_2.3.x sdk} {svc_mqtt  1.0.5-beta.26 sprint/DevOS_2.3.x sdk} {svc_lan  1.0.3-beta.31 sprint/DevOS_2.3.x sdk} {svc_activate  1.0.3-beta.8 sprint/DevOS_2.3.x sdk} {svc_timer_task  1.0.4-beta.21 sprint/DevOS_2.3.x sdk} {svc_upgrade  1.0.3-beta.27 sprint/DevOS_2.3.x sdk} {svc_devos  1.0.4-beta.50 sprint/DevOS_2.3.x sdk} {svc_mf_test  1.0.4-beta.52 sprint/IoTOS_2.3.x_BL608 sdk} {svc_ap_netcfg  1.0.3-beta.17 sprint/DevOS_2.3.x sdk} {svc_smart_gw  1.0.4-beta.195 sprint/DevOS_2.3.x sdk} {svc_protocol  develop-1.0.1-beta.13 sprint/DevOS_2.3.x sdk} {base_db  1.0.3-beta.22 sprint/DevOS_2.3.x sdk} {base_iot_config  1.0.3-beta.48 sprint/DevOS_2.3.x sdk} {base_utilities  1.0.3-beta.45 sprint/DevOS_2.3.x sdk} {svc_netcfg_module  1.0.2-beta.21 sprint/DevOS_2.3.x sdk} {svc_bt_api  1.0.2-beta.29 sprint/DevOS_2.3.x sdk} {svc_bt_dp  1.0.2-beta.16 sprint/DevOS_2.3.x sdk} {svc_bt_netcfg  1.0.1-beta.9 sprint/DevOS_2.3.x sdk} {svc_wifi_ffc  1.0.1-beta.17 sprint/DevOS_2.3.x sdk} {svc_ir_control  1.0.2-beta.6 sprint/DevOS_2.3.x sdk} {base_event  1.0.2-beta.13 sprint/DevOS_2.3.x sdk} {svc_netcfg_ffs  1.0.1-beta.32 sprint/DevOS_2.3.x sdk} {base_os_adapter  1.0.7-beta.45 sprint/DevOS_2.3.x sdk} {os_driver_framework  1.0.1-beta.18 sprint/DevOS_2.3.x sdk} {svc_pegasus  1.0.0-beta.54 sprint/DevOS_2.3.x sdk} {svc_rpc  1.0.2-beta.16 sprint/DevOS_2.3.x sdk} {svc_astro_timer  1.0.2-beta.9 sprint/DevOS_2.3.x sdk} {mid_coap  1.0.1-beta.10 sprint/DevOS_2.3.x sdk} {svc_third_cloud  0.0.1-beta.18 sprint/DevOS_2.3.x sdk} {base_uf  1.0.0-beta.10 sprint/DevOS_2.3.x sdk} {svc_linkage_lan  1.0.2-beta.6 sprint/DevOS_2.3.x sdk} {svc_lan_dev_base  1.0.0-beta.24 sprint/DevOS_2.3.x sdk} {svc_user_netcfg  1.0.0-beta.3 sprint/DevOS_2.3.x sdk} {base_cli  1.0.0-beta.4 develop sdk} {base_wired_intf  develop-1.0.1-beta.1 develop sdk} {svc_api_wired  develop-1.0.1-beta.8 dev-gw sdk}] [{bl608  1.2.6-beta.2  platforms}]}}
+update.go:142: make parse after filter: &{1 sdk [https://registry.code.tuya-inc.top/embed_ci_space_group/embed_repo_space.git] {[] [{base_workq  1.0.3-beta.12 sprint/DevOS_2.3.x sdk} {base_security  1.0.2-beta.5 sprint/DevOS_2.3.x sdk} {base_wifi_intf  1.0.3-beta.22 sprint/DevOS_2.3.x sdk} {base_log_mng  1.0.3-beta.18 sprint/DevOS_2.3.x sdk} {base_msgq  1.0.3-beta.18 sprint/DevOS_2.3.x sdk} {svc_api_wifi  1.0.3-beta.13 sprint/DevOS_2.3.x sdk} {svc_wifi_netcfg  1.0.3-beta.18 sprint/DevOS_2.3.x sdk} {svc_api_iot  1.0.3-beta.55 sprint/DevOS_2.3.x sdk} {svc_online_log  1.0.4-beta.7 sprint/DevOS_2.3.x sdk} {mid_tls  1.0.4-beta.18 sprint/DevOS_2.3.x sdk} {mid_mqtt  1.0.4-beta.17 sprint/DevOS_2.3.x sdk} {mid_http  1.0.4-beta.18 sprint/DevOS_2.3.x sdk} {base_timeq  1.0.3-beta.17 sprint/DevOS_2.3.x sdk} {svc_dp  1.0.4-beta.35 sprint/DevOS_2.3.x sdk} {svc_http  1.0.3-beta.39 sprint/DevOS_2.3.x sdk} {svc_mqtt  1.0.5-beta.26 sprint/DevOS_2.3.x sdk} {svc_lan  1.0.3-beta.31 sprint/DevOS_2.3.x sdk} {svc_activate  1.0.3-beta.8 sprint/DevOS_2.3.x sdk} {svc_timer_task  1.0.4-beta.21 sprint/DevOS_2.3.x sdk} {svc_upgrade  1.0.3-beta.27 sprint/DevOS_2.3.x sdk} {svc_devos  1.0.4-beta.50 sprint/DevOS_2.3.x sdk} {svc_mf_test  1.0.4-beta.52 sprint/IoTOS_2.3.x_BL608 sdk} {svc_ap_netcfg  1.0.3-beta.17 sprint/DevOS_2.3.x sdk} {svc_smart_gw  1.0.4-beta.195 sprint/DevOS_2.3.x sdk} {svc_protocol  develop-1.0.1-beta.13 sprint/DevOS_2.3.x sdk} {base_db  1.0.3-beta.22 sprint/DevOS_2.3.x sdk} {base_iot_config  1.0.3-beta.48 sprint/DevOS_2.3.x sdk} {base_utilities  1.0.3-beta.45 sprint/DevOS_2.3.x sdk} {svc_netcfg_module  1.0.2-beta.21 sprint/DevOS_2.3.x sdk} {svc_bt_api  1.0.2-beta.29 sprint/DevOS_2.3.x sdk} {svc_bt_dp  1.0.2-beta.16 sprint/DevOS_2.3.x sdk} {svc_bt_netcfg  1.0.1-beta.9 sprint/DevOS_2.3.x sdk} {svc_wifi_ffc  1.0.1-beta.17 sprint/DevOS_2.3.x sdk} {svc_ir_control  1.0.2-beta.6 sprint/DevOS_2.3.x sdk} {base_event  1.0.2-beta.13 sprint/DevOS_2.3.x sdk} {svc_netcfg_ffs  1.0.1-beta.32 sprint/DevOS_2.3.x sdk} {base_os_adapter  1.0.7-beta.45 sprint/DevOS_2.3.x sdk} {os_driver_framework  1.0.1-beta.18 sprint/DevOS_2.3.x sdk} {svc_pegasus  1.0.0-beta.54 sprint/DevOS_2.3.x sdk} {svc_rpc  1.0.2-beta.16 sprint/DevOS_2.3.x sdk} {svc_astro_timer  1.0.2-beta.9 sprint/DevOS_2.3.x sdk} {mid_coap  1.0.1-beta.10 sprint/DevOS_2.3.x sdk} {svc_third_cloud  0.0.1-beta.18 sprint/DevOS_2.3.x sdk} {base_uf  1.0.0-beta.10 sprint/DevOS_2.3.x sdk} {svc_linkage_lan  1.0.2-beta.6 sprint/DevOS_2.3.x sdk} {svc_lan_dev_base  1.0.0-beta.24 sprint/DevOS_2.3.x sdk} {svc_user_netcfg  1.0.0-beta.3 sprint/DevOS_2.3.x sdk} {base_cli  1.0.0-beta.4 develop sdk} {base_wired_intf  develop-1.0.1-beta.1 develop sdk} {svc_api_wired  develop-1.0.1-beta.8 dev-gw sdk}] [{bl608  1.2.6-beta.2  platforms}]}}
+update.go:1724: check git path: platforms/bl608
+update.go:1751: check diff tag: 1.2.6-beta.1
+update.go:1759: diff result: 
+update.go:1774: status result: On branch empty_value_branch##1.2.6-beta.1##chenliheng
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	toolchain/gcc-arm-none-eabi-4_9-2015q3/
+
+nothing added to commit but untracked files present (use "git add" to track)
+update.go:1778: not commit On branch empty_value_branch##1.2.6-beta.1##chenliheng
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	toolchain/gcc-arm-none-eabi-4_9-2015q3/
+
+nothing added to commit but untracked files present (use "git add" to track)
+update.go:1779: embeded-cli failed: no commit
+update.go:1724: check git path: sdk/base_workq
+update.go:1751: check diff tag: 1.0.3-beta.12
+update.go:1759: diff result: 
+update.go:1774: status result: On branch sprint/DevOS_2.3.x##1.0.3-beta.12##chenliheng
+nothing to commit, working directory clean
+update.go:1724: check git path: sdk/base_security
+update.go:1751: check diff tag: 1.0.2-beta.5
+update.go:1759: diff result: 
+update.go:1774: status result: On branch sprint/DevOS_2.3.x##1.0.2-beta.5##chenliheng
+nothing to commit, working directory clean
+update.go:1724: check git path: sdk/base_wifi_intf
+update.go:1751: check diff tag: 1.0.3-beta.22
+update.go:1759: diff result: 
+update.go:1774: status result: On branch sprint/DevOS_2.3.x##1.0.3-beta.22##chenliheng
+nothing to commit, working directory clean
+update.go:1724: check git path: sdk/base_log_mng
+update.go:1751: check diff tag: 1.0.3-beta.18
+update.go:1759: diff result: 
+update.go:1774: status result: On branch sprint/DevOS_2.3.x##1.0.3-beta.18##chenliheng
+nothing to commit, working directory clean
+update.go:1724: check git path: sdk/base_msgq
+update.go:1751: check diff tag: 1.0.3-beta.18
+update.go:1759: diff result: 
+update.go:1774: status result: On branch sprint/DevOS_2.3.x##1.0.3-beta.18##chenliheng
+nothing to commit, working directory clean
+update.go:1724: check git path: sdk/svc_api_wifi
+update.go:1751: check diff tag: 1.0.3-beta.13
+update.go:1759: diff result: 
+update.go:1774: status result: On branch sprint/DevOS_2.3.x##1.0.3-beta.13##chenliheng
+nothing to commit, working directory clean
+update.go:1724: check git path: sdk/svc_wifi_netcfg
+update.go:1751: check diff tag: 1.0.3-beta.18
+update.go:1759: diff result: 
+update.go:1774: status result: On branch sprint/DevOS_2.3.x##1.0.3-beta.18##chenliheng
+nothing to commit, working directory clean
+update.go:1724: check git path: sdk/svc_api_iot
+update.go:1751: check diff tag: 1.0.3-beta.55
+update.go:1759: diff result: 
+update.go:1774: status result: On branch sprint/DevOS_2.3.x##1.0.3-beta.55##chenliheng
+nothing to commit, working directory clean
+update.go:1724: check git path: sdk/svc_online_log
+update.go:1751: check diff tag: 1.0.4-beta.7
+update.go:1759: diff result: 
+update.go:1774: status result: On branch sprint/DevOS_2.3.x##1.0.4-beta.7##chenliheng
+nothing to commit, working directory clean
+update.go:1724: check git path: sdk/mid_tls
+update.go:1751: check diff tag: 1.0.4-beta.18
+update.go:1759: diff result: 
+update.go:1774: status result: On branch sprint/DevOS_2.3.x##1.0.4-beta.18##chenliheng
+nothing to commit, working directory clean
+update.go:1724: check git path: sdk/mid_mqtt
+update.go:1751: check diff tag: 1.0.4-beta.17
+update.go:1759: diff result: 
+update.go:1774: status result: On branch sprint/DevOS_2.3.x##1.0.4-beta.17##chenliheng
+nothing to commit, working directory clean
+update.go:1724: check git path: sdk/mid_http
+update.go:1751: check diff tag: 1.0.4-beta.18
+update.go:1759: diff result: 
+update.go:1774: status result: On branch sprint/DevOS_2.3.x##1.0.4-beta.18##chenliheng
+nothing to commit, working directory clean
+update.go:1724: check git path: sdk/base_timeq
+update.go:1751: check diff tag: 1.0.3-beta.17
+update.go:1759: diff result: 
+update.go:1774: status result: On branch sprint/DevOS_2.3.x##1.0.3-beta.17##chenliheng
+nothing to commit, working directory clean
+update.go:1724: check git path: sdk/svc_dp
+update.go:1751: check diff tag: 1.0.4-beta.35
+update.go:1759: diff result: 
+update.go:1774: status result: On branch sprint/DevOS_2.3.x##1.0.4-beta.35##chenliheng
+nothing to commit, working directory clean
+update.go:1724: check git path: sdk/svc_http
+update.go:1751: check diff tag: 1.0.3-beta.39
+update.go:1759: diff result: 
+update.go:1774: status result: On branch sprint/DevOS_2.3.x##1.0.3-beta.39##chenliheng
+nothing to commit, working directory clean
+update.go:1724: check git path: sdk/svc_mqtt
+update.go:1751: check diff tag: 1.0.5-beta.26
+update.go:1759: diff result: 
+update.go:1774: status result: On branch sprint/DevOS_2.3.x##1.0.5-beta.26##chenliheng
+nothing to commit, working directory clean
+update.go:1724: check git path: sdk/svc_lan
+update.go:1751: check diff tag: 1.0.3-beta.31
+update.go:1759: diff result: 
+update.go:1774: status result: On branch sprint/DevOS_2.3.x##1.0.3-beta.31##chenliheng
+nothing to commit, working directory clean
+update.go:1724: check git path: sdk/svc_activate
+update.go:1751: check diff tag: 1.0.3-beta.8
+update.go:1759: diff result: 
+update.go:1774: status result: On branch sprint/DevOS_2.3.x##1.0.3-beta.8##chenliheng
+nothing to commit, working directory clean
+update.go:1724: check git path: sdk/svc_timer_task
+update.go:1751: check diff tag: 1.0.4-beta.21
+update.go:1759: diff result: 
+update.go:1774: status result: On branch sprint/DevOS_2.3.x##1.0.4-beta.21##chenliheng
+nothing to commit, working directory clean
+update.go:1724: check git path: sdk/svc_upgrade
+update.go:1751: check diff tag: 1.0.3-beta.27
+update.go:1759: diff result: 
+update.go:1774: status result: On branch sprint/DevOS_2.3.x##1.0.3-beta.27##chenliheng
+nothing to commit, working directory clean
+update.go:1724: check git path: sdk/svc_devos
+update.go:1751: check diff tag: 1.0.4-beta.50
+update.go:1759: diff result: 
+update.go:1774: status result: On branch sprint/DevOS_2.3.x##1.0.4-beta.50##chenliheng
+nothing to commit, working directory clean
+update.go:1724: check git path: sdk/svc_mf_test
+update.go:1751: check diff tag: 1.0.3-beta.45-1-g76b0773
+update.go:1759: diff result: 
+update.go:1774: status result: On branch sprint/IoTOS_2.3.x_BL608
+nothing to commit, working directory clean
+update.go:1724: check git path: sdk/svc_ap_netcfg
+update.go:1751: check diff tag: 1.0.3-beta.17
+update.go:1759: diff result: 
+update.go:1774: status result: On branch sprint/DevOS_2.3.x##1.0.3-beta.17##chenliheng
+nothing to commit, working directory clean
+update.go:1724: check git path: sdk/svc_smart_gw
+update.go:1751: check diff tag: 1.0.4-beta.195
+update.go:1759: diff result: 
+update.go:1774: status result: On branch sprint/DevOS_2.3.x##1.0.4-beta.195##chenliheng
+nothing to commit, working directory clean
+update.go:1724: check git path: sdk/svc_protocol
+update.go:1751: check diff tag: develop-1.0.1-beta.13
+update.go:1759: diff result: 
+update.go:1774: status result: On branch sprint/DevOS_2.3.x##develop-1.0.1-beta.13##chenliheng
+nothing to commit, working directory clean
+update.go:1724: check git path: sdk/base_db
+update.go:1751: check diff tag: 1.0.3-beta.22
+update.go:1759: diff result: 
+update.go:1774: status result: On branch sprint/DevOS_2.3.x##1.0.3-beta.22##chenliheng
+nothing to commit, working directory clean
+update.go:1724: check git path: sdk/base_iot_config
+update.go:1751: check diff tag: 1.0.3-beta.48
+update.go:1759: diff result: 
+update.go:1774: status result: On branch sprint/DevOS_2.3.x##1.0.3-beta.48##chenliheng
+nothing to commit, working directory clean
+update.go:1724: check git path: sdk/base_utilities
+update.go:1751: check diff tag: 1.0.3-beta.45
+update.go:1759: diff result: 
+update.go:1774: status result: On branch sprint/DevOS_2.3.x##1.0.3-beta.45##chenliheng
+nothing to commit, working directory clean
+update.go:1724: check git path: sdk/svc_netcfg_module
+update.go:1751: check diff tag: 1.0.2-beta.21
+update.go:1759: diff result: 
+update.go:1774: status result: On branch sprint/DevOS_2.3.x##1.0.2-beta.21##chenliheng
+nothing to commit, working directory clean
+update.go:1724: check git path: sdk/svc_bt_api
+update.go:1751: check diff tag: 1.0.2-beta.29
+update.go:1759: diff result: 
+update.go:1774: status result: On branch sprint/DevOS_2.3.x##1.0.2-beta.29##chenliheng
+nothing to commit, working directory clean
+update.go:1724: check git path: sdk/svc_bt_dp
+update.go:1751: check diff tag: 1.0.2-beta.16
+update.go:1759: diff result: 
+update.go:1774: status result: On branch sprint/DevOS_2.3.x##1.0.2-beta.16##chenliheng
+nothing to commit, working directory clean
+update.go:1724: check git path: sdk/svc_bt_netcfg
+update.go:1751: check diff tag: 1.0.1-beta.9
+update.go:1759: diff result: 
+update.go:1774: status result: On branch sprint/DevOS_2.3.x##1.0.1-beta.9##chenliheng
+nothing to commit, working directory clean
+update.go:1724: check git path: sdk/svc_wifi_ffc
+update.go:1751: check diff tag: 1.0.1-beta.17
+update.go:1759: diff result: 
+update.go:1774: status result: On branch sprint/DevOS_2.3.x##1.0.1-beta.17##chenliheng
+nothing to commit, working directory clean
+update.go:1724: check git path: sdk/svc_ir_control
+update.go:1751: check diff tag: 1.0.2-beta.6
+update.go:1759: diff result: 
+update.go:1774: status result: On branch sprint/DevOS_2.3.x##1.0.2-beta.6##chenliheng
+nothing to commit, working directory clean
+update.go:1724: check git path: sdk/base_event
+update.go:1751: check diff tag: 1.0.2-beta.13
+update.go:1759: diff result: 
+update.go:1774: status result: On branch sprint/DevOS_2.3.x##1.0.2-beta.13##chenliheng
+nothing to commit, working directory clean
+update.go:1724: check git path: sdk/svc_netcfg_ffs
+update.go:1751: check diff tag: 1.0.1-beta.32
+update.go:1759: diff result: 
+update.go:1774: status result: On branch sprint/DevOS_2.3.x##1.0.1-beta.32##chenliheng
+nothing to commit, working directory clean
+update.go:1724: check git path: sdk/base_os_adapter
+update.go:1751: check diff tag: 1.0.7-beta.45
+update.go:1759: diff result: 
+update.go:1774: status result: On branch sprint/DevOS_2.3.x##1.0.7-beta.45##chenliheng
+nothing to commit, working directory clean
+update.go:1724: check git path: sdk/os_driver_framework
+update.go:1751: check diff tag: 1.0.1-beta.18
+update.go:1759: diff result: 
+update.go:1774: status result: On branch sprint/DevOS_2.3.x##1.0.1-beta.18##chenliheng
+nothing to commit, working directory clean
+update.go:1724: check git path: sdk/svc_pegasus
+update.go:1751: check diff tag: 1.0.0-beta.54
+update.go:1759: diff result: 
+update.go:1774: status result: On branch sprint/DevOS_2.3.x##1.0.0-beta.54##chenliheng
+nothing to commit, working directory clean
+update.go:1724: check git path: sdk/svc_rpc
+update.go:1751: check diff tag: 1.0.2-beta.15
+update.go:1759: diff result: 
+update.go:1774: status result: On branch sprint/DevOS_2.3.x##1.0.2-beta.16##chenliheng
+nothing to commit, working directory clean
+update.go:2500: fatal: A branch named 'sprint/DevOS_2.3.x##1.0.2-beta.16##chenliheng' already exists.
+update.go:2501: exit status 128
+update.go:1724: check git path: sdk/svc_astro_timer
+update.go:1751: check diff tag: 1.0.2-beta.9
+update.go:1759: diff result: 
+update.go:1774: status result: On branch sprint/DevOS_2.3.x##1.0.2-beta.9##chenliheng
+nothing to commit, working directory clean
+update.go:1724: check git path: sdk/mid_coap
+update.go:1751: check diff tag: 1.0.1-beta.10
+update.go:1759: diff result: 
+update.go:1774: status result: On branch sprint/DevOS_2.3.x##1.0.1-beta.10##chenliheng
+nothing to commit, working directory clean
+update.go:1724: check git path: sdk/svc_third_cloud
+update.go:1751: check diff tag: 0.0.1-beta.18
+update.go:1759: diff result: 
+update.go:1774: status result: On branch sprint/DevOS_2.3.x##0.0.1-beta.18##chenliheng
+nothing to commit, working directory clean
+update.go:1724: check git path: sdk/base_uf
+update.go:1751: check diff tag: 1.0.0-beta.10
+update.go:1759: diff result: 
+update.go:1774: status result: On branch sprint/DevOS_2.3.x##1.0.0-beta.10##chenliheng
+nothing to commit, working directory clean
+update.go:1724: check git path: sdk/svc_linkage_lan
+update.go:1751: check diff tag: 1.0.2-beta.6
+update.go:1759: diff result: 
+update.go:1774: status result: On branch sprint/DevOS_2.3.x##1.0.2-beta.6##chenliheng
+nothing to commit, working directory clean
+update.go:1724: check git path: sdk/svc_lan_dev_base
+update.go:1751: check diff tag: 1.0.0-beta.23
+update.go:1759: diff result: 
+update.go:1774: status result: On branch sprint/DevOS_2.3.x##1.0.0-beta.24##chenliheng
+nothing to commit, working directory clean
+update.go:2500: fatal: A branch named 'sprint/DevOS_2.3.x##1.0.0-beta.24##chenliheng' already exists.
+update.go:2501: exit status 128
+update.go:1724: check git path: sdk/svc_user_netcfg
+update.go:1751: check diff tag: 1.0.0
+update.go:1759: diff result: 
+update.go:1774: status result: On branch sprint/DevOS_2.3.x##1.0.0-beta.3##chenliheng
+nothing to commit, working directory clean
+update.go:2500: fatal: A branch named 'sprint/DevOS_2.3.x##1.0.0-beta.3##chenliheng' already exists.
+update.go:2501: exit status 128
+update.go:1724: check git path: sdk/base_cli
+update.go:1751: check diff tag: 1.0.0-beta.4
+update.go:1759: diff result: 
+update.go:1774: status result: On branch develop##1.0.0-beta.4##chenliheng
+nothing to commit, working directory clean
+update.go:1724: check git path: sdk/base_wired_intf
+update.go:1751: check diff tag: develop-1.0.1-beta.1
+update.go:1759: diff result: 
+update.go:1774: status result: On branch develop##develop-1.0.1-beta.1##chenliheng
+nothing to commit, working directory clean
+update.go:1724: check git path: sdk/svc_api_wired
+update.go:1751: check diff tag: develop-1.0.1-beta.8
+update.go:1759: diff result: 
+update.go:1774: status result: On branch dev-gw##develop-1.0.1-beta.8##chenliheng
+nothing to commit, working directory clean
+git.go:325: submatchs: 2.3.4-beta.4
+update.go:1800: tag: 2.3.4-beta.4
+git.go:283: remoteInfos: [origin	https://registry.code.tuya-inc.top/ci_iotsdk_group/ty_iot_wf_bt_sdk_rtos (fetch) origin	https://registry.code.tuya-inc.top/ci_iotsdk_group/ty_iot_wf_bt_sdk_rtos (push) ]
+git.go:284: remoteInfo: origin	https://registry.code.tuya-inc.top/ci_iotsdk_group/ty_iot_wf_bt_sdk_rtos (fetch)
+git.go:307: repoName: ty_iot_wf_bt_sdk_rtos
+update.go:1808: name: ty_iot_wf_bt_sdk_rtos
+update.go:1837: resp: {"t":1609380738304103,"success":true,"status":true,"result":[{"Name":"bl608_2.3.x","Content":"# Generated by Tuya (https://www.tuya.com)\n\n"},{"Name":"xr809_2.3.x","Content":"# Generated by Tuya (https://www.tuya.com)\n\n"}]}
+update.go:1845: dotcfg: [{Name:bl608_2.3.x Content:# Generated by Tuya (https://www.tuya.com)
+
+} {Name:xr809_2.3.x Content:# Generated by Tuya (https://www.tuya.com)
+
+}]
+update.go:1849: file: ./build/config/bl608_2.3.x
+update.go:1849: file: ./build/config/xr809_2.3.x

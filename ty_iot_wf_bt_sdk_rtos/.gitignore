@@ -2,16 +2,16 @@
 /.vscode
 
 # externals
-/platforms
-/sdk
+#/platforms
+#/sdk
 
 # generated
-/make.sum.yaml
-/build/build_param
-/output/
-/crash.log
-/tmp
+#/make.sum.yaml
+#/build/build_param
+#/output/
+#/crash.log
+#/tmp
 
-sdk/include
-sdk/lib
-log
+#sdk/include
+#sdk/lib
+#log

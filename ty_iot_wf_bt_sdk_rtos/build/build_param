@@ -1,0 +1,76 @@
+# Project [ ty_iot_wf_bt_sdk_rtos ] Param:
+
+
+BUILD_DATE=2020_12_31
+BUILD_TIME=10_12_18
+GIT_USER=jiaozi
+IOT_SDK_VER=2.3.4
+IPC_SDK_VER=2.3.4
+SDK_FULL_VER=2.3.4-beta.4
+SDK_BETA_VER=beta.4
+PROJECT_NAME=ty_iot_wf_bt_sdk_rtos
+TARGET_PLATFORM=bl608
+TARGET_PLATFORM_REPO=https://airtake-public-data-1254153901.cos.ap-shanghai.myqcloud.com/smart/embed/pruduct/bl608_1.2.6-beta.2.zip
+TARGET_PLATFORM_VERSION=1.2.6-beta.2
+BUILD_STATIC=1
+BUILD_SHARED=
+
+
+ROOT_DIR=/home/share/samba/2.3.x_test/2.3.x_sdk/ty_iot_wf_bt_sdk_rtos
+OUTPUT_DIR=$(ROOT_DIR)/output/$(TARGET_PLATFORM)_$(PROJECT_NAME)
+OUTPUT_DIR_INC=$(OUTPUT_DIR)/include
+OUTPUT_DIR_STATIC_LIB=$(OUTPUT_DIR)/static/lib
+OUTPUT_DIR_SHARED_LIB=$(OUTPUT_DIR)/shared/lib
+OUTPUT_DIR_STATIC_OBJS=$(OUTPUT_DIR)/static/objs
+OUTPUT_DIR_SHARED_OBJS=$(OUTPUT_DIR)/shared/objs
+
+
+include $(ROOT_DIR)/build.conf
+
+
+include $(ROOT_DIR)/platforms/bl608/toolchain/build.conf
+
+
+COMPILE_PREX = /home/share/samba/2.3.x_test/2.3.x_sdk/ty_iot_wf_bt_sdk_rtos/platforms/bl608/toolchain/gcc-arm-none-eabi-4_9-2015q3/bin/arm-none-eabi-
+TOOLCHAIN_PATH = /home/share/samba/2.3.x_test/2.3.x_sdk/ty_iot_wf_bt_sdk_rtos/platforms/bl608/toolchain
+#### TUYA_SDK_INCLUDE_PATH Not Set. Skip Set COMPILE_INCLUDE ####
+#### TUYA_SDK_LIB_PATH Not Set. Skip Set COMPILE_LIB ####
+AR = $(COMPILE_PREX)ar
+CC = $(COMPILE_PREX)gcc
+NM = $(COMPILE_PREX)nm
+CPP = $(COMPILE_PREX)g++
+STRIP = $(COMPILE_PREX)strip
+OBJCOPY = $(COMPILE_PREX)objcopy
+OBJDUMP = $(COMPILE_PREX)objdump
+RANLIB = $(COMPILE_PREX)ranlib
+CXX = $(COMPILE_PREX)g++
+
+
+CFLAGS =
+CFLAGS += -pipe -D_REENTRANT -Wall -Wno-unused-result
+ifeq ($(OPERATING_SYSTEM), SYSTEM_LINUX)
+CFLAGS += -fPIC
+endif
+
+ifeq ($(TUYA_IOT_DEBUG), 1)
+CFLAGS += -g
+endif
+
+ifdef PRJ_DEFINES
+CFLAGS += $(PRJ_DEFINES)
+endif
+
+ifdef COMPILE_INCLUDE
+CFLAGS += -I $(COMPILE_INCLUDE)
+endif
+
+LINKFLAGS =
+ifeq ($(OPERATING_SYSTEM), SYSTEM_LINUX) 
+LINKFLAGS += -lpthread -lm
+endif
+
+ifdef PRJ_LINKS
+LINKFLAGS += $(PRJ_LINKS)
+endif
+
+
