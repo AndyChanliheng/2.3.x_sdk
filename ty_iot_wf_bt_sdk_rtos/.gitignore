@@ -1,0 +1,17 @@
+# ide
+/.vscode
+
+# externals
+/platforms
+/sdk
+
+# generated
+/make.sum.yaml
+/build/build_param
+/output/
+/crash.log
+/tmp
+
+sdk/include
+sdk/lib
+log
